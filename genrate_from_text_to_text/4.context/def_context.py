@@ -1,0 +1,1 @@
+# context means the previous conversation/messages that you send to the LLM along with the current message, so the LLM can understand what is being discussed.
