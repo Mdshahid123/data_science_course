@@ -12,6 +12,7 @@ print(f"api_key:{api_key}")
 
 
 def get_llm_response():
+    
     api_endpoint=f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
 
     payload={
@@ -53,36 +54,43 @@ def get_llm_response():
    }
 
 
-    res=requests.post(api_endpoint,json=payload,headers=headers,stream=True)#it will make http post request to the geminai server 
+    res=requests.post(api_endpoint,json=payload,headers=headers,stream=True) #it will make http post request to the geminai server 
+
     print(f"response:{res}")
 
-    # act_res=res.json() # it will wait for complete response that means it will collect all chunks as it come then finally it will return all chunks collectively 
 
 
     # we want stream response 
 
-    for chunk in res.iter_lines():
-         
-        #  print(f"chunk without decoding:{chunk}") #when we try to print the chunk we will get it byte format
-
-         decode_res=chunk.decode("utf-8") # it give data in string format after decoding 
-        #  print(f"after decosing:{decode_res}") 
+    if(res.status_code==200):
+          
+    # act_res=res.json() # it will wait for complete response that means it will collect all chunks as it come then finally it will return all chunks collectively 
 
 
-        # convert string to json 
+    # we want stream response
 
-         # If using SSE, remove "data:" prefix
-         if decode_res.startswith("data:"):
-          decode_res = decode_res[5:].strip()
+            for chunk in res.iter_lines():
+                
+                #  print(f"chunk without decoding:{chunk}") #when we try to print the chunk we will get it byte format
 
-        # convert json in to dictnary
-         dicitnary=json.loads(decode_res)
-         print(dicitnary)
+                decode_res=chunk.decode("utf-8") # it give data in string format after decoding 
+                #  print(f"after decosing:{decode_res}") 
+
+
+                # convert string to json 
+
+                # If using SSE, remove "data:" prefix
+                if decode_res.startswith("data:"):
+                    decode_res = decode_res[5:].strip()
+
+                # convert json in to dictnary
+                dicitnary=json.loads(decode_res)
+                print(dicitnary)
    
-    # if(res.status_code==200):
-    #     print(act_res["candidates"][0]["content"]["parts"][0]["text"])
-    # else:
-    #     print(act_res["error"]["message"])
+  
+    else:
+        act_res=res.json()
+        print(act_res["error"]["message"])
         
 get_llm_response()
 
