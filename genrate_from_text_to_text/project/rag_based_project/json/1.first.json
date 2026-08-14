@@ -1,0 +1,299 @@
+{
+    "text": " Today we will learn how to install Python 3.5 on Windows for this go to Python.org website on that Click on downloads button Now we are going to install Python 3.5 if you are interested in installing previous versions So just 2.7.11 or any of the previous version which are listed here You can click on the corresponding download button, but we'll install Python 3.5 Click here it will download the set of file if you're using Firefox or internet Explorer It will show it in a different location, but you will figure it out So click on set of file on this Click add Python 3.5 to path this checkbox. It's very important. I will tell you why Customize installation. I'm going to install it for all users which will install it to this location Install it will take a few minutes Python got installed successfully You can verify it by running idle and windows command prompt So if you are I have Windows 10 if you are Windows 807 user Click on start button and there will be edit box here. It says search Programming files, but I have the same thing here So type in idl e Click on this This shows you the python shell which allows you to write Python programs Now if your fonts are very small here you can increase the font size by going to options configure idle and increase the font size whatever is your preference to select the size and say okay now let's start writing our first python program So we can use python as a simple calculator as you see it here or you can just print any statement so I'll just say Yeah, I install Python today And it will print that so for beginners it's idl is pretty useful It allows you to write simple python programs We will learn how to use another sophisticated editor for writing big python programs But idle is good for now You can also verify python installation by going to windows command prompt. So type in cmd and Here Type python. So this is showing you the same shell as idle So for example, you can do the same thing that you are able to do it in idle But idle is much better because it does the syntax highlighting you see like print is highlighted in a different color Because print is a spatial keyword in python. It also has some other cool features. So always use idle Now on windows sometimes if you are typing python and if it doesn't recognize the command that it means it is not present in your System path. So for example when I type in path here You see like python installation directory is present here if it is not present in your case then go to environment variables And choose edit the system environment variables and here Click on environment variables and after that locate path click edit and here you can manually at the beginning Let's say if I didn't have this directory then I would just add it at the beginning followed by a semicolon and hit okay after that This should be able to recognize the python command Okay, thank you",
+    "segements": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 8.06,
+            "text": " Today we will learn how to install Python 3.5 on Windows for this go to Python.org website"
+        },
+        {
+            "id": 1,
+            "start": 9.22,
+            "end": 11.22,
+            "text": " on that"
+        },
+        {
+            "id": 2,
+            "start": 11.22,
+            "end": 13.22,
+            "text": " Click on downloads button"
+        },
+        {
+            "id": 3,
+            "start": 13.74,
+            "end": 19.94,
+            "text": " Now we are going to install Python 3.5 if you are interested in installing previous versions"
+        },
+        {
+            "id": 4,
+            "start": 19.94,
+            "end": 25.1,
+            "text": " So just 2.7.11 or any of the previous version which are listed here"
+        },
+        {
+            "id": 5,
+            "start": 25.46,
+            "end": 30.1,
+            "text": " You can click on the corresponding download button, but we'll install Python 3.5"
+        },
+        {
+            "id": 6,
+            "start": 30.62,
+            "end": 36.38,
+            "text": " Click here it will download the set of file if you're using Firefox or internet Explorer"
+        },
+        {
+            "id": 7,
+            "start": 36.38,
+            "end": 40.300000000000004,
+            "text": " It will show it in a different location, but you will figure it out"
+        },
+        {
+            "id": 8,
+            "start": 41.06,
+            "end": 43.7,
+            "text": " So click on set of file on this"
+        },
+        {
+            "id": 9,
+            "start": 44.42,
+            "end": 50.22,
+            "text": " Click add Python 3.5 to path this checkbox. It's very important. I will tell you why"
+        },
+        {
+            "id": 10,
+            "start": 50.72,
+            "end": 56.18,
+            "text": " Customize installation. I'm going to install it for all users which will install it to this location"
+        },
+        {
+            "id": 11,
+            "start": 57.14,
+            "end": 62.019999999999996,
+            "text": " Install it will take a few minutes Python got installed successfully"
+        },
+        {
+            "id": 12,
+            "start": 62.18,
+            "end": 66.06,
+            "text": " You can verify it by running idle and windows command prompt"
+        },
+        {
+            "id": 13,
+            "start": 66.06,
+            "end": 70.5,
+            "text": " So if you are I have Windows 10 if you are Windows 807 user"
+        },
+        {
+            "id": 14,
+            "start": 70.74,
+            "end": 74.72,
+            "text": " Click on start button and there will be edit box here. It says search"
+        },
+        {
+            "id": 15,
+            "start": 75.5,
+            "end": 78.78,
+            "text": " Programming files, but I have the same thing here"
+        },
+        {
+            "id": 16,
+            "start": 79.3,
+            "end": 82.74,
+            "text": " So type in idl e"
+        },
+        {
+            "id": 17,
+            "start": 84.26,
+            "end": 86.26,
+            "text": " Click on this"
+        },
+        {
+            "id": 18,
+            "start": 86.34,
+            "end": 92.34,
+            "text": " This shows you the python shell which allows you to write Python programs"
+        },
+        {
+            "id": 19,
+            "start": 92.42,
+            "end": 99.62,
+            "text": " Now if your fonts are very small here you can increase the font size by going to options configure idle and"
+        },
+        {
+            "id": 20,
+            "start": 100.14,
+            "end": 102.14,
+            "text": " increase the font size"
+        },
+        {
+            "id": 21,
+            "start": 102.14,
+            "end": 104.78,
+            "text": " whatever is your preference to select the size and"
+        },
+        {
+            "id": 22,
+            "start": 105.18,
+            "end": 111.42,
+            "text": " say okay now let's start writing our first python program"
+        },
+        {
+            "id": 23,
+            "start": 111.42,
+            "end": 119.02,
+            "text": " So we can use python as a simple calculator as you see it here or you can just print any"
+        },
+        {
+            "id": 24,
+            "start": 119.78,
+            "end": 121.78,
+            "text": " statement so I'll just say"
+        },
+        {
+            "id": 25,
+            "start": 121.98,
+            "end": 123.98,
+            "text": " Yeah, I install"
+        },
+        {
+            "id": 26,
+            "start": 124.78,
+            "end": 126.78,
+            "text": " Python today"
+        },
+        {
+            "id": 27,
+            "start": 127.5,
+            "end": 132.26,
+            "text": " And it will print that so for beginners it's idl is pretty useful"
+        },
+        {
+            "id": 28,
+            "start": 132.54,
+            "end": 135.62,
+            "text": " It allows you to write simple python programs"
+        },
+        {
+            "id": 29,
+            "start": 135.62,
+            "end": 141.98,
+            "text": " We will learn how to use another sophisticated editor for writing big python programs"
+        },
+        {
+            "id": 30,
+            "start": 141.98,
+            "end": 143.62,
+            "text": " But idle is good for now"
+        },
+        {
+            "id": 31,
+            "start": 143.62,
+            "end": 149.38,
+            "text": " You can also verify python installation by going to windows command prompt. So type in cmd"
+        },
+        {
+            "id": 32,
+            "start": 150.45999999999998,
+            "end": 151.45999999999998,
+            "text": " and"
+        },
+        {
+            "id": 33,
+            "start": 151.45999999999998,
+            "end": 152.73999999999998,
+            "text": " Here"
+        },
+        {
+            "id": 34,
+            "start": 152.73999999999998,
+            "end": 157.66,
+            "text": " Type python. So this is showing you the same shell as idle"
+        },
+        {
+            "id": 35,
+            "start": 157.89999999999998,
+            "end": 161.98,
+            "text": " So for example, you can do the same thing that you are able to do it in idle"
+        },
+        {
+            "id": 36,
+            "start": 162.26,
+            "end": 167.98,
+            "text": " But idle is much better because it does the syntax highlighting you see like print is highlighted in a different color"
+        },
+        {
+            "id": 37,
+            "start": 168.14,
+            "end": 175.78,
+            "text": " Because print is a spatial keyword in python. It also has some other cool features. So always use idle"
+        },
+        {
+            "id": 38,
+            "start": 177.17999999999998,
+            "end": 185.42,
+            "text": " Now on windows sometimes if you are typing python and if it doesn't recognize the command that it means it is not present in your"
+        },
+        {
+            "id": 39,
+            "start": 186.14,
+            "end": 189.5,
+            "text": " System path. So for example when I type in path here"
+        },
+        {
+            "id": 40,
+            "start": 189.66,
+            "end": 194.86,
+            "text": " You see like python installation directory is present here if it is not present in your case"
+        },
+        {
+            "id": 41,
+            "start": 195.22,
+            "end": 198.3,
+            "text": " then go to environment variables"
+        },
+        {
+            "id": 42,
+            "start": 199.9,
+            "end": 204.5,
+            "text": " And choose edit the system environment variables and here"
+        },
+        {
+            "id": 43,
+            "start": 205.74,
+            "end": 209.66,
+            "text": " Click on environment variables and after that locate path"
+        },
+        {
+            "id": 44,
+            "start": 210.26,
+            "end": 214.54,
+            "text": " click edit and here you can manually at the beginning"
+        },
+        {
+            "id": 45,
+            "start": 214.54,
+            "end": 222.85999999999999,
+            "text": " Let's say if I didn't have this directory then I would just add it at the beginning followed by a semicolon and hit okay"
+        },
+        {
+            "id": 46,
+            "start": 223.5,
+            "end": 225.5,
+            "text": " after that"
+        },
+        {
+            "id": 47,
+            "start": 225.5,
+            "end": 229.18,
+            "text": " This should be able to recognize the python command"
+        },
+        {
+            "id": 48,
+            "start": 230.29999999999998,
+            "end": 232.29999999999998,
+            "text": " Okay, thank you"
+        }
+    ]
+}
