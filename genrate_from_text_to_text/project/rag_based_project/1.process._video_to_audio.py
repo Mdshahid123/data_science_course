@@ -1,6 +1,5 @@
-
-import subprocess
-import os 
+import subprocess   #internal module 
+import os           # internal module 
 
 
 # input video file ino the audio output file
@@ -19,4 +18,6 @@ for file in files:
   audio_path=f"audio/{audio_file_name}.mp3"
 
   subprocess.run(["ffmpeg","-i",video_path,audio_path])
+
+
 

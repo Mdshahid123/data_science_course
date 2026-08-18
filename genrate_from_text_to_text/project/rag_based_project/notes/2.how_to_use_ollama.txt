@@ -1,0 +1,9 @@
+step-01 install Ollama
+    
+step02 install embadding model 
+
+step-03 run the ollama(it will create the local server ) and exposes the variuis  api of supported ai model
+
+step-04 now make the api call from your python prgorm to the ollama embeding  api endpoint to intract with embadding model 
+
+

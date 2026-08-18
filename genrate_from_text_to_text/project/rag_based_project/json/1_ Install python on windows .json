@@ -1,0 +1,341 @@
+{
+    "text": " Today we will learn how to install Python 3.5 on Windows for this go to Python.org website on that Click on downloads button Now we are going to install Python 3.5 if you are interested in installing previous versions So just 2.7.11 or any of the previous version which are listed here You can click on the corresponding download button, but we'll install Python 3.5 Click here it will download the set of file if you're using Firefox or Internet Explorer It will show it in a different location, but you will figure it out So click on set of file on this Click add Python 3.5 to path this checkbox. It's very important. I will tell you why Customize installation. I'm going to install it for all users which will install it to this location Install it will take a few minutes Python got installed successfully You can verify it by running idle and windows command prompt So if you are I have Windows 10 if you are Windows 807 user Click on start button and there will be edit box here. It says search Programming files, but I have the same thing here So type in idl e Click on this This shows you the python shell which allows you to write Python programs Now if your fonts are very small here you can increase the font size by going to options configure idle and increase the font size whatever is your preference to select the size and say okay now let's start writing our first python program So we can use python as a simple calculator as you see it here or you can just print any statement so I'll just say Yeah, I install Python today And it will print that so for beginners it's idl is pretty useful It allows you to write simple python programs We will learn how to use another sophisticated editor for writing big python programs But idle is good for now You can also verify python installation by going to windows command prompt. So type in cmd and Here Type python. So this is showing you the same shell as idle So for example, you can do the same thing that you are able to do it in idle But idle is much better because it does the syntax highlighting you see like print is highlighted in a different color Because print is a spatial keyword in python. It also has some other cool features. So always use idle Now on windows sometimes if you are typing python and if it doesn't recognize the command that it means it is not present in your System path. So for example when I type in path here, you see like python installation directory is present here If it is not present in your case then go to environment variables And choose edit the system environment variables and here Click on environment variables and after that locate path click edit and here you can manually at the beginning Let's say if I didn't have this directory then I would just add it at the beginning followed by a semicolon and hit okay after that This should be able to recognize the python command Okay, thank you",
+    "segements": [
+        {
+            "lecture_id": 0,
+            " Install python on windows ": " Install python on windows ",
+            "start": 0.0,
+            "end": 8.06,
+            "text": " Today we will learn how to install Python 3.5 on Windows for this go to Python.org website"
+        },
+        {
+            "lecture_id": 1,
+            " Install python on windows ": " Install python on windows ",
+            "start": 9.26,
+            "end": 10.94,
+            "text": " on that"
+        },
+        {
+            "lecture_id": 2,
+            " Install python on windows ": " Install python on windows ",
+            "start": 10.94,
+            "end": 12.94,
+            "text": " Click on downloads button"
+        },
+        {
+            "lecture_id": 3,
+            " Install python on windows ": " Install python on windows ",
+            "start": 13.74,
+            "end": 19.94,
+            "text": " Now we are going to install Python 3.5 if you are interested in installing previous versions"
+        },
+        {
+            "lecture_id": 4,
+            " Install python on windows ": " Install python on windows ",
+            "start": 19.94,
+            "end": 25.1,
+            "text": " So just 2.7.11 or any of the previous version which are listed here"
+        },
+        {
+            "lecture_id": 5,
+            " Install python on windows ": " Install python on windows ",
+            "start": 25.46,
+            "end": 30.1,
+            "text": " You can click on the corresponding download button, but we'll install Python 3.5"
+        },
+        {
+            "lecture_id": 6,
+            " Install python on windows ": " Install python on windows ",
+            "start": 30.62,
+            "end": 36.38,
+            "text": " Click here it will download the set of file if you're using Firefox or Internet Explorer"
+        },
+        {
+            "lecture_id": 7,
+            " Install python on windows ": " Install python on windows ",
+            "start": 36.38,
+            "end": 40.300000000000004,
+            "text": " It will show it in a different location, but you will figure it out"
+        },
+        {
+            "lecture_id": 8,
+            " Install python on windows ": " Install python on windows ",
+            "start": 41.06,
+            "end": 43.7,
+            "text": " So click on set of file on this"
+        },
+        {
+            "lecture_id": 9,
+            " Install python on windows ": " Install python on windows ",
+            "start": 44.38,
+            "end": 50.22,
+            "text": " Click add Python 3.5 to path this checkbox. It's very important. I will tell you why"
+        },
+        {
+            "lecture_id": 10,
+            " Install python on windows ": " Install python on windows ",
+            "start": 50.699999999999996,
+            "end": 56.18,
+            "text": " Customize installation. I'm going to install it for all users which will install it to this location"
+        },
+        {
+            "lecture_id": 11,
+            " Install python on windows ": " Install python on windows ",
+            "start": 57.14,
+            "end": 62.019999999999996,
+            "text": " Install it will take a few minutes Python got installed successfully"
+        },
+        {
+            "lecture_id": 12,
+            " Install python on windows ": " Install python on windows ",
+            "start": 62.18,
+            "end": 66.06,
+            "text": " You can verify it by running idle and windows command prompt"
+        },
+        {
+            "lecture_id": 13,
+            " Install python on windows ": " Install python on windows ",
+            "start": 66.06,
+            "end": 70.42,
+            "text": " So if you are I have Windows 10 if you are Windows 807 user"
+        },
+        {
+            "lecture_id": 14,
+            " Install python on windows ": " Install python on windows ",
+            "start": 70.66,
+            "end": 74.72,
+            "text": " Click on start button and there will be edit box here. It says search"
+        },
+        {
+            "lecture_id": 15,
+            " Install python on windows ": " Install python on windows ",
+            "start": 75.5,
+            "end": 78.78,
+            "text": " Programming files, but I have the same thing here"
+        },
+        {
+            "lecture_id": 16,
+            " Install python on windows ": " Install python on windows ",
+            "start": 79.3,
+            "end": 82.74,
+            "text": " So type in idl e"
+        },
+        {
+            "lecture_id": 17,
+            " Install python on windows ": " Install python on windows ",
+            "start": 84.26,
+            "end": 86.26,
+            "text": " Click on this"
+        },
+        {
+            "lecture_id": 18,
+            " Install python on windows ": " Install python on windows ",
+            "start": 86.34,
+            "end": 92.38,
+            "text": " This shows you the python shell which allows you to write Python programs"
+        },
+        {
+            "lecture_id": 19,
+            " Install python on windows ": " Install python on windows ",
+            "start": 92.38,
+            "end": 99.62,
+            "text": " Now if your fonts are very small here you can increase the font size by going to options configure idle and"
+        },
+        {
+            "lecture_id": 20,
+            " Install python on windows ": " Install python on windows ",
+            "start": 100.14,
+            "end": 102.14,
+            "text": " increase the font size"
+        },
+        {
+            "lecture_id": 21,
+            " Install python on windows ": " Install python on windows ",
+            "start": 102.14,
+            "end": 104.78,
+            "text": " whatever is your preference to select the size and"
+        },
+        {
+            "lecture_id": 22,
+            " Install python on windows ": " Install python on windows ",
+            "start": 105.18,
+            "end": 111.42,
+            "text": " say okay now let's start writing our first python program"
+        },
+        {
+            "lecture_id": 23,
+            " Install python on windows ": " Install python on windows ",
+            "start": 111.42,
+            "end": 119.02,
+            "text": " So we can use python as a simple calculator as you see it here or you can just print any"
+        },
+        {
+            "lecture_id": 24,
+            " Install python on windows ": " Install python on windows ",
+            "start": 119.78,
+            "end": 121.78,
+            "text": " statement so I'll just say"
+        },
+        {
+            "lecture_id": 25,
+            " Install python on windows ": " Install python on windows ",
+            "start": 121.98,
+            "end": 123.98,
+            "text": " Yeah, I install"
+        },
+        {
+            "lecture_id": 26,
+            " Install python on windows ": " Install python on windows ",
+            "start": 124.78,
+            "end": 126.78,
+            "text": " Python today"
+        },
+        {
+            "lecture_id": 27,
+            " Install python on windows ": " Install python on windows ",
+            "start": 127.5,
+            "end": 132.26,
+            "text": " And it will print that so for beginners it's idl is pretty useful"
+        },
+        {
+            "lecture_id": 28,
+            " Install python on windows ": " Install python on windows ",
+            "start": 132.57999999999998,
+            "end": 135.66,
+            "text": " It allows you to write simple python programs"
+        },
+        {
+            "lecture_id": 29,
+            " Install python on windows ": " Install python on windows ",
+            "start": 135.66,
+            "end": 141.98,
+            "text": " We will learn how to use another sophisticated editor for writing big python programs"
+        },
+        {
+            "lecture_id": 30,
+            " Install python on windows ": " Install python on windows ",
+            "start": 141.98,
+            "end": 143.66,
+            "text": " But idle is good for now"
+        },
+        {
+            "lecture_id": 31,
+            " Install python on windows ": " Install python on windows ",
+            "start": 143.66,
+            "end": 149.38,
+            "text": " You can also verify python installation by going to windows command prompt. So type in cmd"
+        },
+        {
+            "lecture_id": 32,
+            " Install python on windows ": " Install python on windows ",
+            "start": 150.45999999999998,
+            "end": 151.45999999999998,
+            "text": " and"
+        },
+        {
+            "lecture_id": 33,
+            " Install python on windows ": " Install python on windows ",
+            "start": 151.45999999999998,
+            "end": 152.73999999999998,
+            "text": " Here"
+        },
+        {
+            "lecture_id": 34,
+            " Install python on windows ": " Install python on windows ",
+            "start": 152.73999999999998,
+            "end": 157.66,
+            "text": " Type python. So this is showing you the same shell as idle"
+        },
+        {
+            "lecture_id": 35,
+            " Install python on windows ": " Install python on windows ",
+            "start": 157.94,
+            "end": 161.94,
+            "text": " So for example, you can do the same thing that you are able to do it in idle"
+        },
+        {
+            "lecture_id": 36,
+            " Install python on windows ": " Install python on windows ",
+            "start": 162.02,
+            "end": 167.94,
+            "text": " But idle is much better because it does the syntax highlighting you see like print is highlighted in a different color"
+        },
+        {
+            "lecture_id": 37,
+            " Install python on windows ": " Install python on windows ",
+            "start": 168.1,
+            "end": 175.78,
+            "text": " Because print is a spatial keyword in python. It also has some other cool features. So always use idle"
+        },
+        {
+            "lecture_id": 38,
+            " Install python on windows ": " Install python on windows ",
+            "start": 177.18,
+            "end": 185.42,
+            "text": " Now on windows sometimes if you are typing python and if it doesn't recognize the command that it means it is not present in your"
+        },
+        {
+            "lecture_id": 39,
+            " Install python on windows ": " Install python on windows ",
+            "start": 186.05999999999997,
+            "end": 192.85999999999999,
+            "text": " System path. So for example when I type in path here, you see like python installation directory is present here"
+        },
+        {
+            "lecture_id": 40,
+            " Install python on windows ": " Install python on windows ",
+            "start": 192.85999999999999,
+            "end": 198.29999999999998,
+            "text": " If it is not present in your case then go to environment variables"
+        },
+        {
+            "lecture_id": 41,
+            " Install python on windows ": " Install python on windows ",
+            "start": 199.82,
+            "end": 204.5,
+            "text": " And choose edit the system environment variables and here"
+        },
+        {
+            "lecture_id": 42,
+            " Install python on windows ": " Install python on windows ",
+            "start": 205.77999999999997,
+            "end": 209.66,
+            "text": " Click on environment variables and after that locate path"
+        },
+        {
+            "lecture_id": 43,
+            " Install python on windows ": " Install python on windows ",
+            "start": 210.26,
+            "end": 214.54,
+            "text": " click edit and here you can manually at the beginning"
+        },
+        {
+            "lecture_id": 44,
+            " Install python on windows ": " Install python on windows ",
+            "start": 214.54,
+            "end": 222.85999999999999,
+            "text": " Let's say if I didn't have this directory then I would just add it at the beginning followed by a semicolon and hit okay"
+        },
+        {
+            "lecture_id": 45,
+            " Install python on windows ": " Install python on windows ",
+            "start": 223.5,
+            "end": 225.5,
+            "text": " after that"
+        },
+        {
+            "lecture_id": 46,
+            " Install python on windows ": " Install python on windows ",
+            "start": 225.5,
+            "end": 229.18,
+            "text": " This should be able to recognize the python command"
+        },
+        {
+            "lecture_id": 47,
+            " Install python on windows ": " Install python on windows ",
+            "start": 230.29999999999998,
+            "end": 232.29999999999998,
+            "text": " Okay, thank you"
+        }
+    ]
+}

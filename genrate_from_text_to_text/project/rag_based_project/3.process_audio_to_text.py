@@ -1,13 +1,17 @@
+# objective:converting audio file to text
+
+
 import whisper  # external module 
 
-import os 
+import os      # internal module 
 
-import json
+import json    # external module 
+
 # now using whisper we have to convert our audio file into the text
-
 
 # step-01 load the whisper model 
 model=whisper.load_model("base")
+
 
 # Step 02: Transcribe the audio file
 text_result=model.transcribe(
@@ -20,7 +24,6 @@ print(text_result)  # dicstinalry
 print(type(text_result)) # dictinalry 
 
 # extract usefull information 
-
 segements=[]
 
 
@@ -36,5 +39,8 @@ print(type(json_format))
 # now bcz we have a json data now we can save it in a file 
 file=open("json/1.first.json","w") #open the file in write mode 
 file.write(json_format) # we have wrote here 
-file.close()  # clsed the file
+file.close()  # closed the file
 
+
+
+# problem here is we have transcribe only one file but we should do it for all audio file 

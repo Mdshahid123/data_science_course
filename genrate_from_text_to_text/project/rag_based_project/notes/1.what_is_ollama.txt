@@ -1,0 +1,22 @@
+Ollama is a tool/runtime that lets us run supported AI models locally on our computer. It runs a local server and exposes APIs/endpoints through which our applications can interact with the models.
+
+
+
+    Your Python / Node.js Application
+              │
+              │ HTTP Request
+              ▼
+     Ollama Local Server
+     localhost:11434
+              │
+       ┌──────┴──────┐
+       ▼             ▼
+   /api/chat      /api/embed
+       │             │
+       ▼             ▼
+    Llama        Embedding Model
+    Qwen         (e.g. nomic)
+    DeepSeek
+
+
+
