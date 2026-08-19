@@ -7,7 +7,7 @@ Ollama is a tool/runtime that lets us run supported AI models locally on our com
               │ HTTP Request
               ▼
      Ollama Local Server
-     localhost:11434
+     localhost:11434/api/embed
               │
        ┌──────┴──────┐
        ▼             ▼
