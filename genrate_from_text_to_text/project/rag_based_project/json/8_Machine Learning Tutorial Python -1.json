@@ -3,581 +3,581 @@
     "segements": [
         {
             "lecture_id": 0,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 0.0,
             "end": 4.92,
             "text": " I'm happy to announce new series on machine learning with Python."
         },
         {
             "lecture_id": 1,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 4.92,
             "end": 8.48,
             "text": " In this tutorial, we are going to look into what is machine learning."
         },
         {
             "lecture_id": 2,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 8.48,
             "end": 11.56,
             "text": " There are certain tasks where computers are really better than humans."
         },
         {
             "lecture_id": 3,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 11.56,
             "end": 16.44,
             "text": " For example, if I ask you to multiply these two big numbers, you will take a lot of time."
         },
         {
             "lecture_id": 4,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 16.44,
             "end": 20.52,
             "text": " Whereas computers can do it in less than a second."
         },
         {
             "lecture_id": 5,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 20.52,
             "end": 26.16,
             "text": " Similarly, if I ask you to search through millions of records, then that search operation is"
         },
         {
             "lecture_id": 6,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 26.16,
             "end": 34.6,
             "text": " extremely difficult for humans, whereas machines can do it in a matter of nanosecond."
         },
         {
             "lecture_id": 7,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 34.6,
             "end": 39.92,
             "text": " On the other hand, there are some tasks where humans outperform machines such as driving"
         },
         {
             "lecture_id": 8,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 39.92,
             "end": 40.92,
             "text": " the car."
         },
         {
             "lecture_id": 9,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 40.92,
             "end": 46.0,
             "text": " You don't see many robots driving the car on the road today."
         },
         {
             "lecture_id": 10,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 46.0,
             "end": 52.0,
             "text": " In Bay area, a Google and Uber and Tesla, these companies are trying to travel as cars,"
         },
         {
             "lecture_id": 11,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 52.0,
             "end": 55.96,
             "text": " but it is still in initial phase as of 2018."
         },
         {
             "lecture_id": 12,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 55.96,
             "end": 59.96,
             "text": " Most of the cars driven on the road are still by humans."
         },
         {
             "lecture_id": 13,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 59.96,
             "end": 66.6,
             "text": " Natural language conversation is also an area where humans outperform machines."
         },
         {
             "lecture_id": 14,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 66.6,
             "end": 73.72,
             "text": " So machine learning tries to make computers better at the things where traditionally,"
         },
         {
             "lecture_id": 15,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 73.72,
             "end": 77.0,
             "text": " humans were outperforming machines."
         },
         {
             "lecture_id": 16,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 77.0,
             "end": 84.24000000000001,
             "text": " And the way we do that is we make machines learn things like humans do."
         },
         {
             "lecture_id": 17,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 84.24,
             "end": 91.11999999999999,
             "text": " So the question is why humans are better in driving the cars and having a conversation."
         },
         {
             "lecture_id": 18,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 91.11999999999999,
             "end": 95.16,
             "text": " For that, we need to understand how human brain works."
         },
         {
             "lecture_id": 19,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 95.16,
             "end": 97.64,
             "text": " Human brain consists of tiny neurons."
         },
         {
             "lecture_id": 20,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 97.64,
             "end": 100.63999999999999,
             "text": " There are billions of neurons in our brain."
         },
         {
             "lecture_id": 21,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 100.63999999999999,
             "end": 108.32,
             "text": " And whenever we think or make a decision, a signal, a chemical signal is generated and"
         },
         {
             "lecture_id": 22,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 108.32,
             "end": 111.24,
             "text": " these tiny neurons light up."
         },
         {
             "lecture_id": 23,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 111.24,
             "end": 116.52,
             "text": " Here is a simple model of these neurons where these neurons are the neurons and the arrows"
         },
         {
             "lecture_id": 24,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 116.52,
             "end": 120.75999999999999,
             "text": " are the synapses that connect these neurons."
         },
         {
             "lecture_id": 25,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 120.75999999999999,
             "end": 130.2,
             "text": " So what happens is let's say when you have a baby and baby sees a cow for the first time,"
         },
         {
             "lecture_id": 26,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 130.2,
             "end": 133.32,
             "text": " you will tell baby that this is a cow."
         },
         {
             "lecture_id": 27,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 133.32,
             "end": 141.66,
             "text": " So internally in her brain, specific set of neurons will light up and these two output"
         },
         {
             "lecture_id": 28,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 141.66,
             "end": 149.2,
             "text": " neurons each corresponds to a specific entity such as cow and a cow."
         },
         {
             "lecture_id": 29,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 149.2,
             "end": 156.68,
             "text": " When you say that this is a cow, these set of neurons are lighting up and the edges, they"
         },
         {
             "lecture_id": 30,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 156.68,
             "end": 159.16,
             "text": " become stronger."
         },
         {
             "lecture_id": 31,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 159.16,
             "end": 165.28,
             "text": " These edges are shown in yellow, in a blue, a dark color here and it leads to a certain"
         },
         {
             "lecture_id": 32,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 165.28,
             "end": 166.68,
             "text": " output."
         },
         {
             "lecture_id": 33,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 166.68,
             "end": 170.56,
             "text": " This is like you are in a jungle and you are looking for a direction."
         },
         {
             "lecture_id": 34,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 170.56,
             "end": 175.8,
             "text": " Now you found a direction to reach to a specific destination."
         },
         {
             "lecture_id": 35,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 175.8,
             "end": 182.51999999999998,
             "text": " Next day when baby sees a second cow, you will tell the baby that okay, this is also a"
         },
         {
             "lecture_id": 36,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 182.51999999999998,
             "end": 183.51999999999998,
             "text": " cow."
         },
         {
             "lecture_id": 37,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 183.51999999999998,
             "end": 188.2,
             "text": " So again, same set of neurons and some additional neurons light up and these pathways become"
         },
         {
             "lecture_id": 38,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 188.2,
             "end": 190.79999999999998,
             "text": " more stronger."
         },
         {
             "lecture_id": 39,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 190.79999999999998,
             "end": 199.04,
             "text": " Similarly when a baby is seeing a car, you will tell her that this is a car and some other"
         },
         {
             "lecture_id": 40,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 199.04,
             "end": 205.56,
             "text": " set of neurons will light up, the edges will become stronger and so forth."
         },
         {
             "lecture_id": 41,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 205.56,
             "end": 208.83999999999997,
             "text": " This way you are training a baby okay."
         },
         {
             "lecture_id": 42,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 208.83999999999997,
             "end": 215.56,
             "text": " So as a human, we all know in our childhood, the way we learn things are we make mistakes,"
         },
         {
             "lecture_id": 43,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 215.56,
             "end": 219.8,
             "text": " someone correct the mistakes and then we learn."
         },
         {
             "lecture_id": 44,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 219.8,
             "end": 225.8,
             "text": " During the learning procedure, what happens in our brain is constantly these edges and"
         },
         {
             "lecture_id": 45,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 225.8,
             "end": 233.52,
             "text": " neurons are being adjusted and these new pathways are being created that leads to a certain"
         },
         {
             "lecture_id": 46,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 233.52,
             "end": 236.76,
             "text": " output or a decision."
         },
         {
             "lecture_id": 47,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 236.76,
             "end": 242.48000000000002,
             "text": " Computers can also be trained in similar way where neural network models are created and"
         },
         {
             "lecture_id": 48,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 242.56,
             "end": 250.0,
             "text": " they are trained with a lot of training data and the corresponding output and these neurons"
         },
         {
             "lecture_id": 49,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 250.0,
             "end": 257.2,
             "text": " and these edges are adjusted and the neural network becomes trained so that later on when"
         },
         {
             "lecture_id": 50,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 257.2,
             "end": 263.2,
             "text": " you give a new input to machine, it can tell you the correct output."
         },
         {
             "lecture_id": 51,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 263.2,
             "end": 268.71999999999997,
             "text": " This is called deep learning and deep learning is one of the areas in machine learning."
         },
         {
             "lecture_id": 52,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 268.8,
             "end": 271.6,
             "text": " machine learning is quite a broader term."
         },
         {
             "lecture_id": 53,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 271.6,
             "end": 277.36,
             "text": " It is a complete science of field and computer science where we use various techniques and"
         },
         {
             "lecture_id": 54,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 277.36,
             "end": 279.88000000000005,
             "text": " deep learning is one of them."
         },
         {
             "lecture_id": 55,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 279.88000000000005,
             "end": 287.08000000000004,
             "text": " There are other techniques where we use the knowledge present in available data."
         },
         {
             "lecture_id": 56,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 287.08000000000004,
             "end": 292.76000000000005,
             "text": " We extract it and use that knowledge to make future decisions."
         },
         {
             "lecture_id": 57,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 292.76000000000005,
             "end": 297.72,
             "text": " So overall, as I said before, machine learning is a bigger area, deep learning is one part"
         },
         {
             "lecture_id": 58,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 297.72,
             "end": 304.56,
             "text": " of it and there are like mathematical and statistical models that we use to make predictions."
         },
         {
             "lecture_id": 59,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 304.56,
             "end": 307.24,
             "text": " So that's another area."
         },
         {
             "lecture_id": 60,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 307.24,
             "end": 310.92,
             "text": " Machine learning has a big implication on our real life."
         },
         {
             "lecture_id": 61,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 310.92,
             "end": 316.08000000000004,
             "text": " One of the important features in any email account is spam filter."
         },
         {
             "lecture_id": 62,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 316.08000000000004,
             "end": 322.04,
             "text": " If you are using Google or Yahoo or any other email account, you will see that they filter"
         },
         {
             "lecture_id": 63,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 322.04,
             "end": 325.40000000000003,
             "text": " the spam emails automatically."
         },
         {
             "lecture_id": 64,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 325.4,
             "end": 331.71999999999997,
             "text": " The way they do it is they have seen a lot of spam emails in the past and they train"
         },
         {
             "lecture_id": 65,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 331.71999999999997,
             "end": 337.59999999999997,
             "text": " machines to learn from the content of those emails and they filter it out for future."
         },
         {
             "lecture_id": 66,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 337.59999999999997,
             "end": 344.2,
             "text": " Personal assistant type of devices such as Amazon Alexa and Google Home is another example."
         },
         {
             "lecture_id": 67,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 344.2,
             "end": 348.47999999999996,
             "text": " They are getting increasingly better at human conversation."
         },
         {
             "lecture_id": 68,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 348.47999999999996,
             "end": 354.64,
             "text": " When you talk to them, they learn your SN, they learn your terminology and then in the"
         },
         {
             "lecture_id": 69,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 354.64,
             "end": 361.03999999999996,
             "text": " future, they give you an accurate reply for the question that you ask them."
         },
         {
             "lecture_id": 70,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 361.03999999999996,
             "end": 366.4,
             "text": " YouTube's recommended video is another example of machine learning where they look at your"
         },
         {
             "lecture_id": 71,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 366.4,
             "end": 371.44,
             "text": " past pattern on what kind of content you are watching and based on that, they will generate"
         },
         {
             "lecture_id": 72,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 371.44,
             "end": 372.76,
             "text": " the suggestions."
         },
         {
             "lecture_id": 73,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 372.76,
             "end": 376.24,
             "text": " Last but not least is travel escars."
         },
         {
             "lecture_id": 74,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 376.24,
             "end": 382.12,
             "text": " I won't be surprised if in next 10 years you will see many travel escars on the roads"
         },
         {
             "lecture_id": 75,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 382.12,
             "end": 388.52,
             "text": " because companies like Tesla, Google, Uber, they are investing heavily in travel escars"
         },
         {
             "lecture_id": 76,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 388.52,
             "end": 394.96,
             "text": " and all of them are using machine learning and artificial intelligence techniques to make"
         },
         {
             "lecture_id": 77,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 394.96,
             "end": 397.32,
             "text": " cars smarter."
         },
         {
             "lecture_id": 78,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 397.32,
             "end": 401.08,
             "text": " So that's all I had for this introduction tutorial."
         },
         {
             "lecture_id": 79,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 401.08,
             "end": 407.12,
             "text": " In the next tutorial, we are going to write some Python code to make some predictions using"
         },
         {
             "lecture_id": 80,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 407.12,
             "end": 408.92,
             "text": " linear regression."
         },
         {
             "lecture_id": 81,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 408.92,
             "end": 409.92,
             "text": " Thanks for watching."
         },
         {
             "lecture_id": 82,
-            "Machine Learning Tutorial Python -1": "Machine Learning Tutorial Python -1",
+            "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 409.92,
             "end": 410.12,
             "text": " Bye."

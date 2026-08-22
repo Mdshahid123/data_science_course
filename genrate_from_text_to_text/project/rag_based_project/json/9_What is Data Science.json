@@ -3,700 +3,700 @@
     "segements": [
         {
             "lecture_id": 0,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 0.0,
             "end": 5.4,
             "text": " We are going to look into what is data science by using a very simple example today."
         },
         {
             "lecture_id": 1,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 5.4,
             "end": 9.68,
             "text": " Let's say you own a restaurant business and you have restaurants in New York and San"
         },
         {
             "lecture_id": 2,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 9.68,
             "end": 10.96,
             "text": " Diego."
         },
         {
             "lecture_id": 3,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 10.96,
             "end": 15.32,
             "text": " As a business owner, your local managers are sending you monthly sales number in the"
         },
         {
             "lecture_id": 4,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 15.32,
             "end": 17.16,
             "text": " Excel file."
         },
         {
             "lecture_id": 5,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 17.16,
             "end": 22.16,
             "text": " One approach you might take to measure the health of your business is plot a side-by-side"
         },
         {
             "lecture_id": 6,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 22.16,
             "end": 25.36,
             "text": " bar chart to measure the monthly sales numbers."
         },
         {
             "lecture_id": 7,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 25.36,
             "end": 29.32,
             "text": " And by looking at it, you immediately realize that New York restaurant is not doing good"
         },
         {
             "lecture_id": 8,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 29.32,
             "end": 31.44,
             "text": " during summer months."
         },
         {
             "lecture_id": 9,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 31.44,
             "end": 37.56,
             "text": " This simple visualization help you make a business decision that maybe during the month of summer"
         },
         {
             "lecture_id": 10,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 37.56,
             "end": 41.68,
             "text": " I need to run a spatial promotion in New York restaurant."
         },
         {
             "lecture_id": 11,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 41.68,
             "end": 44.56,
             "text": " So what happened here is you had data."
         },
         {
             "lecture_id": 12,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 44.56,
             "end": 50.879999999999995,
             "text": " You use a technology which is Excel file and bar charts to come up with the insight that"
         },
         {
             "lecture_id": 13,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 50.879999999999995,
             "end": 55.88,
             "text": " New York restaurant is not performing good in summer months, which help you drive a business"
         },
         {
             "lecture_id": 14,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 55.88,
             "end": 61.64,
             "text": " decision that you should run a spatial promotion during summer months in New York restaurants."
         },
         {
             "lecture_id": 15,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 61.64,
             "end": 63.64,
             "text": " This is called data science."
         },
         {
             "lecture_id": 16,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 63.64,
             "end": 69.28,
             "text": " Data science is a process of getting insights from your data using technology."
         },
         {
             "lecture_id": 17,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 69.28,
             "end": 73.36,
             "text": " You just realize that you don't need to do machine learning and deep learning in order to be"
         },
         {
             "lecture_id": 18,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 73.36,
             "end": 74.96000000000001,
             "text": " data scientist."
         },
         {
             "lecture_id": 19,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 74.96000000000001,
             "end": 77.76,
             "text": " You can do data science in Excel file as well."
         },
         {
             "lecture_id": 20,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 77.76,
             "end": 79.92,
             "text": " That's what people used to do before."
         },
         {
             "lecture_id": 21,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 79.92,
             "end": 84.52000000000001,
             "text": " But in last few years, the volume of data has increased too much because of evolution of"
         },
         {
             "lecture_id": 22,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 84.52,
             "end": 88.67999999999999,
             "text": " internet, data coming from smart devices and social media."
         },
         {
             "lecture_id": 23,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 88.67999999999999,
             "end": 95.11999999999999,
             "text": " So now Microsoft Excel cannot work on this huge volume of data because data is not data."
         },
         {
             "lecture_id": 24,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 95.11999999999999,
             "end": 98.19999999999999,
             "text": " It is big data."
         },
         {
             "lecture_id": 25,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 98.19999999999999,
             "end": 104.56,
             "text": " So for big data, you need advanced technology and tools such as Python and R. These are the"
         },
         {
             "lecture_id": 26,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 104.56,
             "end": 110.75999999999999,
             "text": " programming languages that data scientists use to perform the data analysis."
         },
         {
             "lecture_id": 27,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 110.76,
             "end": 115.72,
             "text": " For data store and distributed computing, you need Apache Hadoop and Apache Spark."
         },
         {
             "lecture_id": 28,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 115.72,
             "end": 121.52000000000001,
             "text": " For visualization, you need tabloop, power BI, matplotlib, Jupiter notebook."
         },
         {
             "lecture_id": 29,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 121.52000000000001,
             "end": 127.52000000000001,
             "text": " And for deep learning, you might need a TensorFlow, PyTorch or even a psychic learn."
         },
         {
             "lecture_id": 30,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 127.52000000000001,
             "end": 134.08,
             "text": " So all these advanced tools help you analyze the big data in a very effective way."
         },
         {
             "lecture_id": 31,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 134.08,
             "end": 139.76,
             "text": " And as a data scientist, this will help you draw insights in a little convenient way."
         },
         {
             "lecture_id": 32,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 139.76,
             "end": 144.51999999999998,
             "text": " So if you are a data scientist working in an organization, your typical data science"
         },
         {
             "lecture_id": 33,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 144.51999999999998,
             "end": 146.84,
             "text": " project will look something like this."
         },
         {
             "lecture_id": 34,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 146.84,
             "end": 149.16,
             "text": " It always starts with a business problem."
         },
         {
             "lecture_id": 35,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 149.16,
             "end": 154.16,
             "text": " UN business manager will work out the requirements and what kind of problem you are trying to solve"
         },
         {
             "lecture_id": 36,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 154.16,
             "end": 155.79999999999998,
             "text": " first."
         },
         {
             "lecture_id": 37,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 155.79999999999998,
             "end": 158.64,
             "text": " Based on that, the second step will be data collection."
         },
         {
             "lecture_id": 38,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 158.64,
             "end": 164.51999999999998,
             "text": " In the case of restaurant example, it was individual restaurant managers sending the monthly"
         },
         {
             "lecture_id": 39,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 164.51999999999998,
             "end": 167.32,
             "text": " sales data in the Excel file."
         },
         {
             "lecture_id": 40,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 167.32,
             "end": 168.32,
             "text": " It could be something else."
         },
         {
             "lecture_id": 41,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 168.32,
             "end": 172.12,
             "text": " If you are trying to solve deep learning problems, then you might have to collect the data"
         },
         {
             "lecture_id": 42,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 172.12,
             "end": 177.23999999999998,
             "text": " from internet or some third party vendor or from in house."
         },
         {
             "lecture_id": 43,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 177.23999999999998,
             "end": 183.07999999999998,
             "text": " Once the data collection step is over, the third step is data cleaning and data exploration."
         },
         {
             "lecture_id": 44,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 183.07999999999998,
             "end": 187.48,
             "text": " In restaurant example, we draw a bar chart to do data visualization."
         },
         {
             "lecture_id": 45,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 187.48,
             "end": 191.95999999999998,
             "text": " In other cases, you might have to clean data because data is not always perfect."
         },
         {
             "lecture_id": 46,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 191.95999999999998,
             "end": 194.6,
             "text": " There might be outliers, there might be errors."
         },
         {
             "lecture_id": 47,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 194.6,
             "end": 201.51999999999998,
             "text": " So using various tools, as a data scientist, you clean that error and remove the outliers"
         },
         {
             "lecture_id": 48,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 201.51999999999998,
             "end": 205.35999999999999,
             "text": " and make data ready for the next step."
         },
         {
             "lecture_id": 49,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 205.35999999999999,
             "end": 209.79999999999998,
             "text": " Data cleaning is a very important step in the data science process and that's where most"
         },
         {
             "lecture_id": 50,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 209.79999999999998,
             "end": 212.51999999999998,
             "text": " of the data scientists spend their time on."
         },
         {
             "lecture_id": 51,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 212.51999999999998,
             "end": 216.56,
             "text": " The next step after data cleaning and visualization is building a model."
         },
         {
             "lecture_id": 52,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 216.56,
             "end": 220.32,
             "text": " Now if your problem is simple, you don't have to build the model."
         },
         {
             "lecture_id": 53,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 220.32,
             "end": 224.04,
             "text": " You can just do a simple visualization and draw some insights."
         },
         {
             "lecture_id": 54,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 224.12,
             "end": 228.12,
             "text": " For complex problems, you have to build a machine learning model."
         },
         {
             "lecture_id": 55,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 228.12,
             "end": 234.35999999999999,
             "text": " So you might try different machine learning models and then try to measure the performance."
         },
         {
             "lecture_id": 56,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 234.35999999999999,
             "end": 238.44,
             "text": " Use grid search CV to hypertune parameters."
         },
         {
             "lecture_id": 57,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 238.44,
             "end": 240.56,
             "text": " Do AB testing."
         },
         {
             "lecture_id": 58,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 240.56,
             "end": 245.79999999999998,
             "text": " After performing all these steps with your cool statistics and mathematics knowledge as"
         },
         {
             "lecture_id": 59,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 245.79999999999998,
             "end": 251.64,
             "text": " a data scientist, you then deploy your model to production and then start collecting insight"
         },
         {
             "lecture_id": 60,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 251.64,
             "end": 254.64,
             "text": " or start doing predictive analysis."
         },
         {
             "lecture_id": 61,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 254.64,
             "end": 258.96,
             "text": " These kinds of insights and predictive analysis helps you drive business decision."
         },
         {
             "lecture_id": 62,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 258.96,
             "end": 263.91999999999996,
             "text": " As in the case of restaurant, we said that we should run a special promotion in New York"
         },
         {
             "lecture_id": 63,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 263.91999999999996,
             "end": 265.4,
             "text": " restaurant."
         },
         {
             "lecture_id": 64,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 265.4,
             "end": 270.56,
             "text": " It could be deciding the price of inventory like where do you want to open your next door?"
         },
         {
             "lecture_id": 65,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 270.56,
             "end": 271.56,
             "text": " It could be anything."
         },
         {
             "lecture_id": 66,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 271.56,
             "end": 275.84,
             "text": " There are so many things that you can do with this."
         },
         {
             "lecture_id": 67,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 275.84,
             "end": 279.88,
             "text": " There are real life examples where data science is used heavily."
         },
         {
             "lecture_id": 68,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 279.88,
             "end": 284.56,
             "text": " For example, Amazon uses data science to give you product recommendations."
         },
         {
             "lecture_id": 69,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 284.56,
             "end": 287.84,
             "text": " The video recommendations on Amazon Prime."
         },
         {
             "lecture_id": 70,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 287.84,
             "end": 293.28,
             "text": " It will use all your past data as well as for example, it might use your location data"
         },
         {
             "lecture_id": 71,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 293.28,
             "end": 297.76,
             "text": " to figure out the household income in that particular region."
         },
         {
             "lecture_id": 72,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 297.76,
             "end": 300.92,
             "text": " And based on that, it might give you a product suggestion."
         },
         {
             "lecture_id": 73,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 300.92,
             "end": 306.04,
             "text": " In healthcare industry, data coming from variable devices could be useful in doing predictive"
         },
         {
             "lecture_id": 74,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 306.04,
             "end": 312.20000000000005,
             "text": " analysis of what is the chance that you are going to have a heart disease or a respiratory"
         },
         {
             "lecture_id": 75,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 312.20000000000005,
             "end": 317.68,
             "text": " problem based on the heart rate that is it is measuring and based on the sleep quality"
         },
         {
             "lecture_id": 76,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 317.68,
             "end": 319.6,
             "text": " that it is measuring."
         },
         {
             "lecture_id": 77,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 319.6,
             "end": 322.72,
             "text": " In finance, the biggest use case is fraud detection."
         },
         {
             "lecture_id": 78,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 322.72,
             "end": 328.6,
             "text": " Nowadays if there is a fraudulent transaction, then you get a message immediately."
         },
         {
             "lecture_id": 79,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 328.6,
             "end": 334.48,
             "text": " Credit card companies use advanced algorithms to figure out if the transaction is fraud or"
         },
         {
             "lecture_id": 80,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 334.48,
             "end": 335.48,
             "text": " not."
         },
         {
             "lecture_id": 81,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 335.56,
             "end": 340.20000000000005,
             "text": " In shipping industry companies like UPS and FedEx uses data science to figure out the"
         },
         {
             "lecture_id": 82,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 340.20000000000005,
             "end": 344.0,
             "text": " best route between two destinations."
         },
         {
             "lecture_id": 83,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 344.0,
             "end": 349.0,
             "text": " There are so many other use cases, but these were just the few that we discussed."
         },
         {
             "lecture_id": 84,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 349.0,
             "end": 352.04,
             "text": " I hope that clarifies what data science is."
         },
         {
             "lecture_id": 85,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 352.04,
             "end": 357.64000000000004,
             "text": " This video we are going to do something different where I want all of you to post a comment below"
         },
         {
             "lecture_id": 86,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 357.64000000000004,
             "end": 360.48,
             "text": " saying your definition of data science."
         },
         {
             "lecture_id": 87,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 360.48,
             "end": 367.64000000000004,
             "text": " I mean you can use poetry or a very you can define data science in a very creative way."
         },
         {
             "lecture_id": 88,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 367.64000000000004,
             "end": 373.04,
             "text": " And I will pick one comment, the best comment which I like and I will give you a phone call"
         },
         {
             "lecture_id": 89,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 373.04,
             "end": 376.16,
             "text": " and have a 15 minute conversation with you."
         },
         {
             "lecture_id": 90,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 376.16,
             "end": 377.68,
             "text": " And we can discuss various topic."
         },
         {
             "lecture_id": 91,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 377.68,
             "end": 382.68,
             "text": " I can help you answer any questions on data science, machine learning, any career advice,"
         },
         {
             "lecture_id": 92,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 382.68,
             "end": 384.24,
             "text": " etc."
         },
         {
             "lecture_id": 93,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 384.24,
             "end": 386.04,
             "text": " So post a comment below."
         },
         {
             "lecture_id": 94,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 386.04,
             "end": 389.24,
             "text": " Also I have another video for Call Me Campaign."
         },
         {
             "lecture_id": 95,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 389.24,
             "end": 392.0,
             "text": " Go there and fill out the Google form."
         },
         {
             "lecture_id": 96,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 392.0,
             "end": 396.72,
             "text": " I will put the Google form link in this video description as well."
         },
         {
             "lecture_id": 97,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 396.72,
             "end": 401.40000000000003,
             "text": " And then put your name, the comment that you are posting below in that form."
         },
         {
             "lecture_id": 98,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 401.40000000000003,
             "end": 405.36,
             "text": " And I will pick one comment, one best comment and I will give you a phone call."
         },
         {
             "lecture_id": 99,
-            "What is Data Science": "What is Data Science",
+            "lecture_title": "What is Data Science",
             "start": 405.36,
             "end": 405.76,
             "text": " Thank you."

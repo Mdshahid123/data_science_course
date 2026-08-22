@@ -3,385 +3,385 @@
     "segements": [
         {
             "lecture_id": 0,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 0.0,
             "end": 2.7600000000000002,
             "text": " Today's topic is variables in Python."
         },
         {
             "lecture_id": 1,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 2.7600000000000002,
             "end": 4.5600000000000005,
             "text": " Now, what are variables?"
         },
         {
             "lecture_id": 2,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 4.5600000000000005,
             "end": 8.6,
             "text": " Variables are containers that can hold any data."
         },
         {
             "lecture_id": 3,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 8.6,
             "end": 13.32,
             "text": " So you can use them to store numeric data, tax data, etc."
         },
         {
             "lecture_id": 4,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 13.32,
             "end": 19.400000000000002,
             "text": " So let's say you want to track down your monthly expenses in Python programming language."
         },
         {
             "lecture_id": 5,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 19.400000000000002,
             "end": 26.44,
             "text": " What you need to do first to solve this problem is store unusual expenses in some place"
         },
         {
             "lecture_id": 6,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 26.44,
             "end": 31.92,
             "text": " and then use that place to do a sum of all those individual expenses to come up with"
         },
         {
             "lecture_id": 7,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 31.92,
             "end": 33.6,
             "text": " your total expense."
         },
         {
             "lecture_id": 8,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 33.6,
             "end": 38.56,
             "text": " So we'll go ahead and create variable to store all these individual expenses."
         },
         {
             "lecture_id": 9,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 38.56,
             "end": 41.88,
             "text": " So for example, let's on rent, you are spending $1220."
         },
         {
             "lecture_id": 10,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 41.88,
             "end": 48.84,
             "text": " So what we just did here is we created this variable called rent and we placed value 1220"
         },
         {
             "lecture_id": 11,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 48.84,
             "end": 49.84,
             "text": " into it."
         },
         {
             "lecture_id": 12,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 49.84,
             "end": 54.08,
             "text": " So using assignment operator, you can put a value inside a variable."
         },
         {
             "lecture_id": 13,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 54.08,
             "end": 57.879999999999995,
             "text": " So the left hand side of the assignment operator is a variable name and right hand side"
         },
         {
             "lecture_id": 14,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 57.879999999999995,
             "end": 59.8,
             "text": " is the value."
         },
         {
             "lecture_id": 15,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 59.8,
             "end": 63.519999999999996,
             "text": " Similarly, you can create variables for other items."
         },
         {
             "lecture_id": 16,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 63.519999999999996,
             "end": 71.48,
             "text": " For example, you are spending $202.5 on gas and you are spending some money on groceries."
         },
         {
             "lecture_id": 17,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 71.48,
             "end": 72.88,
             "text": " So we just created three variables."
         },
         {
             "lecture_id": 18,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 72.88,
             "end": 78.08,
             "text": " Now, if you print that value, you can print it like this."
         },
         {
             "lecture_id": 19,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 78.08,
             "end": 82.88,
             "text": " So by using this statement, what you're doing is you are accessing this variable called"
         },
         {
             "lecture_id": 20,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 82.88,
             "end": 86.24,
             "text": " rent and you are printing the value in it."
         },
         {
             "lecture_id": 21,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 86.24,
             "end": 87.24,
             "text": " Okay."
         },
         {
             "lecture_id": 22,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 87.24,
             "end": 96.44,
             "text": " Now to calculate the total monthly expenses, all you do is just add those three things and"
         },
         {
             "lecture_id": 23,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 96.44,
             "end": 98.96,
             "text": " this is the syntax on how to do it in Python."
         },
         {
             "lecture_id": 24,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 98.96,
             "end": 104.8,
             "text": " So you created a fourth variable called total and you added all these three individual values"
         },
         {
             "lecture_id": 25,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 104.8,
             "end": 105.8,
             "text": " in it."
         },
         {
             "lecture_id": 26,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 105.8,
             "end": 110.67999999999999,
             "text": " So if you print total, you will get this."
         },
         {
             "lecture_id": 27,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 110.67999999999999,
             "end": 111.67999999999999,
             "text": " Okay."
         },
         {
             "lecture_id": 28,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 111.68,
             "end": 116.92,
             "text": " Now, variables are called variables because the value in it can vary."
         },
         {
             "lecture_id": 29,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 116.92,
             "end": 122.60000000000001,
             "text": " So for example, now let's say, instead your rent went up and it become $1400."
         },
         {
             "lecture_id": 30,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 122.60000000000001,
             "end": 126.2,
             "text": " So you can use the same variable as an assignment, different value."
         },
         {
             "lecture_id": 31,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 126.2,
             "end": 127.96000000000001,
             "text": " So again, the container is same."
         },
         {
             "lecture_id": 32,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 127.96000000000001,
             "end": 133.52,
             "text": " It's just that you now remove the previous value and you put the new value in it."
         },
         {
             "lecture_id": 33,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 133.52,
             "end": 136.52,
             "text": " You can also put tax data into it."
         },
         {
             "lecture_id": 34,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 136.52,
             "end": 143.24,
             "text": " So for example, now I want to store the name of those individual expense items."
         },
         {
             "lecture_id": 35,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 143.24,
             "end": 149.4,
             "text": " So you can create a variable called item and put the name item."
         },
         {
             "lecture_id": 36,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 149.4,
             "end": 154.76000000000002,
             "text": " My item to was gas and my item three was groceries."
         },
         {
             "lecture_id": 37,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 154.76000000000002,
             "end": 158.84,
             "text": " So this way, now you can just print all those items."
         },
         {
             "lecture_id": 38,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 158.84,
             "end": 167.12,
             "text": " So you can say my expense items were these."
         },
         {
             "lecture_id": 39,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 167.12,
             "end": 173.52,
             "text": " So you see like when you do this, it is printing the value inside these three variables."
         },
         {
             "lecture_id": 40,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 173.52,
             "end": 177.88,
             "text": " Now there are certain rules on variable naming conventions."
         },
         {
             "lecture_id": 41,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 177.88,
             "end": 184.28,
             "text": " So for example, you cannot use certain Python keywords like the predefined keywords as"
         },
         {
             "lecture_id": 42,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 184.28,
             "end": 185.28,
             "text": " variable name."
         },
         {
             "lecture_id": 43,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 185.28,
             "end": 189.8,
             "text": " For example, true is a keyword in Python."
         },
         {
             "lecture_id": 44,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 189.8,
             "end": 193.48,
             "text": " What I mean by that is it has a specific meaning in Python."
         },
         {
             "lecture_id": 45,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 193.48,
             "end": 196.24,
             "text": " So you cannot use it as a variable name."
         },
         {
             "lecture_id": 46,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 196.24,
             "end": 199.2,
             "text": " So if you try to do that, you'll get this error."
         },
         {
             "lecture_id": 47,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 199.2,
             "end": 204.52,
             "text": " To get a completely set of Python keywords, you can just Google it and you'll get a list."
         },
         {
             "lecture_id": 48,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 204.52,
             "end": 207.2,
             "text": " So don't use that list as variable names."
         },
         {
             "lecture_id": 49,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 207.2,
             "end": 210.52,
             "text": " Other than that, you cannot use facial characters in it."
         },
         {
             "lecture_id": 50,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 210.52,
             "end": 216.28,
             "text": " For example, if I create a variable like this, then also it won't work because I have"
         },
         {
             "lecture_id": 51,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 216.28,
             "end": 218.28,
             "text": " a plus sign here."
         },
         {
             "lecture_id": 52,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 218.28,
             "end": 219.28,
             "text": " Okay."
         },
         {
             "lecture_id": 53,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 219.28,
             "end": 221.68,
             "text": " So that was all about variable."
         },
         {
             "lecture_id": 54,
-            "Variables in python ": "Variables in python ",
+            "lecture_title": "Variables in python ",
             "start": 221.68,
             "end": 222.44,
             "text": " Thanks for watching."

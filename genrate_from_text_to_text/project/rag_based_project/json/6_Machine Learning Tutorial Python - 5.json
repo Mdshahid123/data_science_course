@@ -3,609 +3,609 @@
     "segements": [
         {
             "lecture_id": 0,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 0.0,
             "end": 4.8,
             "text": " We will look into two different approaches of saving a train model to a file,"
         },
         {
             "lecture_id": 1,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 4.8,
             "end": 13.6,
             "text": " which you can use later on to load the model from a file into a memory and use that to make actual predictions."
         },
         {
             "lecture_id": 2,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 13.6,
             "end": 18.8,
             "text": " Solving a problem using machine learning consists of two steps typically."
         },
         {
             "lecture_id": 3,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 18.8,
             "end": 23.0,
             "text": " The first step is training a model using your training dataset,"
         },
         {
             "lecture_id": 4,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 23.0,
             "end": 27.6,
             "text": " and the second step is to ask your questions to the train model,"
         },
         {
             "lecture_id": 5,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 27.6,
             "end": 33.6,
             "text": " which short looks like a human brain, and that will give you the answers."
         },
         {
             "lecture_id": 6,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 33.6,
             "end": 38.6,
             "text": " Often the size of the training dataset is pretty huge,"
         },
         {
             "lecture_id": 7,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 38.6,
             "end": 43.6,
             "text": " because as the size increases, your model becomes more accurate."
         },
         {
             "lecture_id": 8,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 43.6,
             "end": 46.6,
             "text": " It is like if you are doing a football training,"
         },
         {
             "lecture_id": 9,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 46.6,
             "end": 53.6,
             "text": " and if you train yourself more and more, you become more and more batter at your football game."
         },
         {
             "lecture_id": 10,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 53.6,
             "end": 59.6,
             "text": " And when your training dataset is so huge, often it is in like gigabytes,"
         },
         {
             "lecture_id": 11,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 59.6,
             "end": 64.6,
             "text": " the training step becomes more time consuming."
         },
         {
             "lecture_id": 12,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 64.6,
             "end": 68.6,
             "text": " If you save the train model to a file,"
         },
         {
             "lecture_id": 13,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 68.6,
             "end": 74.6,
             "text": " you can later on use that same model to make the actual predictions."
         },
         {
             "lecture_id": 14,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 74.6,
             "end": 79.6,
             "text": " So you don't need to train it every time you want to ask these questions."
         },
         {
             "lecture_id": 15,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 79.6,
             "end": 84.6,
             "text": " So if you have it saved to a file, now I don't have a training step here,"
         },
         {
             "lecture_id": 16,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 84.6,
             "end": 87.6,
             "text": " and I can directly ask a question."
         },
         {
             "lecture_id": 17,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 87.6,
             "end": 90.6,
             "text": " So that's what we are going to look into today."
         },
         {
             "lecture_id": 18,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 90.6,
             "end": 94.6,
             "text": " We'll write a Python code to save that model to a file."
         },
         {
             "lecture_id": 19,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 94.6,
             "end": 100.6,
             "text": " Here I have a Jupyter Notebook, which I used in my first tutorial of linear regression"
         },
         {
             "lecture_id": 20,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 100.6,
             "end": 103.6,
             "text": " of predicting home prizes."
         },
         {
             "lecture_id": 21,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 103.6,
             "end": 106.6,
             "text": " The code here is pretty straightforward."
         },
         {
             "lecture_id": 22,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 106.6,
             "end": 111.6,
             "text": " So I'm going to be using a coding home prizes from my CSV file,"
         },
         {
             "lecture_id": 23,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 111.6,
             "end": 116.6,
             "text": " and then using linear regression to make that your prediction."
         },
         {
             "lecture_id": 24,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 116.6,
             "end": 123.6,
             "text": " And here you're saying that 5,000 square feet home is going to cost me $859,000."
         },
         {
             "lecture_id": 25,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 123.6,
             "end": 127.6,
             "text": " So let's use Python's pickle module."
         },
         {
             "lecture_id": 26,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 127.6,
             "end": 131.6,
             "text": " Now you guys might be aware about pickle module already."
         },
         {
             "lecture_id": 27,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 131.6,
             "end": 136.6,
             "text": " It allows you to serialize your Python object into a file."
         },
         {
             "lecture_id": 28,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 136.6,
             "end": 140.6,
             "text": " So here I will use the file."
         },
         {
             "lecture_id": 29,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 140.6,
             "end": 149.6,
             "text": " So I'll first save with open model pickle."
         },
         {
             "lecture_id": 30,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 149.6,
             "end": 151.6,
             "text": " And I'm going to write binary data."
         },
         {
             "lecture_id": 31,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 151.6,
             "end": 155.6,
             "text": " Hence I'm using WB mode in the file."
         },
         {
             "lecture_id": 32,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 155.6,
             "end": 158.6,
             "text": " So first I'm opening a file."
         },
         {
             "lecture_id": 33,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 158.6,
             "end": 166.6,
             "text": " And then what I will do is I will say pickle.dump my model into this file."
         },
         {
             "lecture_id": 34,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 166.6,
             "end": 171.6,
             "text": " When I run this, what actually happens is in my working directory,"
         },
         {
             "lecture_id": 35,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 171.6,
             "end": 179.6,
             "text": " it created this model pickle file, which if I open in my not pad, looks like this."
         },
         {
             "lecture_id": 36,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 179.6,
             "end": 181.6,
             "text": " This is some gibberish."
         },
         {
             "lecture_id": 37,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 181.6,
             "end": 185.6,
             "text": " And it is expected to be gibberish because it's a binary file."
         },
         {
             "lecture_id": 38,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 185.6,
             "end": 190.6,
             "text": " You actually don't need to care about the content here."
         },
         {
             "lecture_id": 39,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 190.6,
             "end": 195.6,
             "text": " But what you need to know is your model is saved into a file now."
         },
         {
             "lecture_id": 40,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 195.6,
             "end": 199.6,
             "text": " Now you can use the same model here."
         },
         {
             "lecture_id": 41,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 199.6,
             "end": 211.6,
             "text": " So what I can do is here, I can say model is equal to pickle.dump load the file."
         },
         {
             "lecture_id": 42,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 211.6,
             "end": 216.6,
             "text": " So again, I have to open the file pointer."
         },
         {
             "lecture_id": 43,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 216.6,
             "end": 220.6,
             "text": " It's the same file."
         },
         {
             "lecture_id": 44,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 220.6,
             "end": 224.6,
             "text": " But this time I'm using it in a read mode."
         },
         {
             "lecture_id": 45,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 224.6,
             "end": 225.6,
             "text": " And it's a binary file."
         },
         {
             "lecture_id": 46,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 225.6,
             "end": 230.6,
             "text": " Hence I have supplied B here."
         },
         {
             "lecture_id": 47,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 230.6,
             "end": 240.6,
             "text": " Now I have my model."
         },
         {
             "lecture_id": 48,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 240.6,
             "end": 244.6,
             "text": " I will just say MP."
         },
         {
             "lecture_id": 49,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 244.6,
             "end": 251.6,
             "text": " So now I have my model loaded from a file into a memory and MP is the object."
         },
         {
             "lecture_id": 50,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 251.6,
             "end": 257.6,
             "text": " If I use now MP object to make the prediction."
         },
         {
             "lecture_id": 51,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 257.6,
             "end": 262.6,
             "text": " I want to ask what is the price of my 5000 square feet home."
         },
         {
             "lecture_id": 52,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 262.6,
             "end": 269.6,
             "text": " Then you can see that it will give me the same answer as I got it here at this tab."
         },
         {
             "lecture_id": 53,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 269.6,
             "end": 276.6,
             "text": " So this is beautiful because now I can supply this model file to a friend of mine."
         },
         {
             "lecture_id": 54,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 276.6,
             "end": 281.6,
             "text": " And I can say, okay, here is my trained model or a trained brain."
         },
         {
             "lecture_id": 55,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 281.6,
             "end": 285.6,
             "text": " Go use it for your actual problem."
         },
         {
             "lecture_id": 56,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 285.6,
             "end": 290.6,
             "text": " So you can ask the questions to this model and it will give the answers."
         },
         {
             "lecture_id": 57,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 290.6,
             "end": 297.6,
             "text": " There is a second approach of saving model to a file which is using SK learns job lib."
         },
         {
             "lecture_id": 58,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 297.6,
             "end": 308.6,
             "text": " So if you Google SK learn model persistent, you will find this link where SK learns document documentation shows"
         },
         {
             "lecture_id": 59,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 308.6,
             "end": 313.6,
             "text": " how you can use job lib to do essentially the same thing."
         },
         {
             "lecture_id": 60,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 313.6,
             "end": 318.6,
             "text": " And if it is doing the same thing, then what's the difference between pickle and job lib?"
         },
         {
             "lecture_id": 61,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 318.6,
             "end": 327.6,
             "text": " As per the documentation, if your model consists of large numpy arrays, then using job lib might be more efficient."
         },
         {
             "lecture_id": 62,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 327.6,
             "end": 334.6,
             "text": " Now I have not done any profiling myself but you can go ahead and do it on your own and figure out which one you want to use."
         },
         {
             "lecture_id": 63,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 334.6,
             "end": 343.6,
             "text": " But usually people say that when you have a lot of numpy arrays, job lib tends to be more efficient."
         },
         {
             "lecture_id": 64,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 343.6,
             "end": 346.6,
             "text": " But essentially it gives you the same functionality."
         },
         {
             "lecture_id": 65,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 346.6,
             "end": 351.6,
             "text": " So I will first import job lib."
         },
         {
             "lecture_id": 66,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 351.6,
             "end": 357.6,
             "text": " In Jupyter Notebook, you can hit tab and it will show you the auto complete."
         },
         {
             "lecture_id": 67,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 357.6,
             "end": 365.6,
             "text": " So here there is external modules from that I will import job lib."
         },
         {
             "lecture_id": 68,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 365.6,
             "end": 377.6,
             "text": " Now the difference between job lib API and pickle API is that job lib can take the file them directly."
         },
         {
             "lecture_id": 69,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 377.6,
             "end": 383.6,
             "text": " So I have my model and I want to save that model to a file."
         },
         {
             "lecture_id": 70,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 383.6,
             "end": 387.6,
             "text": " I will say model job lib."
         },
         {
             "lecture_id": 71,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 387.6,
             "end": 393.6,
             "text": " When I execute this, it saved this model to this particular file."
         },
         {
             "lecture_id": 72,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 393.6,
             "end": 397.6,
             "text": " And when I go to my working directory, I will find this file here."
         },
         {
             "lecture_id": 73,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 397.6,
             "end": 401.6,
             "text": " It is just updated right now, 631 is the timestamp."
         },
         {
             "lecture_id": 74,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 401.6,
             "end": 411.6,
             "text": " When I open that file into not paired, I will again see some gibberish because this is also a binary file."
         },
         {
             "lecture_id": 75,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 411.6,
             "end": 414.6,
             "text": " Again, you don't care about the content here."
         },
         {
             "lecture_id": 76,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 414.6,
             "end": 424.6,
             "text": " What you need to know is your model is successfully saved and you can load that model using jobblib.load,"
         },
         {
             "lecture_id": 77,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 424.6,
             "end": 429.6,
             "text": " give the file name."
         },
         {
             "lecture_id": 78,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 429.6,
             "end": 435.6,
             "text": " In return, you get your model object back."
         },
         {
             "lecture_id": 79,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 435.6,
             "end": 442.6,
             "text": " And that model object you can use to make actual prediction."
         },
         {
             "lecture_id": 80,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 442.6,
             "end": 446.6,
             "text": " And it gives you the same answer here."
         },
         {
             "lecture_id": 81,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 446.6,
             "end": 456.6,
             "text": " What it is saving inside that binary file is different things such as, for example, if you look at coefficient,"
         },
         {
             "lecture_id": 82,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 456.6,
             "end": 460.6,
             "text": " the coefficient is same as what I got it here."
         },
         {
             "lecture_id": 83,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 460.6,
             "end": 468.6,
             "text": " So it's saving all these essential pieces for your model."
         },
         {
             "lecture_id": 84,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 468.6,
             "end": 470.6,
             "text": " Okay, that's all I had for this tutorial."
         },
         {
             "lecture_id": 85,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 470.6,
             "end": 479.6,
             "text": " I don't have any exercise today, but you can go ahead and save your model using joblib and pickle into a file."
         },
         {
             "lecture_id": 86,
-            "Machine Learning Tutorial Python - 5": "Machine Learning Tutorial Python - 5",
+            "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 479.6,
             "end": 491.6,
             "text": " And I have gone through linear regression models today, but you can pretty much save any other kind of machine learning models using these two awesome models."

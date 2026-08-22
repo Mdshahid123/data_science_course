@@ -3,469 +3,469 @@
     "segements": [
         {
             "lecture_id": 0,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 0.0,
             "end": 6.8,
             "text": " Today's topic is numbers in Python. Numbers are very important ingredient of any program."
         },
         {
             "lecture_id": 1,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 6.8,
             "end": 12.72,
             "text": " I cannot think of any software program in the world which doesn't use numbers so they're extremely important."
         },
         {
             "lecture_id": 2,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 13.6,
             "end": 22.400000000000002,
             "text": " Now in Python you can use Python programming language as a calculator. So let me demonstrate that"
         },
         {
             "lecture_id": 3,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 22.400000000000002,
             "end": 28.0,
             "text": " to you by doing some simple mathematical operations. So for example you want to do addition of"
         },
         {
             "lecture_id": 4,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 28.0,
             "end": 34.56,
             "text": " these two numbers. You can do it like this. So just type in two numbers and plus sign in between."
         },
         {
             "lecture_id": 5,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 34.56,
             "end": 40.96,
             "text": " If you want to do subtraction you can do subtraction. You can do division like this. So for"
         },
         {
             "lecture_id": 6,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 40.96,
             "end": 48.0,
             "text": " division you will use this slash shine. If you want to do multiplication you will use star sign"
         },
         {
             "lecture_id": 7,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 48.56,
             "end": 58.88,
             "text": " and it will multiply two numbers. Now if you want to find a remainder of a division then you will"
         },
         {
             "lecture_id": 8,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 58.88,
             "end": 66.96000000000001,
             "text": " use a percentage sign. So for example I want to divide 11 by 2 and I want to find out the"
         },
         {
             "lecture_id": 9,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 66.96000000000001,
             "end": 72.64,
             "text": " remainder. For that you will use percentage sign like this and you can guess what will be the answer."
         },
         {
             "lecture_id": 10,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 73.44,
             "end": 81.84,
             "text": " Okay I think you guessed it right. So 11 divided by 2 is like 2 into 5 is 10 and the remainder will be"
         },
         {
             "lecture_id": 11,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 81.84,
             "end": 90.0,
             "text": " 1. You can also find the power of any numbers. So for example you want to find 3 to the power of 2"
         },
         {
             "lecture_id": 12,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 90.56,
             "end": 99.92,
             "text": " then the way you do that is by using two star sign two times. So it will do this. So 3 to the"
         },
         {
             "lecture_id": 13,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 99.92,
             "end": 108.56,
             "text": " power of 2 is 9. Guess what will be the answer of this? This 2 to the power of 4."
         },
         {
             "lecture_id": 14,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 110.56,
             "end": 119.6,
             "text": " 12 16. Okay so when you are doing any number manipulation when you're writing any Python program"
         },
         {
             "lecture_id": 15,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 120.88,
             "end": 127.52000000000001,
             "text": " normally you would create variables to store these numbers and you will do these mathematical"
         },
         {
             "lecture_id": 16,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 127.52,
             "end": 137.84,
             "text": " operations on those variables. Okay so let me let me demonstrate this by having a simple problem."
         },
         {
             "lecture_id": 17,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 137.84,
             "end": 144.32,
             "text": " So for example you want to travel from New York to Baltimore and then from Baltimore to Pittsburgh"
         },
         {
             "lecture_id": 18,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 144.32,
             "end": 149.76,
             "text": " and you that know the distance between these cities. Now you want to find out the total distance."
         },
         {
             "lecture_id": 19,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 149.76,
             "end": 156.72,
             "text": " So the way you do it is you first create a variable to store the distance between New York City"
         },
         {
             "lecture_id": 20,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 156.72,
             "end": 166.07999999999998,
             "text": " to Baltimore. Let's say it is 188 miles. So I just created a variable called this and assign value 188 to it."
         },
         {
             "lecture_id": 21,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 166.88,
             "end": 172.8,
             "text": " Then you create another variable to store the distance between Baltimore to Pittsburgh and let's say"
         },
         {
             "lecture_id": 22,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 172.8,
             "end": 180.64,
             "text": " this is 247 miles. Okay so to find out the total distance you create another variable called total"
         },
         {
             "lecture_id": 23,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 180.64,
             "end": 192.55999999999997,
             "text": " distance and you just assign those first two variables to it. So when I do like this and if I print"
         },
         {
             "lecture_id": 24,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 192.55999999999997,
             "end": 200.72,
             "text": " the total distance it will tell me the total distance that I will be traveling during my journey."
         },
         {
             "lecture_id": 25,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 201.35999999999999,
             "end": 208.64,
             "text": " Okay another interesting problem could be let's say if you're driving at 65 miles per hour"
         },
         {
             "lecture_id": 26,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 209.35999999999999,
             "end": 216.55999999999997,
             "text": " and you want to find the total time that you will spend in your journey and we're just assuming you're"
         },
         {
             "lecture_id": 27,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 216.55999999999997,
             "end": 221.92,
             "text": " not taking any breaks you are like a super human being you don't need any breaks you can just"
         },
         {
             "lecture_id": 28,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 221.92,
             "end": 230.0,
             "text": " constantly drive. Okay so in that case again create another variable for your miles per hour speed."
         },
         {
             "lecture_id": 29,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 230.0,
             "end": 237.67999999999998,
             "text": " So MPH is equal to 65 this is your miles per hour and to find out the time you create another variable"
         },
         {
             "lecture_id": 30,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 237.68,
             "end": 246.16,
             "text": " called time and say time equal to total distance. If you have total distance and if you have miles per"
         },
         {
             "lecture_id": 31,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 246.16,
             "end": 252.24,
             "text": " hour how do you find out the time right it's a simple math it is distance divided by the speed"
         },
         {
             "lecture_id": 32,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 252.96,
             "end": 260.88,
             "text": " so distance divided by miles per hour is your time it's just a simple high school math or school"
         },
         {
             "lecture_id": 33,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 261.36,
             "end": 270.96,
             "text": " so when you say time it prints this number so you see it's 6.69 hours now it is printing it with a lot"
         },
         {
             "lecture_id": 34,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 270.96,
             "end": 276.56,
             "text": " higher decimal precision you see like after dot you see so many decimal points if you want to see"
         },
         {
             "lecture_id": 35,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 276.56,
             "end": 282.96,
             "text": " like just for simplicity if you want to see like two decimal points you can use this round function."
         },
         {
             "lecture_id": 36,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 282.96,
             "end": 289.36,
             "text": " So in Python there is this function called round where the first argument is as you see it in the"
         },
         {
             "lecture_id": 37,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 289.36,
             "end": 296.56,
             "text": " tooltip it's a number so your number is time and how many decimal points you want to see so you can"
         },
         {
             "lecture_id": 38,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 296.56,
             "end": 303.84000000000003,
             "text": " say two so it is showing it as you see like after dot you know see only two decimal points one two"
         },
         {
             "lecture_id": 39,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 304.40000000000003,
             "end": 310.48,
             "text": " if you want to see like three decimal points precision you can do this and it will show you three"
         },
         {
             "lecture_id": 40,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 310.48,
             "end": 318.48,
             "text": " decimal points okay so just to summarize you can do all the basic mathematical operations in Python"
         },
         {
             "lecture_id": 41,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 318.48,
             "end": 325.20000000000005,
             "text": " using these operator signs also there are two kind of numbers in Python one is integer which is"
         },
         {
             "lecture_id": 42,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 325.20000000000005,
             "end": 332.48,
             "text": " like a whole number so for example 4.30 by 16 to 4 all these are integer numbers because they don't"
         },
         {
             "lecture_id": 43,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 332.48,
             "end": 339.36,
             "text": " have a fractional part to it whereas this number is called a float number because it has a"
         },
         {
             "lecture_id": 44,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 339.36,
             "end": 345.68,
             "text": " fractional part it's not a whole number basically it has a fraction to it so just remember this thing"
         },
         {
             "lecture_id": 45,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 345.76,
             "end": 355.76,
             "text": " that two types of numbers integers and floats all right now let me show you something interesting so"
         },
         {
             "lecture_id": 46,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 356.48,
             "end": 366.32,
             "text": " if I do let's say if I want to add and if I do this kind of operation just take a pose and"
         },
         {
             "lecture_id": 47,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 367.44,
             "end": 373.2,
             "text": " think about what will be the answer what what will be the expected output okay"
         },
         {
             "lecture_id": 48,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 373.84,
             "end": 381.36,
             "text": " all right so I'm just about to hit enter and you will see in a moment what it prints now what"
         },
         {
             "lecture_id": 49,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 381.36,
             "end": 390.64,
             "text": " were you expecting some of you might be expecting that it will do 10 plus 2 which is 12 and then it will"
         },
         {
             "lecture_id": 50,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 390.64,
             "end": 401.2,
             "text": " multiply it by 3 so 12 into 3 will be 36 but that's not what it printed why well the reason is the"
         },
         {
             "lecture_id": 51,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 401.2,
             "end": 408.24,
             "text": " way Python works is it has a priority on certain mathematical operations so for example in this case"
         },
         {
             "lecture_id": 52,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 408.24,
             "end": 416.24,
             "text": " it will do 2 multiplied by 3 first so 2 multiplied by 3 is 6 and then it will add it to 10 so 10 plus"
         },
         {
             "lecture_id": 53,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 416.24,
             "end": 423.52,
             "text": " 6 is 16 if you want to do what you expect there which is 10 plus 2 and then multiply by 3 you need to"
         },
         {
             "lecture_id": 54,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 423.52,
             "end": 433.59999999999997,
             "text": " use brackets so opening bracket 10 plus 2 closing bracket cross 3 so by providing these brackets you"
         },
         {
             "lecture_id": 55,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 433.59999999999997,
             "end": 439.2,
             "text": " are telling your programming platform that I want the mathematical operation to happen in this"
         },
         {
             "lecture_id": 56,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 439.2,
             "end": 449.52,
             "text": " order 10 plus 2 and then 3 now you get 36 okay cool now let me show you one more interesting thing"
         },
         {
             "lecture_id": 57,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 449.52,
             "end": 458.08,
             "text": " so 6 minus 5.7 again take a pause and think what will be the answer it's really easy to guess"
         },
         {
             "lecture_id": 58,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 458.08,
             "end": 467.2,
             "text": " that right it should be 0.3 but let's see what happens who who why the hell I got this answer why"
         },
         {
             "lecture_id": 59,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 467.2,
             "end": 474.88,
             "text": " is it not 0.3 well there is an answer so in any programming language when you try to store floating"
         },
         {
             "lecture_id": 60,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 474.88,
             "end": 482.24,
             "text": " number it ultimately numbers are stored in binary format which is a sequence of 0 and 1 and the way"
         },
         {
             "lecture_id": 61,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 482.24,
             "end": 488.71999999999997,
             "text": " floating numbers are stored they always lose the accuracy so there is no precise way to store"
         },
         {
             "lecture_id": 62,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 488.71999999999997,
             "end": 494.48,
             "text": " floating numbers hence you will get this kind of behavior and this is not just with Python this is"
         },
         {
             "lecture_id": 63,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 494.48,
             "end": 500.71999999999997,
             "text": " with any programming languages and it's expected so it's not a bug or anything it is an expected"
         },
         {
             "lecture_id": 64,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 500.72,
             "end": 509.76000000000005,
             "text": " output so if you want to again see 0.3 then use rounding number rounding rounding function so just say"
         },
         {
             "lecture_id": 65,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 510.72,
             "end": 523.36,
             "text": " around this particular number by two decimal points and you get 0.3 okay so that was all about numbers"
         },
         {
             "lecture_id": 66,
-            " Numbers ": " Numbers ",
+            "lecture_title": " Numbers ",
             "start": 523.36,
             "end": 525.36,
             "text": " thanks for watching"

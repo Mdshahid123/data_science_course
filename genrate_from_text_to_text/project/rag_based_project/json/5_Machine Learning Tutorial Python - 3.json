@@ -3,756 +3,756 @@
     "segements": [
         {
             "lecture_id": 0,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 0.0,
             "end": 6.32,
             "text": " We are going to look into linear regression with multiple variables also known as multi-variate regression."
         },
         {
             "lecture_id": 1,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 6.32,
             "end": 12.0,
             "text": " Using this we are going to predict the home prices in monotone shape, New Jersey."
         },
         {
             "lecture_id": 2,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 12.0,
             "end": 18.8,
             "text": " Here in this table I have various metrics available such as area, bedroom, age."
         },
         {
             "lecture_id": 3,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 18.8,
             "end": 22.6,
             "text": " And these are the factors that the ultimate price depends on."
         },
         {
             "lecture_id": 4,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 22.6,
             "end": 29.68,
             "text": " In the previous tutorial we looked at simple linear regression with one variable where price was dependent only on area."
         },
         {
             "lecture_id": 5,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 29.759999999999998,
             "end": 35.36,
             "text": " But now we are making our problem little more complex by adding bedrooms and age because"
         },
         {
             "lecture_id": 6,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 35.36,
             "end": 41.04,
             "text": " as we know in normal life the home price depends on multiple factors not just the square foot area."
         },
         {
             "lecture_id": 7,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 41.04,
             "end": 46.72,
             "text": " After we build a model we are going to predict prices of these two homes."
         },
         {
             "lecture_id": 8,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 46.72,
             "end": 54.96,
             "text": " Okay. Now before we tackle any machine learning problem the first thing that needs to be done is"
         },
         {
             "lecture_id": 9,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 54.96,
             "end": 60.480000000000004,
             "text": " we need to carefully analyze our data set or our training data."
         },
         {
             "lecture_id": 10,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 61.36,
             "end": 66.24,
             "text": " When I look at this data set the first thing I notice is there is a data point missing here."
         },
         {
             "lecture_id": 11,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 66.24,
             "end": 70.08,
             "text": " So we have to do something to handle this missing data point."
         },
         {
             "lecture_id": 12,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 70.64,
             "end": 77.2,
             "text": " Another thing that I notice is there is a linear relationship between each of these factors"
         },
         {
             "lecture_id": 13,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 77.76,
             "end": 80.08,
             "text": " and our target variable which is price."
         },
         {
             "lecture_id": 14,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 80.72,
             "end": 86.56,
             "text": " For example as the home gets older the price tends to go down."
         },
         {
             "lecture_id": 15,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 87.2,
             "end": 95.12,
             "text": " Here I have 3200 square feet home with 18 years of age and the price is more than 600,000."
         },
         {
             "lecture_id": 16,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 95.84,
             "end": 103.68,
             "text": " Whereas I have a little bigger home here 3600 square feet but since the age is more the price"
         },
         {
             "lecture_id": 17,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 103.68,
             "end": 107.12,
             "text": " is less than the one whose square foot area is less."
         },
         {
             "lecture_id": 18,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 107.84,
             "end": 116.24000000000001,
             "text": " Okay. Similarly as the area and number of bedroom goes up the price also tends to go up."
         },
         {
             "lecture_id": 19,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 116.96000000000001,
             "end": 125.76,
             "text": " So overall by analysis we can say that for this data set we can use linear regression safely."
         },
         {
             "lecture_id": 20,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 125.76,
             "end": 132.4,
             "text": " Okay. If we go into a math a little bit then our linear equation will look something like this"
         },
         {
             "lecture_id": 21,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 133.04,
             "end": 139.6,
             "text": " where price is dependent on three factors area bedroom age and these three factors are called"
         },
         {
             "lecture_id": 22,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 140.08,
             "end": 145.92000000000002,
             "text": " independent variables or features. Features is a term that you will hear often while going through"
         },
         {
             "lecture_id": 23,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 145.92000000000002,
             "end": 152.56,
             "text": " machine learning material. It is nothing but an independent variable and the price is a dependent"
         },
         {
             "lecture_id": 24,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 152.56,
             "end": 159.36,
             "text": " variable. M1 M2 and M3 are called coefficients and B is an intercept."
         },
         {
             "lecture_id": 25,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 159.92000000000002,
             "end": 166.56,
             "text": " It can be generalized into this equation where you can have n number of independent variables."
         },
         {
             "lecture_id": 26,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 166.56,
             "end": 169.84,
             "text": " So I just have three here but you can have more than three."
         },
         {
             "lecture_id": 27,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 169.84,
             "end": 174.88000000000002,
             "text": " Now the topics that we are going to cover during this tutorial is first we'll look into how to"
         },
         {
             "lecture_id": 28,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 174.88000000000002,
             "end": 181.20000000000002,
             "text": " handle that missing data point and then I will build a model in a Python code."
         },
         {
             "lecture_id": 29,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 181.28,
             "end": 190.79999999999998,
             "text": " All right. Now let's go back to our jupiter notebook. So jupiter notebook is something I'm using"
         },
         {
             "lecture_id": 30,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 190.79999999999998,
             "end": 197.76,
             "text": " to write my code. You can use pvcham or any other IDE of your choice. I have a CSV file here"
         },
         {
             "lecture_id": 31,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 198.88,
             "end": 205.83999999999997,
             "text": " where I have all my home prices along with these factors. So the first thing I have done here is"
         },
         {
             "lecture_id": 32,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 205.84,
             "end": 214.0,
             "text": " imported necessary modules and then I'm going to load my data into pandas data frame."
         },
         {
             "lecture_id": 33,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 216.08,
             "end": 223.28,
             "text": " Home prices dot CSV. If you don't know about pandas data frame then I have a separate pandas"
         },
         {
             "lecture_id": 34,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 223.28,
             "end": 230.08,
             "text": " tutorial. Pandas is extremely useful while doing machine learning. So I highly recommend that"
         },
         {
             "lecture_id": 35,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 230.08,
             "end": 236.8,
             "text": " if you don't know about it already. Okay. So now I have my data frame ready and I can see this"
         },
         {
             "lecture_id": 36,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 236.8,
             "end": 244.16000000000003,
             "text": " null data point and I need to handle it. So the way I'm thinking I will handle this is I will"
         },
         {
             "lecture_id": 37,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 244.16000000000003,
             "end": 250.16000000000003,
             "text": " take a median of this entire column and put it here. Since number of bedrooms are missing,"
         },
         {
             "lecture_id": 38,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 250.16000000000003,
             "end": 258.96000000000004,
             "text": " taking median seems like a safe assumption. All right. So first thing I will do here is calculate"
         },
         {
             "lecture_id": 39,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 258.96,
             "end": 265.76,
             "text": " the median and how do you calculate the median of bedrooms. So df.bedrooms will give you pandas"
         },
         {
             "lecture_id": 40,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 265.76,
             "end": 274.08,
             "text": " series and when you do this it gives you a median. Now you have three bedrooms appearing two times"
         },
         {
             "lecture_id": 41,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 274.08,
             "end": 282.4,
             "text": " the slides giving the average of it which is 3.5. I just want to keep it integer the whole number"
         },
         {
             "lecture_id": 42,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 282.47999999999996,
             "end": 286.56,
             "text": " and for that I will just import a math model."
         },
         {
             "lecture_id": 43,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 289.12,
             "end": 295.59999999999997,
             "text": " And I will say median bed rooms is equal to mat.floor"
         },
         {
             "lecture_id": 44,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 302.71999999999997,
             "end": 310.79999999999995,
             "text": " and the median bedrooms would be three. Okay. And the way I fill this columns and a values"
         },
         {
             "lecture_id": 45,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 311.44,
             "end": 319.6,
             "text": " is using fill and a function. So fill and a function is available on pandas series. So df.bedrooms"
         },
         {
             "lecture_id": 46,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 319.6,
             "end": 326.48,
             "text": " will give you one column which is nothing but a pandas series. On that I call fill and a function"
         },
         {
             "lecture_id": 47,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 327.12,
             "end": 330.56,
             "text": " and I want to fill all and a values with this median number."
         },
         {
             "lecture_id": 48,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 333.6,
             "end": 339.92,
             "text": " So you can see that I got a new series where this nn value is now replaced with a median number."
         },
         {
             "lecture_id": 49,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 340.48,
             "end": 347.44,
             "text": " I need to assign this back to original series so that my data frame gets updated and when I print"
         },
         {
             "lecture_id": 50,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 347.44,
             "end": 353.44,
             "text": " my data frame I can see my data frame looks much better. So our data pre-processing step is over."
         },
         {
             "lecture_id": 51,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 354.0,
             "end": 362.72,
             "text": " So again to summarize before applying any machine learning model you need to pre-process your data."
         },
         {
             "lecture_id": 52,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 362.72,
             "end": 368.08000000000004,
             "text": " You need to clean your data because data is always messy there are problems with it so you need"
         },
         {
             "lecture_id": 53,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 368.08,
             "end": 375.12,
             "text": " to fix errors kind of prepare your data and then apply your actual machine learning model using"
         },
         {
             "lecture_id": 54,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 375.12,
             "end": 382.47999999999996,
             "text": " that data you train the model. Okay. So now my data frame looks good. I am all set to train my model."
         },
         {
             "lecture_id": 55,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 382.47999999999996,
             "end": 389.84,
             "text": " So the first thing I am going to do is create a linear regression object. So I have imported linear"
         },
         {
             "lecture_id": 56,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 389.84,
             "end": 398.15999999999997,
             "text": " model here and using this I will create a linear regression class object."
         },
         {
             "lecture_id": 57,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 400.88,
             "end": 409.2,
             "text": " The object got created fine. Now I will call fit method. So you will use this fit method often"
         },
         {
             "lecture_id": 58,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 409.2,
             "end": 416.0,
             "text": " and this method is used to train your model using your training set. Here my training set is"
         },
         {
             "lecture_id": 59,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 416.24,
             "end": 426.48,
             "text": " a data frame. So if you want to create a data frame using your existing data frame you can use"
         },
         {
             "lecture_id": 60,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 426.48,
             "end": 439.36,
             "text": " this syntax of using two brackets. Okay. And my independent variables are area bedrooms"
         },
         {
             "lecture_id": 61,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 440.08000000000004,
             "end": 453.52000000000004,
             "text": " and age. And my target variable is price. When I execute this my model is now ready."
         },
         {
             "lecture_id": 62,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 454.24,
             "end": 460.08000000000004,
             "text": " Once it is ready it's a good idea to take a look at the coefficients."
         },
         {
             "lecture_id": 63,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 460.96,
             "end": 470.56,
             "text": " So the coefficients I got was this just to summarize what these coefficients are in this equation"
         },
         {
             "lecture_id": 64,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 471.03999999999996,
             "end": 479.52,
             "text": " M1 M2 and M3 are coefficients. So this is M1 this is M2 and this is M3. Now you will wonder"
         },
         {
             "lecture_id": 65,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 479.52,
             "end": 485.2,
             "text": " where is my intercept. Intercept is stored in another variable called intercept."
         },
         {
             "lecture_id": 66,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 485.68,
             "end": 496.71999999999997,
             "text": " So this number is this B. So once we have M1 M2 M3 you have area bedrooms age which are your"
         },
         {
             "lecture_id": 67,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 496.71999999999997,
             "end": 503.2,
             "text": " independent variable. Now you can calculate the price. So here I can say"
         },
         {
             "lecture_id": 68,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 503.84,
             "end": 517.6,
             "text": " predict. So I can predict a home price of a home whose dimensions are this. So"
         },
         {
             "lecture_id": 69,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 518.4,
             "end": 526.4,
             "text": " 300 3000 square foot three bedroom and 40 year old. So 3340 that's what I'm going to supply here."
         },
         {
             "lecture_id": 70,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 526.4,
             "end": 546.88,
             "text": " 3340 and I found find the price to be this much. So this home is you can see that the price of"
         },
         {
             "lecture_id": 71,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 546.88,
             "end": 556.0799999999999,
             "text": " the 3000 square foot home here is 565000 but here you got it much less. And the reason is I"
         },
         {
             "lecture_id": 72,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 556.08,
             "end": 565.12,
             "text": " think mainly age. So here it is like 40 year old versus this home is 15 year old. Okay so if I make"
         },
         {
             "lecture_id": 73,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 565.12,
             "end": 576.5600000000001,
             "text": " it 15 year I will get around it is little bit skewed but you get the ballpark number. All right so"
         },
         {
             "lecture_id": 74,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 577.1999999999999,
             "end": 586.8,
             "text": " the price is this and now I want to know how it calculated this price. So it is coefficient"
         },
         {
             "lecture_id": 75,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 587.76,
             "end": 599.28,
             "text": " coefficient multiplied by your square foot plus another coefficient multiplied by"
         },
         {
             "lecture_id": 76,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 600.16,
             "end": 616.3199999999999,
             "text": " your bedrooms. The third coefficient multiplied by the age. Here it is missing an intercept so we"
         },
         {
             "lecture_id": 77,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 616.3199999999999,
             "end": 624.8,
             "text": " need to add intercept also plus intercept. And when you do that you get that price right here because"
         },
         {
             "lecture_id": 78,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 624.8,
             "end": 629.8399999999999,
             "text": " of rounding factor is not showing the full value but it is essentially the same price."
         },
         {
             "lecture_id": 79,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 630.7199999999999,
             "end": 640.56,
             "text": " Similarly you can predict the price of the home where the values of those factors is 2500,"
         },
         {
             "lecture_id": 80,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 640.56,
             "end": 651.04,
             "text": " 4 and 5 2500, 4 bedroom, only 5 year old. This home is very new so I expect the price to be"
         },
         {
             "lecture_id": 81,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 651.68,
             "end": 660.16,
             "text": " little higher than average. But here you can see that 58, 588,000 is the price."
         },
         {
             "lecture_id": 82,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 661.8399999999999,
             "end": 670.0,
             "text": " For this home which was 2600 the price was 550 but this home's price is more and it is because"
         },
         {
             "lecture_id": 83,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 670.0,
             "end": 676.4,
             "text": " this home was 20 year old whereas this home is only 5 year old and it has one more bedroom. See this"
         },
         {
             "lecture_id": 84,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 676.4,
             "end": 686.88,
             "text": " guy had only three bedrooms. So you can see how different factors play a significant role."
         },
         {
             "lecture_id": 85,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 686.88,
             "end": 693.04,
             "text": " Okay that's all I had. Now we are going to do an exercise. So the exercise is for you guys to"
         },
         {
             "lecture_id": 86,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 693.04,
             "end": 700.24,
             "text": " practice what you have learned in this tutorial. I have this CSV file which contains"
         },
         {
             "lecture_id": 87,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 701.12,
             "end": 710.8,
             "text": " hiring data for a firm. Here based on the experience the written test score and the personal"
         },
         {
             "lecture_id": 88,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 710.8,
             "end": 718.88,
             "text": " interview score candidate celery is decided and I have some past data. Using this data you have to"
         },
         {
             "lecture_id": 89,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 718.88,
             "end": 725.76,
             "text": " build a model for your HR department where they can feed in experience and various scores and"
         },
         {
             "lecture_id": 90,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 725.76,
             "end": 730.56,
             "text": " they can get some idea on what kind of celery they need to offer to a candidate."
         },
         {
             "lecture_id": 91,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 731.36,
             "end": 736.88,
             "text": " Now in this data set you will find few interesting things. First of all in experience these"
         },
         {
             "lecture_id": 92,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 736.88,
             "end": 743.68,
             "text": " two cells don't have value so you can just assume them to be zero. Here also that is one data"
         },
         {
             "lecture_id": 93,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 743.68,
             "end": 750.64,
             "text": " point missing. Here you shouldn't assume it to be zero maybe take a median here. And also"
         },
         {
             "lecture_id": 94,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 751.6,
             "end": 757.84,
             "text": " usually linear regression models work on numbers whereas here I have a string. So"
         },
         {
             "lecture_id": 95,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 757.84,
             "end": 764.24,
             "text": " the experience again is the number is just that our data set contains word for that particular number."
         },
         {
             "lecture_id": 96,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 764.24,
             "end": 770.48,
             "text": " For this you can use Python's word to number model to convert that string into a number."
         },
         {
             "lecture_id": 97,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 770.48,
             "end": 777.52,
             "text": " All right so just do peep install and use the model. All right and using this what you're going to do"
         },
         {
             "lecture_id": 98,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 778.0799999999999,
             "end": 790.8,
             "text": " is figure out the celery for two candidates who has these statistics. So one candidate has two"
         },
         {
             "lecture_id": 99,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 790.8,
             "end": 797.04,
             "text": " years experience scored nine and six in two tests. Second candidate an excellent guy,"
         },
         {
             "lecture_id": 100,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 797.04,
             "end": 802.24,
             "text": " 12 years experience scored 10 out of 10 in both of it. And you have to find out"
         },
         {
             "lecture_id": 101,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 803.2,
             "end": 809.44,
             "text": " a recommended salary for these two candidates. If you go to my GitHub page"
         },
         {
             "lecture_id": 102,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 810.96,
             "end": 819.28,
             "text": " let me go to my GitHub page. I have all the tutorials available in my GitHub so you should"
         },
         {
             "lecture_id": 103,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 819.84,
             "end": 827.28,
             "text": " go and download it. So here this notebook is whatever I just went through and in the exercise folder"
         },
         {
             "lecture_id": 104,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 827.28,
             "end": 831.84,
             "text": " I have a CSV file which you should download and try to practice on your own and then you can"
         },
         {
             "lecture_id": 105,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 831.84,
             "end": 837.0400000000001,
             "text": " compare your answer or to this notebook where I have provided the entire solution but"
         },
         {
             "lecture_id": 106,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 837.76,
             "end": 842.4,
             "text": " don't get tempted too much and don't go and just start looking at the solution. First you should"
         },
         {
             "lecture_id": 107,
-            "Machine Learning Tutorial Python - 3": "Machine Learning Tutorial Python - 3",
+            "lecture_title": "Machine Learning Tutorial Python - 3",
             "start": 842.4,
             "end": 847.76,
             "text": " try to solve on your own. All right so that's all I had for this tutorial. Thank you very much."
