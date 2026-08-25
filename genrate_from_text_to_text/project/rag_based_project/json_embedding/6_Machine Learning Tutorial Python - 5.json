@@ -1,13 +1,13 @@
 {
     "text": " We will look into two different approaches of saving a train model to a file, which you can use later on to load the model from a file into a memory and use that to make actual predictions. Solving a problem using machine learning consists of two steps typically. The first step is training a model using your training dataset, and the second step is to ask your questions to the train model, which short looks like a human brain, and that will give you the answers. Often the size of the training dataset is pretty huge, because as the size increases, your model becomes more accurate. It is like if you are doing a football training, and if you train yourself more and more, you become more and more batter at your football game. And when your training dataset is so huge, often it is in like gigabytes, the training step becomes more time consuming. If you save the train model to a file, you can later on use that same model to make the actual predictions. So you don't need to train it every time you want to ask these questions. So if you have it saved to a file, now I don't have a training step here, and I can directly ask a question. So that's what we are going to look into today. We'll write a Python code to save that model to a file. Here I have a Jupyter Notebook, which I used in my first tutorial of linear regression of predicting home prizes. The code here is pretty straightforward. So I'm going to be using a coding home prizes from my CSV file, and then using linear regression to make that your prediction. And here you're saying that 5,000 square feet home is going to cost me $859,000. So let's use Python's pickle module. Now you guys might be aware about pickle module already. It allows you to serialize your Python object into a file. So here I will use the file. So I'll first save with open model pickle. And I'm going to write binary data. Hence I'm using WB mode in the file. So first I'm opening a file. And then what I will do is I will say pickle.dump my model into this file. When I run this, what actually happens is in my working directory, it created this model pickle file, which if I open in my not pad, looks like this. This is some gibberish. And it is expected to be gibberish because it's a binary file. You actually don't need to care about the content here. But what you need to know is your model is saved into a file now. Now you can use the same model here. So what I can do is here, I can say model is equal to pickle.dump load the file. So again, I have to open the file pointer. It's the same file. But this time I'm using it in a read mode. And it's a binary file. Hence I have supplied B here. Now I have my model. I will just say MP. So now I have my model loaded from a file into a memory and MP is the object. If I use now MP object to make the prediction. I want to ask what is the price of my 5000 square feet home. Then you can see that it will give me the same answer as I got it here at this tab. So this is beautiful because now I can supply this model file to a friend of mine. And I can say, okay, here is my trained model or a trained brain. Go use it for your actual problem. So you can ask the questions to this model and it will give the answers. There is a second approach of saving model to a file which is using SK learns job lib. So if you Google SK learn model persistent, you will find this link where SK learns document documentation shows how you can use job lib to do essentially the same thing. And if it is doing the same thing, then what's the difference between pickle and job lib? As per the documentation, if your model consists of large numpy arrays, then using job lib might be more efficient. Now I have not done any profiling myself but you can go ahead and do it on your own and figure out which one you want to use. But usually people say that when you have a lot of numpy arrays, job lib tends to be more efficient. But essentially it gives you the same functionality. So I will first import job lib. In Jupyter Notebook, you can hit tab and it will show you the auto complete. So here there is external modules from that I will import job lib. Now the difference between job lib API and pickle API is that job lib can take the file them directly. So I have my model and I want to save that model to a file. I will say model job lib. When I execute this, it saved this model to this particular file. And when I go to my working directory, I will find this file here. It is just updated right now, 631 is the timestamp. When I open that file into not paired, I will again see some gibberish because this is also a binary file. Again, you don't care about the content here. What you need to know is your model is successfully saved and you can load that model using jobblib.load, give the file name. In return, you get your model object back. And that model object you can use to make actual prediction. And it gives you the same answer here. What it is saving inside that binary file is different things such as, for example, if you look at coefficient, the coefficient is same as what I got it here. So it's saving all these essential pieces for your model. Okay, that's all I had for this tutorial. I don't have any exercise today, but you can go ahead and save your model using joblib and pickle into a file. And I have gone through linear regression models today, but you can pretty much save any other kind of machine learning models using these two awesome models.",
-    "segments": [
+    "segements": [
         {
             "lecture_id": 0,
             "lecture_title": "Machine Learning Tutorial Python - 5",
             "start": 0.0,
             "end": 4.8,
             "text": " We will look into two different approaches of saving a train model to a file,",
-            "embedding_vector": [
+            "embedding": [
                 -0.049547743,
                 -0.01798039,
                 -0.02640267,
@@ -1040,7 +1040,7 @@
             "start": 4.8,
             "end": 13.6,
             "text": " which you can use later on to load the model from a file into a memory and use that to make actual predictions.",
-            "embedding_vector": [
+            "embedding": [
                 -0.029015398,
                 -0.008782894,
                 -0.054523174,
@@ -2073,7 +2073,7 @@
             "start": 13.6,
             "end": 18.8,
             "text": " Solving a problem using machine learning consists of two steps typically.",
-            "embedding_vector": [
+            "embedding": [
                 -0.011606651,
                 -0.034684703,
                 -0.055078793,
@@ -3106,7 +3106,7 @@
             "start": 18.8,
             "end": 23.0,
             "text": " The first step is training a model using your training dataset,",
-            "embedding_vector": [
+            "embedding": [
                 -0.021418894,
                 -0.015405408,
                 -0.06977562,
@@ -4139,7 +4139,7 @@
             "start": 23.0,
             "end": 27.6,
             "text": " and the second step is to ask your questions to the train model,",
-            "embedding_vector": [
+            "embedding": [
                 -0.03182578,
                 -0.014598046,
                 -0.030460628,
@@ -5172,7 +5172,7 @@
             "start": 27.6,
             "end": 33.6,
             "text": " which short looks like a human brain, and that will give you the answers.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0130805755,
                 0.013625592,
                 -0.03908016,
@@ -6205,7 +6205,7 @@
             "start": 33.6,
             "end": 38.6,
             "text": " Often the size of the training dataset is pretty huge,",
-            "embedding_vector": [
+            "embedding": [
                 -0.049928047,
                 -0.015113343,
                 -0.08636394,
@@ -7238,7 +7238,7 @@
             "start": 38.6,
             "end": 43.6,
             "text": " because as the size increases, your model becomes more accurate.",
-            "embedding_vector": [
+            "embedding": [
                 -0.043363497,
                 -0.020932842,
                 -0.075707026,
@@ -8271,7 +8271,7 @@
             "start": 43.6,
             "end": 46.6,
             "text": " It is like if you are doing a football training,",
-            "embedding_vector": [
+            "embedding": [
                 -0.003005498,
                 -0.00465999,
                 -0.09165452,
@@ -9304,7 +9304,7 @@
             "start": 46.6,
             "end": 53.6,
             "text": " and if you train yourself more and more, you become more and more batter at your football game.",
-            "embedding_vector": [
+            "embedding": [
                 -0.010242398,
                 0.009517857,
                 -0.07339627,
@@ -10337,7 +10337,7 @@
             "start": 53.6,
             "end": 59.6,
             "text": " And when your training dataset is so huge, often it is in like gigabytes,",
-            "embedding_vector": [
+            "embedding": [
                 -0.039404225,
                 0.00056918897,
                 -0.06771459,
@@ -11370,7 +11370,7 @@
             "start": 59.6,
             "end": 64.6,
             "text": " the training step becomes more time consuming.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0028986644,
                 -0.012152762,
                 -0.09730244,
@@ -12403,7 +12403,7 @@
             "start": 64.6,
             "end": 68.6,
             "text": " If you save the train model to a file,",
-            "embedding_vector": [
+            "embedding": [
                 -0.052540243,
                 -0.037709057,
                 -0.028009513,
@@ -13436,7 +13436,7 @@
             "start": 68.6,
             "end": 74.6,
             "text": " you can later on use that same model to make the actual predictions.",
-            "embedding_vector": [
+            "embedding": [
                 -0.021186557,
                 0.0047304863,
                 -0.049826086,
@@ -14469,7 +14469,7 @@
             "start": 74.6,
             "end": 79.6,
             "text": " So you don't need to train it every time you want to ask these questions.",
-            "embedding_vector": [
+            "embedding": [
                 -0.02707769,
                 -0.0067409375,
                 -0.041063588,
@@ -15502,7 +15502,7 @@
             "start": 79.6,
             "end": 84.6,
             "text": " So if you have it saved to a file, now I don't have a training step here,",
-            "embedding_vector": [
+            "embedding": [
                 -0.02473653,
                 -0.027056318,
                 -0.06342606,
@@ -16535,7 +16535,7 @@
             "start": 84.6,
             "end": 87.6,
             "text": " and I can directly ask a question.",
-            "embedding_vector": [
+            "embedding": [
                 0.009839283,
                 0.027541306,
                 -0.04094829,
@@ -17568,7 +17568,7 @@
             "start": 87.6,
             "end": 90.6,
             "text": " So that's what we are going to look into today.",
-            "embedding_vector": [
+            "embedding": [
                 -0.030854374,
                 0.03939948,
                 -0.019981464,
@@ -18601,7 +18601,7 @@
             "start": 90.6,
             "end": 94.6,
             "text": " We'll write a Python code to save that model to a file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.04433419,
                 0.01329527,
                 -0.027136477,
@@ -19634,7 +19634,7 @@
             "start": 94.6,
             "end": 100.6,
             "text": " Here I have a Jupyter Notebook, which I used in my first tutorial of linear regression",
-            "embedding_vector": [
+            "embedding": [
                 -0.084998846,
                 0.0012802567,
                 -0.0643715,
@@ -20667,7 +20667,7 @@
             "start": 100.6,
             "end": 103.6,
             "text": " of predicting home prizes.",
-            "embedding_vector": [
+            "embedding": [
                 -0.053622007,
                 0.019385733,
                 -0.03849056,
@@ -21700,7 +21700,7 @@
             "start": 103.6,
             "end": 106.6,
             "text": " The code here is pretty straightforward.",
-            "embedding_vector": [
+            "embedding": [
                 -0.034179024,
                 0.012575322,
                 -0.07447724,
@@ -22733,7 +22733,7 @@
             "start": 106.6,
             "end": 111.6,
             "text": " So I'm going to be using a coding home prizes from my CSV file,",
-            "embedding_vector": [
+            "embedding": [
                 -0.073583476,
                 -0.009554666,
                 -0.043503404,
@@ -23766,7 +23766,7 @@
             "start": 111.6,
             "end": 116.6,
             "text": " and then using linear regression to make that your prediction.",
-            "embedding_vector": [
+            "embedding": [
                 -0.06505983,
                 0.032598913,
                 -0.037624747,
@@ -24799,7 +24799,7 @@
             "start": 116.6,
             "end": 123.6,
             "text": " And here you're saying that 5,000 square feet home is going to cost me $859,000.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0029484536,
                 0.0025182785,
                 -0.046374183,
@@ -25832,7 +25832,7 @@
             "start": 123.6,
             "end": 127.6,
             "text": " So let's use Python's pickle module.",
-            "embedding_vector": [
+            "embedding": [
                 -0.035937898,
                 0.021396087,
                 -0.02305093,
@@ -26865,7 +26865,7 @@
             "start": 127.6,
             "end": 131.6,
             "text": " Now you guys might be aware about pickle module already.",
-            "embedding_vector": [
+            "embedding": [
                 -0.013779403,
                 -0.0043199067,
                 -0.044900388,
@@ -27898,7 +27898,7 @@
             "start": 131.6,
             "end": 136.6,
             "text": " It allows you to serialize your Python object into a file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.045555256,
                 -0.010427663,
                 -0.0349352,
@@ -28931,7 +28931,7 @@
             "start": 136.6,
             "end": 140.6,
             "text": " So here I will use the file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.037153773,
                 0.011333237,
                 -0.07474104,
@@ -29964,7 +29964,7 @@
             "start": 140.6,
             "end": 149.6,
             "text": " So I'll first save with open model pickle.",
-            "embedding_vector": [
+            "embedding": [
                 -0.032753006,
                 -0.009594415,
                 -0.02542584,
@@ -30997,7 +30997,7 @@
             "start": 149.6,
             "end": 151.6,
             "text": " And I'm going to write binary data.",
-            "embedding_vector": [
+            "embedding": [
                 -0.056676127,
                 0.023104258,
                 -0.03955564,
@@ -32030,7 +32030,7 @@
             "start": 151.6,
             "end": 155.6,
             "text": " Hence I'm using WB mode in the file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.05312384,
                 0.0003678016,
                 -0.07100883,
@@ -33063,7 +33063,7 @@
             "start": 155.6,
             "end": 158.6,
             "text": " So first I'm opening a file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.033140343,
                 0.0065950346,
                 -0.05982738,
@@ -34096,7 +34096,7 @@
             "start": 158.6,
             "end": 166.6,
             "text": " And then what I will do is I will say pickle.dump my model into this file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.052500688,
                 -0.008836246,
                 -0.01573933,
@@ -35129,7 +35129,7 @@
             "start": 166.6,
             "end": 171.6,
             "text": " When I run this, what actually happens is in my working directory,",
-            "embedding_vector": [
+            "embedding": [
                 -0.035869557,
                 0.012238211,
                 -0.07416994,
@@ -36162,7 +36162,7 @@
             "start": 171.6,
             "end": 179.6,
             "text": " it created this model pickle file, which if I open in my not pad, looks like this.",
-            "embedding_vector": [
+            "embedding": [
                 -0.030679127,
                 -0.028888261,
                 -0.039555993,
@@ -37195,7 +37195,7 @@
             "start": 179.6,
             "end": 181.6,
             "text": " This is some gibberish.",
-            "embedding_vector": [
+            "embedding": [
                 -0.052519336,
                 0.043878045,
                 -0.04057381,
@@ -38228,7 +38228,7 @@
             "start": 181.6,
             "end": 185.6,
             "text": " And it is expected to be gibberish because it's a binary file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.05725195,
                 0.0009877111,
                 -0.040170047,
@@ -39261,7 +39261,7 @@
             "start": 185.6,
             "end": 190.6,
             "text": " You actually don't need to care about the content here.",
-            "embedding_vector": [
+            "embedding": [
                 -0.012817514,
                 -0.011345962,
                 -0.06381902,
@@ -40294,7 +40294,7 @@
             "start": 190.6,
             "end": 195.6,
             "text": " But what you need to know is your model is saved into a file now.",
-            "embedding_vector": [
+            "embedding": [
                 -0.038405903,
                 -0.009960988,
                 -0.04881397,
@@ -41327,7 +41327,7 @@
             "start": 195.6,
             "end": 199.6,
             "text": " Now you can use the same model here.",
-            "embedding_vector": [
+            "embedding": [
                 -0.034940537,
                 0.00062816654,
                 -0.058063082,
@@ -42360,7 +42360,7 @@
             "start": 199.6,
             "end": 211.6,
             "text": " So what I can do is here, I can say model is equal to pickle.dump load the file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.029833093,
                 -0.011207484,
                 -0.023248877,
@@ -43393,7 +43393,7 @@
             "start": 211.6,
             "end": 216.6,
             "text": " So again, I have to open the file pointer.",
-            "embedding_vector": [
+            "embedding": [
                 -0.04730746,
                 -0.0068561994,
                 -0.0780166,
@@ -44426,7 +44426,7 @@
             "start": 216.6,
             "end": 220.6,
             "text": " It's the same file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.04430604,
                 0.022877706,
                 -0.062054124,
@@ -45459,7 +45459,7 @@
             "start": 220.6,
             "end": 224.6,
             "text": " But this time I'm using it in a read mode.",
-            "embedding_vector": [
+            "embedding": [
                 -0.017267691,
                 0.028430639,
                 -0.03567401,
@@ -46492,7 +46492,7 @@
             "start": 224.6,
             "end": 225.6,
             "text": " And it's a binary file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.045783207,
                 0.0102839535,
                 -0.054021902,
@@ -47525,7 +47525,7 @@
             "start": 225.6,
             "end": 230.6,
             "text": " Hence I have supplied B here.",
-            "embedding_vector": [
+            "embedding": [
                 -0.016811972,
                 0.010784898,
                 -0.0450943,
@@ -48558,7 +48558,7 @@
             "start": 230.6,
             "end": 240.6,
             "text": " Now I have my model.",
-            "embedding_vector": [
+            "embedding": [
                 -0.036110505,
                 -0.0153250145,
                 -0.054492597,
@@ -49591,7 +49591,7 @@
             "start": 240.6,
             "end": 244.6,
             "text": " I will just say MP.",
-            "embedding_vector": [
+            "embedding": [
                 -0.04048907,
                 0.039624643,
                 -0.058691777,
@@ -50624,7 +50624,7 @@
             "start": 244.6,
             "end": 251.6,
             "text": " So now I have my model loaded from a file into a memory and MP is the object.",
-            "embedding_vector": [
+            "embedding": [
                 -0.034786098,
                 -0.038048733,
                 -0.0618488,
@@ -51657,7 +51657,7 @@
             "start": 251.6,
             "end": 257.6,
             "text": " If I use now MP object to make the prediction.",
-            "embedding_vector": [
+            "embedding": [
                 -0.06438777,
                 0.0029903043,
                 -0.04063314,
@@ -52690,7 +52690,7 @@
             "start": 257.6,
             "end": 262.6,
             "text": " I want to ask what is the price of my 5000 square feet home.",
-            "embedding_vector": [
+            "embedding": [
                 -0.025654476,
                 -0.004962398,
                 -0.068652354,
@@ -53723,7 +53723,7 @@
             "start": 262.6,
             "end": 269.6,
             "text": " Then you can see that it will give me the same answer as I got it here at this tab.",
-            "embedding_vector": [
+            "embedding": [
                 -0.016458884,
                 0.019523857,
                 -0.058745608,
@@ -54756,7 +54756,7 @@
             "start": 269.6,
             "end": 276.6,
             "text": " So this is beautiful because now I can supply this model file to a friend of mine.",
-            "embedding_vector": [
+            "embedding": [
                 -0.051303305,
                 0.0014287686,
                 -0.032799896,
@@ -55789,7 +55789,7 @@
             "start": 276.6,
             "end": 281.6,
             "text": " And I can say, okay, here is my trained model or a trained brain.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0058807945,
                 -0.014163855,
                 -0.03085687,
@@ -56822,7 +56822,7 @@
             "start": 281.6,
             "end": 285.6,
             "text": " Go use it for your actual problem.",
-            "embedding_vector": [
+            "embedding": [
                 -0.005851217,
                 0.0092351325,
                 -0.05502713,
@@ -57855,7 +57855,7 @@
             "start": 285.6,
             "end": 290.6,
             "text": " So you can ask the questions to this model and it will give the answers.",
-            "embedding_vector": [
+            "embedding": [
                 -0.033570163,
                 -0.0019977656,
                 -0.03656831,
@@ -58888,7 +58888,7 @@
             "start": 290.6,
             "end": 297.6,
             "text": " There is a second approach of saving model to a file which is using SK learns job lib.",
-            "embedding_vector": [
+            "embedding": [
                 -0.07721086,
                 0.024562186,
                 -0.039679825,
@@ -59921,7 +59921,7 @@
             "start": 297.6,
             "end": 308.6,
             "text": " So if you Google SK learn model persistent, you will find this link where SK learns document documentation shows",
-            "embedding_vector": [
+            "embedding": [
                 -0.062134787,
                 0.0048328773,
                 -0.050296817,
@@ -60954,7 +60954,7 @@
             "start": 308.6,
             "end": 313.6,
             "text": " how you can use job lib to do essentially the same thing.",
-            "embedding_vector": [
+            "embedding": [
                 -0.08380916,
                 0.02978328,
                 -0.03627903,
@@ -61987,7 +61987,7 @@
             "start": 313.6,
             "end": 318.6,
             "text": " And if it is doing the same thing, then what's the difference between pickle and job lib?",
-            "embedding_vector": [
+            "embedding": [
                 -0.08485796,
                 -0.029897148,
                 -0.011056031,
@@ -63020,7 +63020,7 @@
             "start": 318.6,
             "end": 327.6,
             "text": " As per the documentation, if your model consists of large numpy arrays, then using job lib might be more efficient.",
-            "embedding_vector": [
+            "embedding": [
                 -0.06267488,
                 -0.020386016,
                 -0.042535886,
@@ -64053,7 +64053,7 @@
             "start": 327.6,
             "end": 334.6,
             "text": " Now I have not done any profiling myself but you can go ahead and do it on your own and figure out which one you want to use.",
-            "embedding_vector": [
+            "embedding": [
                 -0.035186272,
                 0.016109219,
                 -0.07071939,
@@ -65086,7 +65086,7 @@
             "start": 334.6,
             "end": 343.6,
             "text": " But usually people say that when you have a lot of numpy arrays, job lib tends to be more efficient.",
-            "embedding_vector": [
+            "embedding": [
                 -0.053002886,
                 -0.0021289284,
                 -0.057594273,
@@ -66119,7 +66119,7 @@
             "start": 343.6,
             "end": 346.6,
             "text": " But essentially it gives you the same functionality.",
-            "embedding_vector": [
+            "embedding": [
                 -0.041827306,
                 0.025361931,
                 -0.07813753,
@@ -67152,7 +67152,7 @@
             "start": 346.6,
             "end": 351.6,
             "text": " So I will first import job lib.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0711009,
                 0.010428822,
                 -0.048437983,
@@ -68185,7 +68185,7 @@
             "start": 351.6,
             "end": 357.6,
             "text": " In Jupyter Notebook, you can hit tab and it will show you the auto complete.",
-            "embedding_vector": [
+            "embedding": [
                 -0.02669319,
                 -0.006472018,
                 -0.037286676,
@@ -69218,7 +69218,7 @@
             "start": 357.6,
             "end": 365.6,
             "text": " So here there is external modules from that I will import job lib.",
-            "embedding_vector": [
+            "embedding": [
                 -0.06628735,
                 0.00773591,
                 -0.059694238,
@@ -70251,7 +70251,7 @@
             "start": 365.6,
             "end": 377.6,
             "text": " Now the difference between job lib API and pickle API is that job lib can take the file them directly.",
-            "embedding_vector": [
+            "embedding": [
                 -0.05145299,
                 -0.019499607,
                 -0.01820444,
@@ -71284,7 +71284,7 @@
             "start": 377.6,
             "end": 383.6,
             "text": " So I have my model and I want to save that model to a file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.05150244,
                 -0.025561757,
                 -0.047595948,
@@ -72317,7 +72317,7 @@
             "start": 383.6,
             "end": 387.6,
             "text": " I will say model job lib.",
-            "embedding_vector": [
+            "embedding": [
                 -0.08032568,
                 -0.0058318423,
                 -0.05973626,
@@ -73350,7 +73350,7 @@
             "start": 387.6,
             "end": 393.6,
             "text": " When I execute this, it saved this model to this particular file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.03970927,
                 -0.0063831317,
                 -0.03412855,
@@ -74383,7 +74383,7 @@
             "start": 393.6,
             "end": 397.6,
             "text": " And when I go to my working directory, I will find this file here.",
-            "embedding_vector": [
+            "embedding": [
                 -0.05056847,
                 0.010901136,
                 -0.06522915,
@@ -75416,7 +75416,7 @@
             "start": 397.6,
             "end": 401.6,
             "text": " It is just updated right now, 631 is the timestamp.",
-            "embedding_vector": [
+            "embedding": [
                 -0.03431363,
                 0.01681818,
                 -0.018010497,
@@ -76449,7 +76449,7 @@
             "start": 401.6,
             "end": 411.6,
             "text": " When I open that file into not paired, I will again see some gibberish because this is also a binary file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.07583318,
                 -0.00088689465,
                 -0.03179204,
@@ -77482,7 +77482,7 @@
             "start": 411.6,
             "end": 414.6,
             "text": " Again, you don't care about the content here.",
-            "embedding_vector": [
+            "embedding": [
                 -0.02961692,
                 0.00034770824,
                 -0.046691272,
@@ -78515,7 +78515,7 @@
             "start": 414.6,
             "end": 424.6,
             "text": " What you need to know is your model is successfully saved and you can load that model using jobblib.load,",
-            "embedding_vector": [
+            "embedding": [
                 -0.029695144,
                 -0.0046613617,
                 -0.029721022,
@@ -79548,7 +79548,7 @@
             "start": 424.6,
             "end": 429.6,
             "text": " give the file name.",
-            "embedding_vector": [
+            "embedding": [
                 -0.05546654,
                 -0.009344482,
                 -0.07908652,
@@ -80581,7 +80581,7 @@
             "start": 429.6,
             "end": 435.6,
             "text": " In return, you get your model object back.",
-            "embedding_vector": [
+            "embedding": [
                 -0.049646262,
                 -0.016835896,
                 -0.0605514,
@@ -81614,7 +81614,7 @@
             "start": 435.6,
             "end": 442.6,
             "text": " And that model object you can use to make actual prediction.",
-            "embedding_vector": [
+            "embedding": [
                 -0.027676336,
                 0.005821762,
                 -0.05624491,
@@ -82647,7 +82647,7 @@
             "start": 442.6,
             "end": 446.6,
             "text": " And it gives you the same answer here.",
-            "embedding_vector": [
+            "embedding": [
                 -0.04219231,
                 0.041272007,
                 -0.06923084,
@@ -83680,7 +83680,7 @@
             "start": 446.6,
             "end": 456.6,
             "text": " What it is saving inside that binary file is different things such as, for example, if you look at coefficient,",
-            "embedding_vector": [
+            "embedding": [
                 -0.035406552,
                 0.0032077318,
                 -0.045102756,
@@ -84713,7 +84713,7 @@
             "start": 456.6,
             "end": 460.6,
             "text": " the coefficient is same as what I got it here.",
-            "embedding_vector": [
+            "embedding": [
                 -0.037965797,
                 0.023839936,
                 -0.07261445,
@@ -85746,7 +85746,7 @@
             "start": 460.6,
             "end": 468.6,
             "text": " So it's saving all these essential pieces for your model.",
-            "embedding_vector": [
+            "embedding": [
                 -0.04171145,
                 -0.0028452685,
                 -0.060649004,
@@ -86779,7 +86779,7 @@
             "start": 468.6,
             "end": 470.6,
             "text": " Okay, that's all I had for this tutorial.",
-            "embedding_vector": [
+            "embedding": [
                 -0.034147877,
                 0.026950208,
                 -0.04803571,
@@ -87812,7 +87812,7 @@
             "start": 470.6,
             "end": 479.6,
             "text": " I don't have any exercise today, but you can go ahead and save your model using joblib and pickle into a file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.057935935,
                 0.0043804613,
                 -0.022113925,
@@ -88845,7 +88845,7 @@
             "start": 479.6,
             "end": 491.6,
             "text": " And I have gone through linear regression models today, but you can pretty much save any other kind of machine learning models using these two awesome models.",
-            "embedding_vector": [
+            "embedding": [
                 -0.04863163,
                 0.018623786,
                 -0.035826262,

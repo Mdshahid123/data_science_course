@@ -1,13 +1,13 @@
 {
     "text": " We are going to look into what is data science by using a very simple example today. Let's say you own a restaurant business and you have restaurants in New York and San Diego. As a business owner, your local managers are sending you monthly sales number in the Excel file. One approach you might take to measure the health of your business is plot a side-by-side bar chart to measure the monthly sales numbers. And by looking at it, you immediately realize that New York restaurant is not doing good during summer months. This simple visualization help you make a business decision that maybe during the month of summer I need to run a spatial promotion in New York restaurant. So what happened here is you had data. You use a technology which is Excel file and bar charts to come up with the insight that New York restaurant is not performing good in summer months, which help you drive a business decision that you should run a spatial promotion during summer months in New York restaurants. This is called data science. Data science is a process of getting insights from your data using technology. You just realize that you don't need to do machine learning and deep learning in order to be data scientist. You can do data science in Excel file as well. That's what people used to do before. But in last few years, the volume of data has increased too much because of evolution of internet, data coming from smart devices and social media. So now Microsoft Excel cannot work on this huge volume of data because data is not data. It is big data. So for big data, you need advanced technology and tools such as Python and R. These are the programming languages that data scientists use to perform the data analysis. For data store and distributed computing, you need Apache Hadoop and Apache Spark. For visualization, you need tabloop, power BI, matplotlib, Jupiter notebook. And for deep learning, you might need a TensorFlow, PyTorch or even a psychic learn. So all these advanced tools help you analyze the big data in a very effective way. And as a data scientist, this will help you draw insights in a little convenient way. So if you are a data scientist working in an organization, your typical data science project will look something like this. It always starts with a business problem. UN business manager will work out the requirements and what kind of problem you are trying to solve first. Based on that, the second step will be data collection. In the case of restaurant example, it was individual restaurant managers sending the monthly sales data in the Excel file. It could be something else. If you are trying to solve deep learning problems, then you might have to collect the data from internet or some third party vendor or from in house. Once the data collection step is over, the third step is data cleaning and data exploration. In restaurant example, we draw a bar chart to do data visualization. In other cases, you might have to clean data because data is not always perfect. There might be outliers, there might be errors. So using various tools, as a data scientist, you clean that error and remove the outliers and make data ready for the next step. Data cleaning is a very important step in the data science process and that's where most of the data scientists spend their time on. The next step after data cleaning and visualization is building a model. Now if your problem is simple, you don't have to build the model. You can just do a simple visualization and draw some insights. For complex problems, you have to build a machine learning model. So you might try different machine learning models and then try to measure the performance. Use grid search CV to hypertune parameters. Do AB testing. After performing all these steps with your cool statistics and mathematics knowledge as a data scientist, you then deploy your model to production and then start collecting insight or start doing predictive analysis. These kinds of insights and predictive analysis helps you drive business decision. As in the case of restaurant, we said that we should run a special promotion in New York restaurant. It could be deciding the price of inventory like where do you want to open your next door? It could be anything. There are so many things that you can do with this. There are real life examples where data science is used heavily. For example, Amazon uses data science to give you product recommendations. The video recommendations on Amazon Prime. It will use all your past data as well as for example, it might use your location data to figure out the household income in that particular region. And based on that, it might give you a product suggestion. In healthcare industry, data coming from variable devices could be useful in doing predictive analysis of what is the chance that you are going to have a heart disease or a respiratory problem based on the heart rate that is it is measuring and based on the sleep quality that it is measuring. In finance, the biggest use case is fraud detection. Nowadays if there is a fraudulent transaction, then you get a message immediately. Credit card companies use advanced algorithms to figure out if the transaction is fraud or not. In shipping industry companies like UPS and FedEx uses data science to figure out the best route between two destinations. There are so many other use cases, but these were just the few that we discussed. I hope that clarifies what data science is. This video we are going to do something different where I want all of you to post a comment below saying your definition of data science. I mean you can use poetry or a very you can define data science in a very creative way. And I will pick one comment, the best comment which I like and I will give you a phone call and have a 15 minute conversation with you. And we can discuss various topic. I can help you answer any questions on data science, machine learning, any career advice, etc. So post a comment below. Also I have another video for Call Me Campaign. Go there and fill out the Google form. I will put the Google form link in this video description as well. And then put your name, the comment that you are posting below in that form. And I will pick one comment, one best comment and I will give you a phone call. Thank you.",
-    "segments": [
+    "segements": [
         {
             "lecture_id": 0,
             "lecture_title": "What is Data Science",
             "start": 0.0,
             "end": 5.4,
             "text": " We are going to look into what is data science by using a very simple example today.",
-            "embedding_vector": [
+            "embedding": [
                 -0.06281403,
                 0.017909845,
                 -0.033168435,
@@ -1040,7 +1040,7 @@
             "start": 5.4,
             "end": 9.68,
             "text": " Let's say you own a restaurant business and you have restaurants in New York and San",
-            "embedding_vector": [
+            "embedding": [
                 -0.019417625,
                 0.014402013,
                 -0.030036919,
@@ -2073,7 +2073,7 @@
             "start": 9.68,
             "end": 10.96,
             "text": " Diego.",
-            "embedding_vector": [
+            "embedding": [
                 -0.02250281,
                 -0.0076056505,
                 -0.043886263,
@@ -3106,7 +3106,7 @@
             "start": 10.96,
             "end": 15.32,
             "text": " As a business owner, your local managers are sending you monthly sales number in the",
-            "embedding_vector": [
+            "embedding": [
                 -0.059963185,
                 -0.0065733637,
                 -0.08868164,
@@ -4139,7 +4139,7 @@
             "start": 15.32,
             "end": 17.16,
             "text": " Excel file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0661339,
                 0.017266458,
                 -0.060004644,
@@ -5172,7 +5172,7 @@
             "start": 17.16,
             "end": 22.16,
             "text": " One approach you might take to measure the health of your business is plot a side-by-side",
-            "embedding_vector": [
+            "embedding": [
                 -0.06912464,
                 0.017871242,
                 -0.03746856,
@@ -6205,7 +6205,7 @@
             "start": 22.16,
             "end": 25.36,
             "text": " bar chart to measure the monthly sales numbers.",
-            "embedding_vector": [
+            "embedding": [
                 -0.020344328,
                 -0.0032941345,
                 -0.11487193,
@@ -7238,7 +7238,7 @@
             "start": 25.36,
             "end": 29.32,
             "text": " And by looking at it, you immediately realize that New York restaurant is not doing good",
-            "embedding_vector": [
+            "embedding": [
                 -0.010254653,
                 0.030365178,
                 -0.03509701,
@@ -8271,7 +8271,7 @@
             "start": 29.32,
             "end": 31.44,
             "text": " during summer months.",
-            "embedding_vector": [
+            "embedding": [
                 -0.02040446,
                 0.03897699,
                 -0.0859568,
@@ -9304,7 +9304,7 @@
             "start": 31.44,
             "end": 37.56,
             "text": " This simple visualization help you make a business decision that maybe during the month of summer",
-            "embedding_vector": [
+            "embedding": [
                 -0.063588426,
                 0.012345584,
                 -0.057792414,
@@ -10337,7 +10337,7 @@
             "start": 37.56,
             "end": 41.68,
             "text": " I need to run a spatial promotion in New York restaurant.",
-            "embedding_vector": [
+            "embedding": [
                 -0.07164032,
                 0.012847723,
                 -0.016172752,
@@ -11370,7 +11370,7 @@
             "start": 41.68,
             "end": 44.56,
             "text": " So what happened here is you had data.",
-            "embedding_vector": [
+            "embedding": [
                 -0.011451128,
                 -0.0082605975,
                 -0.085099235,
@@ -12403,7 +12403,7 @@
             "start": 44.56,
             "end": 50.879999999999995,
             "text": " You use a technology which is Excel file and bar charts to come up with the insight that",
-            "embedding_vector": [
+            "embedding": [
                 -0.032981925,
                 -0.0066301525,
                 -0.06297938,
@@ -13436,7 +13436,7 @@
             "start": 50.879999999999995,
             "end": 55.88,
             "text": " New York restaurant is not performing good in summer months, which help you drive a business",
-            "embedding_vector": [
+            "embedding": [
                 -0.032420617,
                 0.009284222,
                 -0.05267017,
@@ -14469,7 +14469,7 @@
             "start": 55.88,
             "end": 61.64,
             "text": " decision that you should run a spatial promotion during summer months in New York restaurants.",
-            "embedding_vector": [
+            "embedding": [
                 -0.058928184,
                 0.005807242,
                 -0.032309067,
@@ -15502,7 +15502,7 @@
             "start": 61.64,
             "end": 63.64,
             "text": " This is called data science.",
-            "embedding_vector": [
+            "embedding": [
                 -0.05744924,
                 -0.013546228,
                 -0.057159707,
@@ -16535,7 +16535,7 @@
             "start": 63.64,
             "end": 69.28,
             "text": " Data science is a process of getting insights from your data using technology.",
-            "embedding_vector": [
+            "embedding": [
                 -0.052648064,
                 -0.02410179,
                 -0.045457825,
@@ -17568,7 +17568,7 @@
             "start": 69.28,
             "end": 73.36,
             "text": " You just realize that you don't need to do machine learning and deep learning in order to be",
-            "embedding_vector": [
+            "embedding": [
                 -0.024050798,
                 -0.017746298,
                 -0.055352952,
@@ -18601,7 +18601,7 @@
             "start": 73.36,
             "end": 74.96000000000001,
             "text": " data scientist.",
-            "embedding_vector": [
+            "embedding": [
                 -0.08166582,
                 -0.0098880315,
                 -0.062893905,
@@ -19634,7 +19634,7 @@
             "start": 74.96000000000001,
             "end": 77.76,
             "text": " You can do data science in Excel file as well.",
-            "embedding_vector": [
+            "embedding": [
                 -0.074791044,
                 -0.009584577,
                 -0.042900275,
@@ -20667,7 +20667,7 @@
             "start": 77.76,
             "end": 79.92,
             "text": " That's what people used to do before.",
-            "embedding_vector": [
+            "embedding": [
                 -0.00779513,
                 0.0350993,
                 -0.079281874,
@@ -21700,7 +21700,7 @@
             "start": 79.92,
             "end": 84.52000000000001,
             "text": " But in last few years, the volume of data has increased too much because of evolution of",
-            "embedding_vector": [
+            "embedding": [
                 -0.027259234,
                 0.019733135,
                 -0.043215312,
@@ -22733,7 +22733,7 @@
             "start": 84.52,
             "end": 88.67999999999999,
             "text": " internet, data coming from smart devices and social media.",
-            "embedding_vector": [
+            "embedding": [
                 -0.025079835,
                 0.013857328,
                 -0.06969443,
@@ -23766,7 +23766,7 @@
             "start": 88.67999999999999,
             "end": 95.11999999999999,
             "text": " So now Microsoft Excel cannot work on this huge volume of data because data is not data.",
-            "embedding_vector": [
+            "embedding": [
                 -0.029750485,
                 0.004575837,
                 -0.02828072,
@@ -24799,7 +24799,7 @@
             "start": 95.11999999999999,
             "end": 98.19999999999999,
             "text": " It is big data.",
-            "embedding_vector": [
+            "embedding": [
                 -0.03820681,
                 0.010388148,
                 -0.07594063,
@@ -25832,7 +25832,7 @@
             "start": 98.19999999999999,
             "end": 104.56,
             "text": " So for big data, you need advanced technology and tools such as Python and R. These are the",
-            "embedding_vector": [
+            "embedding": [
                 -0.043362126,
                 0.021447258,
                 -0.041269574,
@@ -26865,7 +26865,7 @@
             "start": 104.56,
             "end": 110.75999999999999,
             "text": " programming languages that data scientists use to perform the data analysis.",
-            "embedding_vector": [
+            "embedding": [
                 -0.06421525,
                 -0.0111415405,
                 -0.0534764,
@@ -27898,7 +27898,7 @@
             "start": 110.76,
             "end": 115.72,
             "text": " For data store and distributed computing, you need Apache Hadoop and Apache Spark.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0025626707,
                 -0.014132564,
                 -0.03721711,
@@ -28931,7 +28931,7 @@
             "start": 115.72,
             "end": 121.52000000000001,
             "text": " For visualization, you need tabloop, power BI, matplotlib, Jupiter notebook.",
-            "embedding_vector": [
+            "embedding": [
                 -0.043390207,
                 -0.0014475636,
                 -0.04851437,
@@ -29964,7 +29964,7 @@
             "start": 121.52000000000001,
             "end": 127.52000000000001,
             "text": " And for deep learning, you might need a TensorFlow, PyTorch or even a psychic learn.",
-            "embedding_vector": [
+            "embedding": [
                 -0.047710113,
                 0.012336521,
                 -0.010179811,
@@ -30997,7 +30997,7 @@
             "start": 127.52000000000001,
             "end": 134.08,
             "text": " So all these advanced tools help you analyze the big data in a very effective way.",
-            "embedding_vector": [
+            "embedding": [
                 -0.03020236,
                 0.018836243,
                 -0.07313697,
@@ -32030,7 +32030,7 @@
             "start": 134.08,
             "end": 139.76,
             "text": " And as a data scientist, this will help you draw insights in a little convenient way.",
-            "embedding_vector": [
+            "embedding": [
                 -0.039092433,
                 0.0008028093,
                 -0.058411174,
@@ -33063,7 +33063,7 @@
             "start": 139.76,
             "end": 144.51999999999998,
             "text": " So if you are a data scientist working in an organization, your typical data science",
-            "embedding_vector": [
+            "embedding": [
                 -0.07370264,
                 -0.017791858,
                 -0.06490874,
@@ -34096,7 +34096,7 @@
             "start": 144.51999999999998,
             "end": 146.84,
             "text": " project will look something like this.",
-            "embedding_vector": [
+            "embedding": [
                 -0.03525854,
                 0.01310937,
                 -0.017214935,
@@ -35129,7 +35129,7 @@
             "start": 146.84,
             "end": 149.16,
             "text": " It always starts with a business problem.",
-            "embedding_vector": [
+            "embedding": [
                 -0.027057972,
                 0.008642912,
                 -0.028380519,
@@ -36162,7 +36162,7 @@
             "start": 149.16,
             "end": 154.16,
             "text": " UN business manager will work out the requirements and what kind of problem you are trying to solve",
-            "embedding_vector": [
+            "embedding": [
                 -0.022116242,
                 -0.013455146,
                 -0.05158706,
@@ -37195,7 +37195,7 @@
             "start": 154.16,
             "end": 155.79999999999998,
             "text": " first.",
-            "embedding_vector": [
+            "embedding": [
                 0.0021111022,
                 0.049692564,
                 -0.023776902,
@@ -38228,7 +38228,7 @@
             "start": 155.79999999999998,
             "end": 158.64,
             "text": " Based on that, the second step will be data collection.",
-            "embedding_vector": [
+            "embedding": [
                 -0.046361458,
                 -0.0038023787,
                 -0.056842532,
@@ -39261,7 +39261,7 @@
             "start": 158.64,
             "end": 164.51999999999998,
             "text": " In the case of restaurant example, it was individual restaurant managers sending the monthly",
-            "embedding_vector": [
+            "embedding": [
                 -0.03272156,
                 -0.012659808,
                 -0.053126857,
@@ -40294,7 +40294,7 @@
             "start": 164.51999999999998,
             "end": 167.32,
             "text": " sales data in the Excel file.",
-            "embedding_vector": [
+            "embedding": [
                 -0.07663881,
                 -0.018787686,
                 -0.09161649,
@@ -41327,7 +41327,7 @@
             "start": 167.32,
             "end": 168.32,
             "text": " It could be something else.",
-            "embedding_vector": [
+            "embedding": [
                 0.0018598342,
                 0.04341189,
                 -0.05767779,
@@ -42360,7 +42360,7 @@
             "start": 168.32,
             "end": 172.12,
             "text": " If you are trying to solve deep learning problems, then you might have to collect the data",
-            "embedding_vector": [
+            "embedding": [
                 -0.039468814,
                 -0.039585438,
                 -0.04505503,
@@ -43393,7 +43393,7 @@
             "start": 172.12,
             "end": 177.23999999999998,
             "text": " from internet or some third party vendor or from in house.",
-            "embedding_vector": [
+            "embedding": [
                 -0.03453508,
                 0.01612331,
                 -0.04398698,
@@ -44426,7 +44426,7 @@
             "start": 177.23999999999998,
             "end": 183.07999999999998,
             "text": " Once the data collection step is over, the third step is data cleaning and data exploration.",
-            "embedding_vector": [
+            "embedding": [
                 -0.04104633,
                 -0.026143853,
                 -0.055842396,
@@ -45459,7 +45459,7 @@
             "start": 183.07999999999998,
             "end": 187.48,
             "text": " In restaurant example, we draw a bar chart to do data visualization.",
-            "embedding_vector": [
+            "embedding": [
                 -0.036996882,
                 -0.00064894406,
                 -0.04855343,
@@ -46492,7 +46492,7 @@
             "start": 187.48,
             "end": 191.95999999999998,
             "text": " In other cases, you might have to clean data because data is not always perfect.",
-            "embedding_vector": [
+            "embedding": [
                 -0.056838952,
                 -0.006178164,
                 -0.06560613,
@@ -47525,7 +47525,7 @@
             "start": 191.95999999999998,
             "end": 194.6,
             "text": " There might be outliers, there might be errors.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0316065,
                 0.00054130016,
                 -0.062701315,
@@ -48558,7 +48558,7 @@
             "start": 194.6,
             "end": 201.51999999999998,
             "text": " So using various tools, as a data scientist, you clean that error and remove the outliers",
-            "embedding_vector": [
+            "embedding": [
                 -0.05629435,
                 -0.028702589,
                 -0.06652271,
@@ -49591,7 +49591,7 @@
             "start": 201.51999999999998,
             "end": 205.35999999999999,
             "text": " and make data ready for the next step.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0032655932,
                 0.0055347173,
                 -0.0748933,
@@ -50624,7 +50624,7 @@
             "start": 205.35999999999999,
             "end": 209.79999999999998,
             "text": " Data cleaning is a very important step in the data science process and that's where most",
-            "embedding_vector": [
+            "embedding": [
                 -0.062259093,
                 -0.013042299,
                 -0.07455447,
@@ -51657,7 +51657,7 @@
             "start": 209.79999999999998,
             "end": 212.51999999999998,
             "text": " of the data scientists spend their time on.",
-            "embedding_vector": [
+            "embedding": [
                 -0.047851678,
                 -0.02822771,
                 -0.09747121,
@@ -52690,7 +52690,7 @@
             "start": 212.51999999999998,
             "end": 216.56,
             "text": " The next step after data cleaning and visualization is building a model.",
-            "embedding_vector": [
+            "embedding": [
                 -0.035749186,
                 -0.026857944,
                 -0.048956476,
@@ -53723,7 +53723,7 @@
             "start": 216.56,
             "end": 220.32,
             "text": " Now if your problem is simple, you don't have to build the model.",
-            "embedding_vector": [
+            "embedding": [
                 -0.033254914,
                 0.002048213,
                 -0.036802836,
@@ -54756,7 +54756,7 @@
             "start": 220.32,
             "end": 224.04,
             "text": " You can just do a simple visualization and draw some insights.",
-            "embedding_vector": [
+            "embedding": [
                 -0.042369273,
                 0.004176946,
                 -0.02542306,
@@ -55789,7 +55789,7 @@
             "start": 224.12,
             "end": 228.12,
             "text": " For complex problems, you have to build a machine learning model.",
-            "embedding_vector": [
+            "embedding": [
                 -0.023848107,
                 -0.025394766,
                 -0.0140767,
@@ -56822,7 +56822,7 @@
             "start": 228.12,
             "end": 234.35999999999999,
             "text": " So you might try different machine learning models and then try to measure the performance.",
-            "embedding_vector": [
+            "embedding": [
                 -0.033348817,
                 0.0043883887,
                 -0.03702025,
@@ -57855,7 +57855,7 @@
             "start": 234.35999999999999,
             "end": 238.44,
             "text": " Use grid search CV to hypertune parameters.",
-            "embedding_vector": [
+            "embedding": [
                 -0.041616656,
                 -0.018428242,
                 -0.04721112,
@@ -58888,7 +58888,7 @@
             "start": 238.44,
             "end": 240.56,
             "text": " Do AB testing.",
-            "embedding_vector": [
+            "embedding": [
                 -0.01782678,
                 0.006963104,
                 -0.061446074,
@@ -59921,7 +59921,7 @@
             "start": 240.56,
             "end": 245.79999999999998,
             "text": " After performing all these steps with your cool statistics and mathematics knowledge as",
-            "embedding_vector": [
+            "embedding": [
                 0.022284113,
                 0.012015778,
                 -0.029700443,
@@ -60954,7 +60954,7 @@
             "start": 245.79999999999998,
             "end": 251.64,
             "text": " a data scientist, you then deploy your model to production and then start collecting insight",
-            "embedding_vector": [
+            "embedding": [
                 -0.04014862,
                 -0.025894549,
                 -0.04918349,
@@ -61987,7 +61987,7 @@
             "start": 251.64,
             "end": 254.64,
             "text": " or start doing predictive analysis.",
-            "embedding_vector": [
+            "embedding": [
                 -0.048134852,
                 0.018919384,
                 -0.050524246,
@@ -63020,7 +63020,7 @@
             "start": 254.64,
             "end": 258.96,
             "text": " These kinds of insights and predictive analysis helps you drive business decision.",
-            "embedding_vector": [
+            "embedding": [
                 -0.049294855,
                 -0.013819961,
                 -0.034523558,
@@ -64053,7 +64053,7 @@
             "start": 258.96,
             "end": 263.91999999999996,
             "text": " As in the case of restaurant, we said that we should run a special promotion in New York",
-            "embedding_vector": [
+            "embedding": [
                 0.0005496088,
                 0.016539192,
                 -0.021789102,
@@ -65086,7 +65086,7 @@
             "start": 263.91999999999996,
             "end": 265.4,
             "text": " restaurant.",
-            "embedding_vector": [
+            "embedding": [
                 -0.023991425,
                 0.015288431,
                 -0.057249945,
@@ -66119,7 +66119,7 @@
             "start": 265.4,
             "end": 270.56,
             "text": " It could be deciding the price of inventory like where do you want to open your next door?",
-            "embedding_vector": [
+            "embedding": [
                 -0.0062307366,
                 -0.033259507,
                 -0.028288037,
@@ -67152,7 +67152,7 @@
             "start": 270.56,
             "end": 271.56,
             "text": " It could be anything.",
-            "embedding_vector": [
+            "embedding": [
                 0.00235309,
                 0.046750713,
                 -0.037942007,
@@ -68185,7 +68185,7 @@
             "start": 271.56,
             "end": 275.84,
             "text": " There are so many things that you can do with this.",
-            "embedding_vector": [
+            "embedding": [
                 -0.006478097,
                 0.04978484,
                 -0.02413904,
@@ -69218,7 +69218,7 @@
             "start": 275.84,
             "end": 279.88,
             "text": " There are real life examples where data science is used heavily.",
-            "embedding_vector": [
+            "embedding": [
                 -0.043549288,
                 -0.0034685307,
                 -0.059908845,
@@ -70251,7 +70251,7 @@
             "start": 279.88,
             "end": 284.56,
             "text": " For example, Amazon uses data science to give you product recommendations.",
-            "embedding_vector": [
+            "embedding": [
                 -0.026954127,
                 -0.03584202,
                 -0.03567829,
@@ -71284,7 +71284,7 @@
             "start": 284.56,
             "end": 287.84,
             "text": " The video recommendations on Amazon Prime.",
-            "embedding_vector": [
+            "embedding": [
                 0.0025474415,
                 -0.0035274525,
                 -0.051715206,
@@ -72317,7 +72317,7 @@
             "start": 287.84,
             "end": 293.28,
             "text": " It will use all your past data as well as for example, it might use your location data",
-            "embedding_vector": [
+            "embedding": [
                 -0.030667197,
                 0.008087185,
                 -0.077123046,
@@ -73350,7 +73350,7 @@
             "start": 293.28,
             "end": 297.76,
             "text": " to figure out the household income in that particular region.",
-            "embedding_vector": [
+            "embedding": [
                 -0.040994503,
                 0.022565145,
                 -0.06577545,
@@ -74383,7 +74383,7 @@
             "start": 297.76,
             "end": 300.92,
             "text": " And based on that, it might give you a product suggestion.",
-            "embedding_vector": [
+            "embedding": [
                 -0.03762761,
                 0.006366727,
                 -0.047073137,
@@ -75416,7 +75416,7 @@
             "start": 300.92,
             "end": 306.04,
             "text": " In healthcare industry, data coming from variable devices could be useful in doing predictive",
-            "embedding_vector": [
+            "embedding": [
                 -0.038574163,
                 0.0057564313,
                 -0.06802352,
@@ -76449,7 +76449,7 @@
             "start": 306.04,
             "end": 312.20000000000005,
             "text": " analysis of what is the chance that you are going to have a heart disease or a respiratory",
-            "embedding_vector": [
+            "embedding": [
                 -0.018514153,
                 -0.036133815,
                 -0.042464066,
@@ -77482,7 +77482,7 @@
             "start": 312.20000000000005,
             "end": 317.68,
             "text": " problem based on the heart rate that is it is measuring and based on the sleep quality",
-            "embedding_vector": [
+            "embedding": [
                 0.027807426,
                 -0.0072812787,
                 -0.051661167,
@@ -78515,7 +78515,7 @@
             "start": 317.68,
             "end": 319.6,
             "text": " that it is measuring.",
-            "embedding_vector": [
+            "embedding": [
                 -0.023200825,
                 0.013084665,
                 -0.07580668,
@@ -79548,7 +79548,7 @@
             "start": 319.6,
             "end": 322.72,
             "text": " In finance, the biggest use case is fraud detection.",
-            "embedding_vector": [
+            "embedding": [
                 -0.027678993,
                 0.018065833,
                 -0.048352063,
@@ -80581,7 +80581,7 @@
             "start": 322.72,
             "end": 328.6,
             "text": " Nowadays if there is a fraudulent transaction, then you get a message immediately.",
-            "embedding_vector": [
+            "embedding": [
                 -0.03206957,
                 0.029594067,
                 -0.033761043,
@@ -81614,7 +81614,7 @@
             "start": 328.6,
             "end": 334.48,
             "text": " Credit card companies use advanced algorithms to figure out if the transaction is fraud or",
-            "embedding_vector": [
+            "embedding": [
                 -0.02329449,
                 -0.029693956,
                 -0.021100856,
@@ -82647,7 +82647,7 @@
             "start": 334.48,
             "end": 335.48,
             "text": " not.",
-            "embedding_vector": [
+            "embedding": [
                 -0.02134626,
                 0.03197137,
                 -0.023193838,
@@ -83680,7 +83680,7 @@
             "start": 335.56,
             "end": 340.20000000000005,
             "text": " In shipping industry companies like UPS and FedEx uses data science to figure out the",
-            "embedding_vector": [
+            "embedding": [
                 -0.08383513,
                 -0.021436382,
                 -0.026662067,
@@ -84713,7 +84713,7 @@
             "start": 340.20000000000005,
             "end": 344.0,
             "text": " best route between two destinations.",
-            "embedding_vector": [
+            "embedding": [
                 -0.018702468,
                 -0.013699484,
                 -0.03567534,
@@ -85746,7 +85746,7 @@
             "start": 344.0,
             "end": 349.0,
             "text": " There are so many other use cases, but these were just the few that we discussed.",
-            "embedding_vector": [
+            "embedding": [
                 -0.00796776,
                 0.05572553,
                 -0.053494517,
@@ -86779,7 +86779,7 @@
             "start": 349.0,
             "end": 352.04,
             "text": " I hope that clarifies what data science is.",
-            "embedding_vector": [
+            "embedding": [
                 -0.072490446,
                 -0.031161318,
                 -0.057520103,
@@ -87812,7 +87812,7 @@
             "start": 352.04,
             "end": 357.64000000000004,
             "text": " This video we are going to do something different where I want all of you to post a comment below",
-            "embedding_vector": [
+            "embedding": [
                 -0.027439551,
                 0.011499674,
                 -0.041030727,
@@ -88845,7 +88845,7 @@
             "start": 357.64000000000004,
             "end": 360.48,
             "text": " saying your definition of data science.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0686962,
                 -0.032242235,
                 -0.044840764,
@@ -89878,7 +89878,7 @@
             "start": 360.48,
             "end": 367.64000000000004,
             "text": " I mean you can use poetry or a very you can define data science in a very creative way.",
-            "embedding_vector": [
+            "embedding": [
                 -0.05107267,
                 0.0132619245,
                 -0.009900358,
@@ -90911,7 +90911,7 @@
             "start": 367.64000000000004,
             "end": 373.04,
             "text": " And I will pick one comment, the best comment which I like and I will give you a phone call",
-            "embedding_vector": [
+            "embedding": [
                 -0.006283502,
                 0.030461423,
                 -0.042976063,
@@ -91944,7 +91944,7 @@
             "start": 373.04,
             "end": 376.16,
             "text": " and have a 15 minute conversation with you.",
-            "embedding_vector": [
+            "embedding": [
                 -0.023837775,
                 -0.0062116385,
                 -0.024278825,
@@ -92977,7 +92977,7 @@
             "start": 376.16,
             "end": 377.68,
             "text": " And we can discuss various topic.",
-            "embedding_vector": [
+            "embedding": [
                 0.01332341,
                 0.03024551,
                 -0.035101674,
@@ -94010,7 +94010,7 @@
             "start": 377.68,
             "end": 382.68,
             "text": " I can help you answer any questions on data science, machine learning, any career advice,",
-            "embedding_vector": [
+            "embedding": [
                 -0.04895261,
                 -0.030460233,
                 -0.041519336,
@@ -95043,7 +95043,7 @@
             "start": 382.68,
             "end": 384.24,
             "text": " etc.",
-            "embedding_vector": [
+            "embedding": [
                 -0.028550645,
                 0.04082807,
                 -0.019086389,
@@ -96076,7 +96076,7 @@
             "start": 384.24,
             "end": 386.04,
             "text": " So post a comment below.",
-            "embedding_vector": [
+            "embedding": [
                 -0.061793603,
                 -0.0008553846,
                 -0.05024933,
@@ -97109,7 +97109,7 @@
             "start": 386.04,
             "end": 389.24,
             "text": " Also I have another video for Call Me Campaign.",
-            "embedding_vector": [
+            "embedding": [
                 -0.021198664,
                 0.03323531,
                 -0.043304577,
@@ -98142,7 +98142,7 @@
             "start": 389.24,
             "end": 392.0,
             "text": " Go there and fill out the Google form.",
-            "embedding_vector": [
+            "embedding": [
                 -0.061254002,
                 -0.0016001163,
                 -0.022502737,
@@ -99175,7 +99175,7 @@
             "start": 392.0,
             "end": 396.72,
             "text": " I will put the Google form link in this video description as well.",
-            "embedding_vector": [
+            "embedding": [
                 -0.07427776,
                 -0.0052430425,
                 -0.04309457,
@@ -100208,7 +100208,7 @@
             "start": 396.72,
             "end": 401.40000000000003,
             "text": " And then put your name, the comment that you are posting below in that form.",
-            "embedding_vector": [
+            "embedding": [
                 -0.061686996,
                 0.008772526,
                 -0.03142616,
@@ -101241,7 +101241,7 @@
             "start": 401.40000000000003,
             "end": 405.36,
             "text": " And I will pick one comment, one best comment and I will give you a phone call.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0076503833,
                 0.040575568,
                 -0.04520187,
@@ -102274,7 +102274,7 @@
             "start": 405.36,
             "end": 405.76,
             "text": " Thank you.",
-            "embedding_vector": [
+            "embedding": [
                 -0.027292598,
                 0.01069236,
                 -0.039273523,

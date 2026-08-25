@@ -29,12 +29,7 @@ def create_embedding(text):
  actual_response=response.json()
  return actual_response["embeddings"][0]
 
- 
 
- 
-
-
- 
 
 for json_file in give_all_files():
   

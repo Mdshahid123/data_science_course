@@ -1,13 +1,13 @@
 {
     "text": " Today's topic is strings and Python. Strings are used to store text data in Python. Let me show you example. So let's say you want to store ice cream. And to do that, you create a variable called text and using double quotation mark, you type in ice cream when you hit enter. What happened is this variable now contains this data called ice cream. As you see on the right hand side here in the picture, the way Python stores ice cream is it's a sequence of characters. So text starts at specific memory address and then after it's the sequence of characters stored in different memory addresses. Now using an index, you can access in user characters. So for example, if I want to access first character, I in this variable, then the way I do it is using square bracket type in text square bracket 0. If I do that, I will get I. So if I want to access now, see, you will do one. So each of these in user letters are stored at specific memory locations, which can be accessed using these and access. Okay, if now you want to let's say change the content of particular character, you would think, what if I do this? Hmm, it gives the error. So this means strings are immutable. Once you create them, you cannot change it. You can place another string into this variable, but you cannot partially change it using the index character. So just remember that strings are immutable in Python programming languages. Other programming languages such as C++, Java, they will allow you to do it, but not Python. Now, what if I want to access sub string within this main string? So let's say I want to print I's the way you do it is using the index subrange. So I start at 0 index and E ends at 2. But the way sub index works is you have to give index after it. So E ends at 2. So give 3. And when you do it, you will get I's here. So always remember the first index is included, whereas the second one is excluded. So whatever is the second index minus one, that's the index up to which it will go and print your sub string. Similarly, if you want to print cream, what you'll do is you will first figure out the index of it. So it will be 0, 1, 2, 3, 4. And then you will go all of it until the end. So 5, 6, 7, 8, 9. So you're getting one more here. But what if you don't want to supply this index and you just want to say, okay, start from 4 and go until the end. In that case, you can just omit that index. So just don't specify the index and it will assume that you want to go all the way towards the end. Similarly, if you omit the index, the starting index, then it will start from 0. So if I do this, again, I got I's. So if you don't specify anything, it will assume it's 0. If you can use double quotes and single quotes to store the text data. So for example, I can say, hello, like this. So this is defining a string using double quotes. Or I can use single quote for doing the same thing. They both are same thing. There's just no difference. This could be useful especially if you have single or double quotes as part of your string itself. For example, if I have a string called let's learn Python. So let's I will say let's learn Python. If I do something like this where I use single quotation to as a as a boundary of my string and I have a quote within my string itself. If I do it, it will give an error. Why? Because it is thinking that this is the end of the string. Whereas my intention is to make this whole thing one single string. So situation like this, I would always use double quotes outside and then internally you can use as many single quotes as you want and it won't give you any problem. Similarly, if you have double code inside your string, use single quote outside. So let's say my hollow world has double quotes. Then I will use single quote outside. It just works. So if you print text, it will print it fine. All right. What if now I have multi line string. Let's say I want to store my address which comprises of multiple lines and my address is let's say one purple street, New York and I want to go to the next line. As soon as I hit enter, I will get this error. So in this situation, use triple quotes. So triple quotes, one purple street, New York is the name of my city, USA. And when it ends and ended with triple quotes. And now when I print this address, you will see that it stored it fine without any issues. Now the internally, the way it stores it is it will use a special character. So as you if you look at internal representation of this string, it is using slash and so slash and means new line. Now the next thing about string is you can use plus sign to concatenate two strings. So if you have a string called hello and another string called wall. And if you want to join them, you just do as one plus as two. Right. Now here I want little space in between. So you can add space like this. So add a space. And all right. So plus will just join the two strings. What if I want to join number with a string. So let's say I want to say total states in USA is oops, I made a mistake. So total states in USA. So this is my string. And my number is 25. So I have another variable called num where I'm storing total numbers of states. And I want to join these two. If I do s plus num, it will give me this error because Python doesn't know how to join string with an integer. So what you need to do first is convert this number into a string because Python can join two strings. So somehow convert this number to a string and then join. Okay. So there is a function called STR. Very important. You will use this a lot in Python. If you do this, it will convert 25, which was a number to a string. How do I know this is a string? You because you see this quotation mark here. So now when I do s plus STR num, it will print total states in USA is 25. Okay. So that's it. That was all about strings in Python. Thanks for watching.",
-    "segments": [
+    "segements": [
         {
             "lecture_id": 0,
             "lecture_title": "Strings ",
             "start": 0.0,
             "end": 6.8,
             "text": " Today's topic is strings and Python. Strings are used to store text data in Python.",
-            "embedding_vector": [
+            "embedding": [
                 -0.021179276,
                 0.00928813,
                 -0.011826296,
@@ -1040,7 +1040,7 @@
             "start": 7.6000000000000005,
             "end": 16.96,
             "text": " Let me show you example. So let's say you want to store ice cream. And to do that, you create a",
-            "embedding_vector": [
+            "embedding": [
                 5.0477767e-05,
                 0.014070125,
                 -0.0140741635,
@@ -2073,7 +2073,7 @@
             "start": 16.96,
             "end": 23.52,
             "text": " variable called text and using double quotation mark, you type in ice cream when you hit enter.",
-            "embedding_vector": [
+            "embedding": [
                 -0.051012736,
                 0.014268868,
                 -0.0021638426,
@@ -3106,7 +3106,7 @@
             "start": 24.0,
             "end": 28.16,
             "text": " What happened is this variable now contains this data called ice cream.",
-            "embedding_vector": [
+            "embedding": [
                 -0.016575584,
                 -0.00035737423,
                 -0.038880322,
@@ -4139,7 +4139,7 @@
             "start": 28.72,
             "end": 34.32,
             "text": " As you see on the right hand side here in the picture, the way Python stores ice cream is",
-            "embedding_vector": [
+            "embedding": [
                 -0.021345304,
                 -0.012283806,
                 0.00408088,
@@ -5172,7 +5172,7 @@
             "start": 34.32,
             "end": 41.36,
             "text": " it's a sequence of characters. So text starts at specific memory address and then after it's",
-            "embedding_vector": [
+            "embedding": [
                 -0.025848059,
                 0.0031809278,
                 -0.020175582,
@@ -6205,7 +6205,7 @@
             "start": 41.36,
             "end": 46.72,
             "text": " the sequence of characters stored in different memory addresses. Now using an index, you can access",
-            "embedding_vector": [
+            "embedding": [
                 0.0022340692,
                 0.002047274,
                 -0.025125802,
@@ -7238,7 +7238,7 @@
             "start": 46.72,
             "end": 53.36,
             "text": " in user characters. So for example, if I want to access first character, I in this variable,",
-            "embedding_vector": [
+            "embedding": [
                 -0.027440045,
                 0.018329227,
                 -0.021040136,
@@ -8271,7 +8271,7 @@
             "start": 53.36,
             "end": 59.68,
             "text": " then the way I do it is using square bracket type in text square bracket 0. If I do that,",
-            "embedding_vector": [
+            "embedding": [
                 -0.043405857,
                 0.0453447,
                 -0.015744958,
@@ -9304,7 +9304,7 @@
             "start": 59.68,
             "end": 67.75999999999999,
             "text": " I will get I. So if I want to access now, see, you will do one. So each of these in user",
-            "embedding_vector": [
+            "embedding": [
                 -0.0066329422,
                 0.03288936,
                 -0.0631556,
@@ -10337,7 +10337,7 @@
             "start": 67.75999999999999,
             "end": 72.72,
             "text": " letters are stored at specific memory locations, which can be accessed using these and access.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0029393174,
                 0.01093756,
                 -0.032703068,
@@ -11370,7 +11370,7 @@
             "start": 73.28,
             "end": 80.88,
             "text": " Okay, if now you want to let's say change the content of particular character, you would think,",
-            "embedding_vector": [
+            "embedding": [
                 -0.021315742,
                 0.016033594,
                 -0.0036933997,
@@ -12403,7 +12403,7 @@
             "start": 80.88,
             "end": 88.64,
             "text": " what if I do this? Hmm, it gives the error. So this means strings are immutable. Once you create them,",
-            "embedding_vector": [
+            "embedding": [
                 -0.059500992,
                 0.01933283,
                 -0.016089467,
@@ -13436,7 +13436,7 @@
             "start": 88.64,
             "end": 94.64,
             "text": " you cannot change it. You can place another string into this variable, but you cannot partially",
-            "embedding_vector": [
+            "embedding": [
                 -0.048659097,
                 0.03919565,
                 0.0019800658,
@@ -14469,7 +14469,7 @@
             "start": 94.64,
             "end": 100.08,
             "text": " change it using the index character. So just remember that strings are immutable in Python programming",
-            "embedding_vector": [
+            "embedding": [
                 -0.0675151,
                 0.00058005116,
                 0.03375623,
@@ -15502,7 +15502,7 @@
             "start": 100.08,
             "end": 106.4,
             "text": " languages. Other programming languages such as C++, Java, they will allow you to do it, but not Python.",
-            "embedding_vector": [
+            "embedding": [
                 -0.02712202,
                 0.02047896,
                 0.003686767,
@@ -16535,7 +16535,7 @@
             "start": 106.4,
             "end": 113.03999999999999,
             "text": " Now, what if I want to access sub string within this main string? So let's say I want to print",
-            "embedding_vector": [
+            "embedding": [
                 -0.04842917,
                 0.032804005,
                 -0.02413162,
@@ -17568,7 +17568,7 @@
             "start": 113.03999999999999,
             "end": 122.4,
             "text": " I's the way you do it is using the index subrange. So I start at 0 index and E ends at 2. But the way",
-            "embedding_vector": [
+            "embedding": [
                 -0.042278823,
                 -0.0117998505,
                 -0.028050229,
@@ -18601,7 +18601,7 @@
             "start": 122.4,
             "end": 128.96,
             "text": " sub index works is you have to give index after it. So E ends at 2. So give 3. And when you do it,",
-            "embedding_vector": [
+            "embedding": [
                 -0.03728925,
                 -0.033105537,
                 -0.02068831,
@@ -19634,7 +19634,7 @@
             "start": 128.96,
             "end": 135.12,
             "text": " you will get I's here. So always remember the first index is included, whereas the second one is",
-            "embedding_vector": [
+            "embedding": [
                 -0.036967248,
                 -0.0050377557,
                 -0.03200611,
@@ -20667,7 +20667,7 @@
             "start": 135.12,
             "end": 141.28,
             "text": " excluded. So whatever is the second index minus one, that's the index up to which it will go and",
-            "embedding_vector": [
+            "embedding": [
                 -0.060549244,
                 0.009215566,
                 -0.004842627,
@@ -21700,7 +21700,7 @@
             "start": 141.28,
             "end": 146.32,
             "text": " print your sub string. Similarly, if you want to print cream, what you'll do is you will first",
-            "embedding_vector": [
+            "embedding": [
                 -0.060971014,
                 0.008424159,
                 -0.004045844,
@@ -22733,7 +22733,7 @@
             "start": 146.32,
             "end": 153.76000000000002,
             "text": " figure out the index of it. So it will be 0, 1, 2, 3, 4. And then you will go all of it until the end.",
-            "embedding_vector": [
+            "embedding": [
                 -0.042938225,
                 0.041804824,
                 -0.016511954,
@@ -23766,7 +23766,7 @@
             "start": 154.0,
             "end": 162.07999999999998,
             "text": " So 5, 6, 7, 8, 9. So you're getting one more here. But what if you don't want to supply this index",
-            "embedding_vector": [
+            "embedding": [
                 -0.037920628,
                 0.0075723315,
                 -0.040141106,
@@ -24799,7 +24799,7 @@
             "start": 162.72,
             "end": 168.95999999999998,
             "text": " and you just want to say, okay, start from 4 and go until the end. In that case, you can just",
-            "embedding_vector": [
+            "embedding": [
                 -0.013870673,
                 0.063389264,
                 0.0026520158,
@@ -25832,7 +25832,7 @@
             "start": 168.95999999999998,
             "end": 174.07999999999998,
             "text": " omit that index. So just don't specify the index and it will assume that you want to go all the way",
-            "embedding_vector": [
+            "embedding": [
                 -0.06768827,
                 -0.0051631345,
                 -0.041712943,
@@ -26865,7 +26865,7 @@
             "start": 174.07999999999998,
             "end": 180.16,
             "text": " towards the end. Similarly, if you omit the index, the starting index, then it will start from 0.",
-            "embedding_vector": [
+            "embedding": [
                 -0.045731585,
                 0.0027500768,
                 -0.023897754,
@@ -27898,7 +27898,7 @@
             "start": 180.24,
             "end": 186.16,
             "text": " So if I do this, again, I got I's. So if you don't specify anything, it will assume it's 0.",
-            "embedding_vector": [
+            "embedding": [
                 -0.06782813,
                 0.016305938,
                 -0.060745377,
@@ -28931,7 +28931,7 @@
             "start": 186.8,
             "end": 193.35999999999999,
             "text": " If you can use double quotes and single quotes to store the text data. So for example, I can say,",
-            "embedding_vector": [
+            "embedding": [
                 -0.055746395,
                 0.007488246,
                 -0.010615056,
@@ -29964,7 +29964,7 @@
             "start": 194.88,
             "end": 202.07999999999998,
             "text": " hello, like this. So this is defining a string using double quotes. Or I can use single quote",
-            "embedding_vector": [
+            "embedding": [
                 -0.07857904,
                 0.011855298,
                 -0.01988184,
@@ -30997,7 +30997,7 @@
             "start": 203.2,
             "end": 209.51999999999998,
             "text": " for doing the same thing. They both are same thing. There's just no difference. This could be useful",
-            "embedding_vector": [
+            "embedding": [
                 -0.03409457,
                 0.041955706,
                 -0.058828786,
@@ -32030,7 +32030,7 @@
             "start": 209.52,
             "end": 214.24,
             "text": " especially if you have single or double quotes as part of your string itself. For example,",
-            "embedding_vector": [
+            "embedding": [
                 -0.052896544,
                 0.02190003,
                 -0.0021011436,
@@ -33063,7 +33063,7 @@
             "start": 214.24,
             "end": 227.76000000000002,
             "text": " if I have a string called let's learn Python. So let's I will say let's learn Python. If I do something",
-            "embedding_vector": [
+            "embedding": [
                 -0.0569719,
                 0.0033281045,
                 -0.014869116,
@@ -34096,7 +34096,7 @@
             "start": 227.76000000000002,
             "end": 234.24,
             "text": " like this where I use single quotation to as a as a boundary of my string and I have a quote within",
-            "embedding_vector": [
+            "embedding": [
                 -0.053568043,
                 0.03396089,
                 -0.0160662,
@@ -35129,7 +35129,7 @@
             "start": 234.24,
             "end": 240.72,
             "text": " my string itself. If I do it, it will give an error. Why? Because it is thinking that this is",
-            "embedding_vector": [
+            "embedding": [
                 -0.06585176,
                 0.015037716,
                 -0.041038666,
@@ -36162,7 +36162,7 @@
             "start": 240.72,
             "end": 247.44,
             "text": " the end of the string. Whereas my intention is to make this whole thing one single string. So",
-            "embedding_vector": [
+            "embedding": [
                 -0.019168662,
                 0.024747944,
                 -0.044615243,
@@ -37195,7 +37195,7 @@
             "start": 247.44,
             "end": 253.68,
             "text": " situation like this, I would always use double quotes outside and then internally you can use as",
-            "embedding_vector": [
+            "embedding": [
                 -0.032327887,
                 0.045665104,
                 -0.041081976,
@@ -38228,7 +38228,7 @@
             "start": 253.68,
             "end": 258.64,
             "text": " many single quotes as you want and it won't give you any problem. Similarly, if you have",
-            "embedding_vector": [
+            "embedding": [
                 -0.035598636,
                 0.019681161,
                 -0.020519748,
@@ -39261,7 +39261,7 @@
             "start": 259.44,
             "end": 267.91999999999996,
             "text": " double code inside your string, use single quote outside. So let's say my hollow world has",
-            "embedding_vector": [
+            "embedding": [
                 -0.08052008,
                 0.02090899,
                 -0.0020353703,
@@ -40294,7 +40294,7 @@
             "start": 267.91999999999996,
             "end": 273.44,
             "text": " double quotes. Then I will use single quote outside. It just works. So if you print text, it will",
-            "embedding_vector": [
+            "embedding": [
                 -0.08571707,
                 0.033851497,
                 -0.04535459,
@@ -41327,7 +41327,7 @@
             "start": 273.44,
             "end": 279.44,
             "text": " print it fine. All right. What if now I have multi line string. Let's say I want to store my",
-            "embedding_vector": [
+            "embedding": [
                 -0.039304852,
                 -0.0023759918,
                 -0.03964499,
@@ -42360,7 +42360,7 @@
             "start": 279.44,
             "end": 285.2,
             "text": " address which comprises of multiple lines and my address is let's say one purple street,",
-            "embedding_vector": [
+            "embedding": [
                 -0.009406706,
                 0.017873911,
                 -0.045589443,
@@ -43393,7 +43393,7 @@
             "start": 285.84,
             "end": 291.68,
             "text": " New York and I want to go to the next line. As soon as I hit enter, I will get this error.",
-            "embedding_vector": [
+            "embedding": [
                 0.00899963,
                 0.044611093,
                 -0.048980225,
@@ -44426,7 +44426,7 @@
             "start": 292.4,
             "end": 302.56,
             "text": " So in this situation, use triple quotes. So triple quotes, one purple street, New York is the name",
-            "embedding_vector": [
+            "embedding": [
                 -0.027417686,
                 0.008919389,
                 -0.036557708,
@@ -45459,7 +45459,7 @@
             "start": 302.56,
             "end": 310.48,
             "text": " of my city, USA. And when it ends and ended with triple quotes. And now when I print this address,",
-            "embedding_vector": [
+            "embedding": [
                 -0.04519468,
                 0.046093218,
                 -0.010753139,
@@ -46492,7 +46492,7 @@
             "start": 311.12,
             "end": 317.52000000000004,
             "text": " you will see that it stored it fine without any issues. Now the internally, the way it stores it",
-            "embedding_vector": [
+            "embedding": [
                 0.0015654289,
                 0.010246204,
                 -0.04832318,
@@ -47525,7 +47525,7 @@
             "start": 317.52000000000004,
             "end": 323.84000000000003,
             "text": " is it will use a special character. So as you if you look at internal representation of this string,",
-            "embedding_vector": [
+            "embedding": [
                 -0.046391524,
                 0.032465506,
                 -0.0036560053,
@@ -48558,7 +48558,7 @@
             "start": 323.84000000000003,
             "end": 330.96000000000004,
             "text": " it is using slash and so slash and means new line. Now the next thing about string is you can use",
-            "embedding_vector": [
+            "embedding": [
                 -0.029291863,
                 0.025483625,
                 -0.04022675,
@@ -49591,7 +49591,7 @@
             "start": 330.96000000000004,
             "end": 339.92,
             "text": " plus sign to concatenate two strings. So if you have a string called hello and another string",
-            "embedding_vector": [
+            "embedding": [
                 -0.006226611,
                 -0.01597335,
                 -0.03567869,
@@ -50624,7 +50624,7 @@
             "start": 340.0,
             "end": 347.36,
             "text": " called wall. And if you want to join them, you just do as one plus as two. Right. Now here I want",
-            "embedding_vector": [
+            "embedding": [
                 0.01225825,
                 0.051534086,
                 -0.053571586,
@@ -51657,7 +51657,7 @@
             "start": 347.36,
             "end": 355.28000000000003,
             "text": " little space in between. So you can add space like this. So add a space. And all right. So plus",
-            "embedding_vector": [
+            "embedding": [
                 -0.011128038,
                 0.042325106,
                 -0.020618983,
@@ -52690,7 +52690,7 @@
             "start": 355.28000000000003,
             "end": 361.44,
             "text": " will just join the two strings. What if I want to join number with a string. So let's say I want to say",
-            "embedding_vector": [
+            "embedding": [
                 -0.043475162,
                 0.020437667,
                 -0.030849392,
@@ -53723,7 +53723,7 @@
             "start": 361.6,
             "end": 379.36,
             "text": " total states in USA is oops, I made a mistake. So total states in USA. So this is my string. And my",
-            "embedding_vector": [
+            "embedding": [
                 -0.011797688,
                 0.01127551,
                 -0.0342945,
@@ -54756,7 +54756,7 @@
             "start": 379.36,
             "end": 384.56,
             "text": " number is 25. So I have another variable called num where I'm storing total numbers of states. And",
-            "embedding_vector": [
+            "embedding": [
                 -0.020764977,
                 -0.01812932,
                 -0.04470118,
@@ -55789,7 +55789,7 @@
             "start": 384.56,
             "end": 391.84,
             "text": " I want to join these two. If I do s plus num, it will give me this error because Python doesn't know",
-            "embedding_vector": [
+            "embedding": [
                 -0.034869097,
                 0.036328275,
                 -0.055242296,
@@ -56822,7 +56822,7 @@
             "start": 391.84,
             "end": 398.96,
             "text": " how to join string with an integer. So what you need to do first is convert this number into a string",
-            "embedding_vector": [
+            "embedding": [
                 -0.0030943959,
                 0.018222317,
                 -0.0009692141,
@@ -57855,7 +57855,7 @@
             "start": 398.96,
             "end": 405.04,
             "text": " because Python can join two strings. So somehow convert this number to a string and then join.",
-            "embedding_vector": [
+            "embedding": [
                 -0.024068076,
                 0.0011368783,
                 -0.006800385,
@@ -58888,7 +58888,7 @@
             "start": 405.04,
             "end": 410.32,
             "text": " Okay. So there is a function called STR. Very important. You will use this a lot in Python.",
-            "embedding_vector": [
+            "embedding": [
                 -0.01460031,
                 0.023264252,
                 -0.035885546,
@@ -59921,7 +59921,7 @@
             "start": 410.88,
             "end": 416.71999999999997,
             "text": " If you do this, it will convert 25, which was a number to a string. How do I know this is a string?",
-            "embedding_vector": [
+            "embedding": [
                 -0.041241005,
                 -0.0014317299,
                 -0.020179734,
@@ -60954,7 +60954,7 @@
             "start": 416.71999999999997,
             "end": 424.96,
             "text": " You because you see this quotation mark here. So now when I do s plus STR num, it will print total",
-            "embedding_vector": [
+            "embedding": [
                 -0.05169498,
                 0.005558352,
                 -0.033712335,
@@ -61987,7 +61987,7 @@
             "start": 424.96,
             "end": 431.36,
             "text": " states in USA is 25. Okay. So that's it. That was all about strings in Python. Thanks for watching.",
-            "embedding_vector": [
+            "embedding": [
                 -0.021158187,
                 -0.017687177,
                 -0.008633877,

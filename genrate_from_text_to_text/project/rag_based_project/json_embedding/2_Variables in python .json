@@ -1,13 +1,13 @@
 {
     "text": " Today's topic is variables in Python. Now, what are variables? Variables are containers that can hold any data. So you can use them to store numeric data, tax data, etc. So let's say you want to track down your monthly expenses in Python programming language. What you need to do first to solve this problem is store unusual expenses in some place and then use that place to do a sum of all those individual expenses to come up with your total expense. So we'll go ahead and create variable to store all these individual expenses. So for example, let's on rent, you are spending $1220. So what we just did here is we created this variable called rent and we placed value 1220 into it. So using assignment operator, you can put a value inside a variable. So the left hand side of the assignment operator is a variable name and right hand side is the value. Similarly, you can create variables for other items. For example, you are spending $202.5 on gas and you are spending some money on groceries. So we just created three variables. Now, if you print that value, you can print it like this. So by using this statement, what you're doing is you are accessing this variable called rent and you are printing the value in it. Okay. Now to calculate the total monthly expenses, all you do is just add those three things and this is the syntax on how to do it in Python. So you created a fourth variable called total and you added all these three individual values in it. So if you print total, you will get this. Okay. Now, variables are called variables because the value in it can vary. So for example, now let's say, instead your rent went up and it become $1400. So you can use the same variable as an assignment, different value. So again, the container is same. It's just that you now remove the previous value and you put the new value in it. You can also put tax data into it. So for example, now I want to store the name of those individual expense items. So you can create a variable called item and put the name item. My item to was gas and my item three was groceries. So this way, now you can just print all those items. So you can say my expense items were these. So you see like when you do this, it is printing the value inside these three variables. Now there are certain rules on variable naming conventions. So for example, you cannot use certain Python keywords like the predefined keywords as variable name. For example, true is a keyword in Python. What I mean by that is it has a specific meaning in Python. So you cannot use it as a variable name. So if you try to do that, you'll get this error. To get a completely set of Python keywords, you can just Google it and you'll get a list. So don't use that list as variable names. Other than that, you cannot use facial characters in it. For example, if I create a variable like this, then also it won't work because I have a plus sign here. Okay. So that was all about variable. Thanks for watching.",
-    "segments": [
+    "segements": [
         {
             "lecture_id": 0,
             "lecture_title": "Variables in python ",
             "start": 0.0,
             "end": 2.7600000000000002,
             "text": " Today's topic is variables in Python.",
-            "embedding_vector": [
+            "embedding": [
                 -0.042435747,
                 0.016912252,
                 -0.035881862,
@@ -1040,7 +1040,7 @@
             "start": 2.7600000000000002,
             "end": 4.5600000000000005,
             "text": " Now, what are variables?",
-            "embedding_vector": [
+            "embedding": [
                 -0.034549315,
                 0.0038422719,
                 -0.039471216,
@@ -2073,7 +2073,7 @@
             "start": 4.5600000000000005,
             "end": 8.6,
             "text": " Variables are containers that can hold any data.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0046273055,
                 -0.0134669375,
                 -0.037642956,
@@ -3106,7 +3106,7 @@
             "start": 8.6,
             "end": 13.32,
             "text": " So you can use them to store numeric data, tax data, etc.",
-            "embedding_vector": [
+            "embedding": [
                 -0.039039236,
                 -0.015797423,
                 -0.055621088,
@@ -4139,7 +4139,7 @@
             "start": 13.32,
             "end": 19.400000000000002,
             "text": " So let's say you want to track down your monthly expenses in Python programming language.",
-            "embedding_vector": [
+            "embedding": [
                 -0.053108115,
                 -0.016099554,
                 -0.056141164,
@@ -5172,7 +5172,7 @@
             "start": 19.400000000000002,
             "end": 26.44,
             "text": " What you need to do first to solve this problem is store unusual expenses in some place",
-            "embedding_vector": [
+            "embedding": [
                 -0.00028700923,
                 0.004817294,
                 -0.034509145,
@@ -6205,7 +6205,7 @@
             "start": 26.44,
             "end": 31.92,
             "text": " and then use that place to do a sum of all those individual expenses to come up with",
-            "embedding_vector": [
+            "embedding": [
                 0.013781284,
                 0.016072981,
                 -0.0567548,
@@ -7238,7 +7238,7 @@
             "start": 31.92,
             "end": 33.6,
             "text": " your total expense.",
-            "embedding_vector": [
+            "embedding": [
                 -0.024678366,
                 0.017048983,
                 -0.054128606,
@@ -8271,7 +8271,7 @@
             "start": 33.6,
             "end": 38.56,
             "text": " So we'll go ahead and create variable to store all these individual expenses.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0114322705,
                 0.011345283,
                 -0.056441497,
@@ -9304,7 +9304,7 @@
             "start": 38.56,
             "end": 41.88,
             "text": " So for example, let's on rent, you are spending $1220.",
-            "embedding_vector": [
+            "embedding": [
                 -0.058396153,
                 0.03078646,
                 -0.035008166,
@@ -10337,7 +10337,7 @@
             "start": 41.88,
             "end": 48.84,
             "text": " So what we just did here is we created this variable called rent and we placed value 1220",
-            "embedding_vector": [
+            "embedding": [
                 -0.06063196,
                 0.036767337,
                 -0.052610848,
@@ -11370,7 +11370,7 @@
             "start": 48.84,
             "end": 49.84,
             "text": " into it.",
-            "embedding_vector": [
+            "embedding": [
                 0.004813891,
                 0.0371516,
                 -0.041892063,
@@ -12403,7 +12403,7 @@
             "start": 49.84,
             "end": 54.08,
             "text": " So using assignment operator, you can put a value inside a variable.",
-            "embedding_vector": [
+            "embedding": [
                 -0.029801887,
                 -0.0018984642,
                 -0.06288815,
@@ -13436,7 +13436,7 @@
             "start": 54.08,
             "end": 57.879999999999995,
             "text": " So the left hand side of the assignment operator is a variable name and right hand side",
-            "embedding_vector": [
+            "embedding": [
                 -0.04453509,
                 -0.015509258,
                 -0.059430905,
@@ -14469,7 +14469,7 @@
             "start": 57.879999999999995,
             "end": 59.8,
             "text": " is the value.",
-            "embedding_vector": [
+            "embedding": [
                 -0.02654791,
                 0.02419701,
                 -0.056067884,
@@ -15502,7 +15502,7 @@
             "start": 59.8,
             "end": 63.519999999999996,
             "text": " Similarly, you can create variables for other items.",
-            "embedding_vector": [
+            "embedding": [
                 -0.033404287,
                 0.019417701,
                 -0.038319044,
@@ -16535,7 +16535,7 @@
             "start": 63.519999999999996,
             "end": 71.48,
             "text": " For example, you are spending $202.5 on gas and you are spending some money on groceries.",
-            "embedding_vector": [
+            "embedding": [
                 -0.019312348,
                 0.0058823777,
                 -0.020925099,
@@ -17568,7 +17568,7 @@
             "start": 71.48,
             "end": 72.88,
             "text": " So we just created three variables.",
-            "embedding_vector": [
+            "embedding": [
                 -0.030693084,
                 0.013690492,
                 -0.05099906,
@@ -18601,7 +18601,7 @@
             "start": 72.88,
             "end": 78.08,
             "text": " Now, if you print that value, you can print it like this.",
-            "embedding_vector": [
+            "embedding": [
                 -0.051010016,
                 0.03627213,
                 -0.0069722547,
@@ -19634,7 +19634,7 @@
             "start": 78.08,
             "end": 82.88,
             "text": " So by using this statement, what you're doing is you are accessing this variable called",
-            "embedding_vector": [
+            "embedding": [
                 -0.035475533,
                 0.041140456,
                 -0.06454931,
@@ -20667,7 +20667,7 @@
             "start": 82.88,
             "end": 86.24,
             "text": " rent and you are printing the value in it.",
-            "embedding_vector": [
+            "embedding": [
                 -0.06800198,
                 0.04703307,
                 -0.04968013,
@@ -21700,7 +21700,7 @@
             "start": 86.24,
             "end": 87.24,
             "text": " Okay.",
-            "embedding_vector": [
+            "embedding": [
                 -0.009043507,
                 0.03182046,
                 -0.04507342,
@@ -22733,7 +22733,7 @@
             "start": 87.24,
             "end": 96.44,
             "text": " Now to calculate the total monthly expenses, all you do is just add those three things and",
-            "embedding_vector": [
+            "embedding": [
                 0.013601934,
                 0.02615448,
                 -0.053755168,
@@ -23766,7 +23766,7 @@
             "start": 96.44,
             "end": 98.96,
             "text": " this is the syntax on how to do it in Python.",
-            "embedding_vector": [
+            "embedding": [
                 -0.040349934,
                 0.04232976,
                 -0.018793834,
@@ -24799,7 +24799,7 @@
             "start": 98.96,
             "end": 104.8,
             "text": " So you created a fourth variable called total and you added all these three individual values",
-            "embedding_vector": [
+            "embedding": [
                 -0.014408878,
                 0.044579476,
                 -0.04527449,
@@ -25832,7 +25832,7 @@
             "start": 104.8,
             "end": 105.8,
             "text": " in it.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0039464533,
                 0.041417208,
                 -0.04153574,
@@ -26865,7 +26865,7 @@
             "start": 105.8,
             "end": 110.67999999999999,
             "text": " So if you print total, you will get this.",
-            "embedding_vector": [
+            "embedding": [
                 -0.05284412,
                 0.02511556,
                 -0.04447085,
@@ -27898,7 +27898,7 @@
             "start": 110.67999999999999,
             "end": 111.67999999999999,
             "text": " Okay.",
-            "embedding_vector": [
+            "embedding": [
                 -0.009043507,
                 0.03182046,
                 -0.04507342,
@@ -28931,7 +28931,7 @@
             "start": 111.68,
             "end": 116.92,
             "text": " Now, variables are called variables because the value in it can vary.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0024384279,
                 0.015345878,
                 -0.041251723,
@@ -29964,7 +29964,7 @@
             "start": 116.92,
             "end": 122.60000000000001,
             "text": " So for example, now let's say, instead your rent went up and it become $1400.",
-            "embedding_vector": [
+            "embedding": [
                 -0.05406064,
                 0.049531143,
                 -0.046077006,
@@ -30997,7 +30997,7 @@
             "start": 122.60000000000001,
             "end": 126.2,
             "text": " So you can use the same variable as an assignment, different value.",
-            "embedding_vector": [
+            "embedding": [
                 -0.02546242,
                 0.005741433,
                 -0.055704836,
@@ -32030,7 +32030,7 @@
             "start": 126.2,
             "end": 127.96000000000001,
             "text": " So again, the container is same.",
-            "embedding_vector": [
+            "embedding": [
                 -0.053376924,
                 0.015080988,
                 -0.05221675,
@@ -33063,7 +33063,7 @@
             "start": 127.96000000000001,
             "end": 133.52,
             "text": " It's just that you now remove the previous value and you put the new value in it.",
-            "embedding_vector": [
+            "embedding": [
                 -0.021660479,
                 0.018313212,
                 -0.057817496,
@@ -34096,7 +34096,7 @@
             "start": 133.52,
             "end": 136.52,
             "text": " You can also put tax data into it.",
-            "embedding_vector": [
+            "embedding": [
                 -0.056292113,
                 -0.0021794525,
                 -0.07256691,
@@ -35129,7 +35129,7 @@
             "start": 136.52,
             "end": 143.24,
             "text": " So for example, now I want to store the name of those individual expense items.",
-            "embedding_vector": [
+            "embedding": [
                 -0.010512832,
                 -0.01294192,
                 -0.058249105,
@@ -36162,7 +36162,7 @@
             "start": 143.24,
             "end": 149.4,
             "text": " So you can create a variable called item and put the name item.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0016185032,
                 -0.009280118,
                 -0.03177775,
@@ -37195,7 +37195,7 @@
             "start": 149.4,
             "end": 154.76000000000002,
             "text": " My item to was gas and my item three was groceries.",
-            "embedding_vector": [
+            "embedding": [
                 0.0074670394,
                 -0.0021642705,
                 -0.031054154,
@@ -38228,7 +38228,7 @@
             "start": 154.76000000000002,
             "end": 158.84,
             "text": " So this way, now you can just print all those items.",
-            "embedding_vector": [
+            "embedding": [
                 -0.010079285,
                 0.015733419,
                 -0.022186223,
@@ -39261,7 +39261,7 @@
             "start": 158.84,
             "end": 167.12,
             "text": " So you can say my expense items were these.",
-            "embedding_vector": [
+            "embedding": [
                 -0.011906405,
                 0.0186231,
                 -0.056448307,
@@ -40294,7 +40294,7 @@
             "start": 167.12,
             "end": 173.52,
             "text": " So you see like when you do this, it is printing the value inside these three variables.",
-            "embedding_vector": [
+            "embedding": [
                 -0.059592422,
                 0.007622476,
                 -0.05830498,
@@ -41327,7 +41327,7 @@
             "start": 173.52,
             "end": 177.88,
             "text": " Now there are certain rules on variable naming conventions.",
-            "embedding_vector": [
+            "embedding": [
                 -0.03960844,
                 -0.025400184,
                 -0.05425823,
@@ -42360,7 +42360,7 @@
             "start": 177.88,
             "end": 184.28,
             "text": " So for example, you cannot use certain Python keywords like the predefined keywords as",
-            "embedding_vector": [
+            "embedding": [
                 -0.012323255,
                 0.03235283,
                 -0.019249802,
@@ -43393,7 +43393,7 @@
             "start": 184.28,
             "end": 185.28,
             "text": " variable name.",
-            "embedding_vector": [
+            "embedding": [
                 -0.04814244,
                 0.016990941,
                 -0.046792876,
@@ -44426,7 +44426,7 @@
             "start": 185.28,
             "end": 189.8,
             "text": " For example, true is a keyword in Python.",
-            "embedding_vector": [
+            "embedding": [
                 -0.018289797,
                 0.0026259236,
                 -0.02167181,
@@ -45459,7 +45459,7 @@
             "start": 189.8,
             "end": 193.48,
             "text": " What I mean by that is it has a specific meaning in Python.",
-            "embedding_vector": [
+            "embedding": [
                 -0.02312265,
                 0.002034949,
                 -0.048311107,
@@ -46492,7 +46492,7 @@
             "start": 193.48,
             "end": 196.24,
             "text": " So you cannot use it as a variable name.",
-            "embedding_vector": [
+            "embedding": [
                 -0.039481442,
                 0.01754887,
                 -0.026477361,
@@ -47525,7 +47525,7 @@
             "start": 196.24,
             "end": 199.2,
             "text": " So if you try to do that, you'll get this error.",
-            "embedding_vector": [
+            "embedding": [
                 -0.04831626,
                 0.04181761,
                 -0.048408136,
@@ -48558,7 +48558,7 @@
             "start": 199.2,
             "end": 204.52,
             "text": " To get a completely set of Python keywords, you can just Google it and you'll get a list.",
-            "embedding_vector": [
+            "embedding": [
                 -0.027941978,
                 -0.019948902,
                 -0.0009437637,
@@ -49591,7 +49591,7 @@
             "start": 204.52,
             "end": 207.2,
             "text": " So don't use that list as variable names.",
-            "embedding_vector": [
+            "embedding": [
                 -0.048005085,
                 -0.0037750194,
                 -0.08149203,
@@ -50624,7 +50624,7 @@
             "start": 207.2,
             "end": 210.52,
             "text": " Other than that, you cannot use facial characters in it.",
-            "embedding_vector": [
+            "embedding": [
                 -0.004771746,
                 0.048455264,
                 -0.018706705,
@@ -51657,7 +51657,7 @@
             "start": 210.52,
             "end": 216.28,
             "text": " For example, if I create a variable like this, then also it won't work because I have",
-            "embedding_vector": [
+            "embedding": [
                 -0.027546823,
                 0.027716594,
                 -0.046191487,
@@ -52690,7 +52690,7 @@
             "start": 216.28,
             "end": 218.28,
             "text": " a plus sign here.",
-            "embedding_vector": [
+            "embedding": [
                 -0.024197752,
                 0.0033339616,
                 -0.06611593,
@@ -53723,7 +53723,7 @@
             "start": 218.28,
             "end": 219.28,
             "text": " Okay.",
-            "embedding_vector": [
+            "embedding": [
                 -0.009043507,
                 0.03182046,
                 -0.04507342,
@@ -54756,7 +54756,7 @@
             "start": 219.28,
             "end": 221.68,
             "text": " So that was all about variable.",
-            "embedding_vector": [
+            "embedding": [
                 -0.018897159,
                 0.01289144,
                 -0.05304281,
@@ -55789,7 +55789,7 @@
             "start": 221.68,
             "end": 222.44,
             "text": " Thanks for watching.",
-            "embedding_vector": [
+            "embedding": [
                 -0.027294563,
                 0.005445887,
                 -0.045798473,

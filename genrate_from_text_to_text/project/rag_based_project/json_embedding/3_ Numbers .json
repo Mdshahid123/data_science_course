@@ -1,13 +1,13 @@
 {
     "text": " Today's topic is numbers in Python. Numbers are very important ingredient of any program. I cannot think of any software program in the world which doesn't use numbers so they're extremely important. Now in Python you can use Python programming language as a calculator. So let me demonstrate that to you by doing some simple mathematical operations. So for example you want to do addition of these two numbers. You can do it like this. So just type in two numbers and plus sign in between. If you want to do subtraction you can do subtraction. You can do division like this. So for division you will use this slash shine. If you want to do multiplication you will use star sign and it will multiply two numbers. Now if you want to find a remainder of a division then you will use a percentage sign. So for example I want to divide 11 by 2 and I want to find out the remainder. For that you will use percentage sign like this and you can guess what will be the answer. Okay I think you guessed it right. So 11 divided by 2 is like 2 into 5 is 10 and the remainder will be 1. You can also find the power of any numbers. So for example you want to find 3 to the power of 2 then the way you do that is by using two star sign two times. So it will do this. So 3 to the power of 2 is 9. Guess what will be the answer of this? This 2 to the power of 4. 12 16. Okay so when you are doing any number manipulation when you're writing any Python program normally you would create variables to store these numbers and you will do these mathematical operations on those variables. Okay so let me let me demonstrate this by having a simple problem. So for example you want to travel from New York to Baltimore and then from Baltimore to Pittsburgh and you that know the distance between these cities. Now you want to find out the total distance. So the way you do it is you first create a variable to store the distance between New York City to Baltimore. Let's say it is 188 miles. So I just created a variable called this and assign value 188 to it. Then you create another variable to store the distance between Baltimore to Pittsburgh and let's say this is 247 miles. Okay so to find out the total distance you create another variable called total distance and you just assign those first two variables to it. So when I do like this and if I print the total distance it will tell me the total distance that I will be traveling during my journey. Okay another interesting problem could be let's say if you're driving at 65 miles per hour and you want to find the total time that you will spend in your journey and we're just assuming you're not taking any breaks you are like a super human being you don't need any breaks you can just constantly drive. Okay so in that case again create another variable for your miles per hour speed. So MPH is equal to 65 this is your miles per hour and to find out the time you create another variable called time and say time equal to total distance. If you have total distance and if you have miles per hour how do you find out the time right it's a simple math it is distance divided by the speed so distance divided by miles per hour is your time it's just a simple high school math or school so when you say time it prints this number so you see it's 6.69 hours now it is printing it with a lot higher decimal precision you see like after dot you see so many decimal points if you want to see like just for simplicity if you want to see like two decimal points you can use this round function. So in Python there is this function called round where the first argument is as you see it in the tooltip it's a number so your number is time and how many decimal points you want to see so you can say two so it is showing it as you see like after dot you know see only two decimal points one two if you want to see like three decimal points precision you can do this and it will show you three decimal points okay so just to summarize you can do all the basic mathematical operations in Python using these operator signs also there are two kind of numbers in Python one is integer which is like a whole number so for example 4.30 by 16 to 4 all these are integer numbers because they don't have a fractional part to it whereas this number is called a float number because it has a fractional part it's not a whole number basically it has a fraction to it so just remember this thing that two types of numbers integers and floats all right now let me show you something interesting so if I do let's say if I want to add and if I do this kind of operation just take a pose and think about what will be the answer what what will be the expected output okay all right so I'm just about to hit enter and you will see in a moment what it prints now what were you expecting some of you might be expecting that it will do 10 plus 2 which is 12 and then it will multiply it by 3 so 12 into 3 will be 36 but that's not what it printed why well the reason is the way Python works is it has a priority on certain mathematical operations so for example in this case it will do 2 multiplied by 3 first so 2 multiplied by 3 is 6 and then it will add it to 10 so 10 plus 6 is 16 if you want to do what you expect there which is 10 plus 2 and then multiply by 3 you need to use brackets so opening bracket 10 plus 2 closing bracket cross 3 so by providing these brackets you are telling your programming platform that I want the mathematical operation to happen in this order 10 plus 2 and then 3 now you get 36 okay cool now let me show you one more interesting thing so 6 minus 5.7 again take a pause and think what will be the answer it's really easy to guess that right it should be 0.3 but let's see what happens who who why the hell I got this answer why is it not 0.3 well there is an answer so in any programming language when you try to store floating number it ultimately numbers are stored in binary format which is a sequence of 0 and 1 and the way floating numbers are stored they always lose the accuracy so there is no precise way to store floating numbers hence you will get this kind of behavior and this is not just with Python this is with any programming languages and it's expected so it's not a bug or anything it is an expected output so if you want to again see 0.3 then use rounding number rounding rounding function so just say around this particular number by two decimal points and you get 0.3 okay so that was all about numbers thanks for watching",
-    "segments": [
+    "segements": [
         {
             "lecture_id": 0,
             "lecture_title": " Numbers ",
             "start": 0.0,
             "end": 6.8,
             "text": " Today's topic is numbers in Python. Numbers are very important ingredient of any program.",
-            "embedding_vector": [
+            "embedding": [
                 0.012907188,
                 0.017499328,
                 -0.021053502,
@@ -1040,7 +1040,7 @@
             "start": 6.8,
             "end": 12.72,
             "text": " I cannot think of any software program in the world which doesn't use numbers so they're extremely important.",
-            "embedding_vector": [
+            "embedding": [
                 -0.031531114,
                 0.040925946,
                 -0.05632193,
@@ -2073,7 +2073,7 @@
             "start": 13.6,
             "end": 22.400000000000002,
             "text": " Now in Python you can use Python programming language as a calculator. So let me demonstrate that",
-            "embedding_vector": [
+            "embedding": [
                 -0.011722818,
                 0.0320565,
                 0.0022835773,
@@ -3106,7 +3106,7 @@
             "start": 22.400000000000002,
             "end": 28.0,
             "text": " to you by doing some simple mathematical operations. So for example you want to do addition of",
-            "embedding_vector": [
+            "embedding": [
                 -0.021348884,
                 0.054237343,
                 -0.039334763,
@@ -4139,7 +4139,7 @@
             "start": 28.0,
             "end": 34.56,
             "text": " these two numbers. You can do it like this. So just type in two numbers and plus sign in between.",
-            "embedding_vector": [
+            "embedding": [
                 -0.026563318,
                 0.0028207372,
                 -0.015470321,
@@ -5172,7 +5172,7 @@
             "start": 34.56,
             "end": 40.96,
             "text": " If you want to do subtraction you can do subtraction. You can do division like this. So for",
-            "embedding_vector": [
+            "embedding": [
                 -0.03603231,
                 0.020249086,
                 0.013503688,
@@ -6205,7 +6205,7 @@
             "start": 40.96,
             "end": 48.0,
             "text": " division you will use this slash shine. If you want to do multiplication you will use star sign",
-            "embedding_vector": [
+            "embedding": [
                 -0.038227007,
                 0.031067213,
                 -0.019287042,
@@ -7238,7 +7238,7 @@
             "start": 48.56,
             "end": 58.88,
             "text": " and it will multiply two numbers. Now if you want to find a remainder of a division then you will",
-            "embedding_vector": [
+            "embedding": [
                 -0.04266065,
                 0.022216408,
                 -0.027568432,
@@ -8271,7 +8271,7 @@
             "start": 58.88,
             "end": 66.96000000000001,
             "text": " use a percentage sign. So for example I want to divide 11 by 2 and I want to find out the",
-            "embedding_vector": [
+            "embedding": [
                 -0.03525656,
                 0.024783924,
                 -0.02796238,
@@ -9304,7 +9304,7 @@
             "start": 66.96000000000001,
             "end": 72.64,
             "text": " remainder. For that you will use percentage sign like this and you can guess what will be the answer.",
-            "embedding_vector": [
+            "embedding": [
                 -0.043941554,
                 0.025629332,
                 -0.022208668,
@@ -10337,7 +10337,7 @@
             "start": 73.44,
             "end": 81.84,
             "text": " Okay I think you guessed it right. So 11 divided by 2 is like 2 into 5 is 10 and the remainder will be",
-            "embedding_vector": [
+            "embedding": [
                 0.01712097,
                 0.018839186,
                 -0.008169196,
@@ -11370,7 +11370,7 @@
             "start": 81.84,
             "end": 90.0,
             "text": " 1. You can also find the power of any numbers. So for example you want to find 3 to the power of 2",
-            "embedding_vector": [
+            "embedding": [
                 -0.02304026,
                 0.07419272,
                 -0.02453852,
@@ -12403,7 +12403,7 @@
             "start": 90.56,
             "end": 99.92,
             "text": " then the way you do that is by using two star sign two times. So it will do this. So 3 to the",
-            "embedding_vector": [
+            "embedding": [
                 -0.032792673,
                 0.033669345,
                 -0.044884592,
@@ -13436,7 +13436,7 @@
             "start": 99.92,
             "end": 108.56,
             "text": " power of 2 is 9. Guess what will be the answer of this? This 2 to the power of 4.",
-            "embedding_vector": [
+            "embedding": [
                 -0.032364033,
                 0.115953505,
                 0.011699182,
@@ -14469,7 +14469,7 @@
             "start": 110.56,
             "end": 119.6,
             "text": " 12 16. Okay so when you are doing any number manipulation when you're writing any Python program",
-            "embedding_vector": [
+            "embedding": [
                 -0.021681994,
                 0.003477018,
                 -0.018217482,
@@ -15502,7 +15502,7 @@
             "start": 120.88,
             "end": 127.52000000000001,
             "text": " normally you would create variables to store these numbers and you will do these mathematical",
-            "embedding_vector": [
+            "embedding": [
                 -0.0007147593,
                 0.010674971,
                 -0.0480323,
@@ -16535,7 +16535,7 @@
             "start": 127.52,
             "end": 137.84,
             "text": " operations on those variables. Okay so let me let me demonstrate this by having a simple problem.",
-            "embedding_vector": [
+            "embedding": [
                 -0.03416969,
                 0.04287765,
                 -0.052696064,
@@ -17568,7 +17568,7 @@
             "start": 137.84,
             "end": 144.32,
             "text": " So for example you want to travel from New York to Baltimore and then from Baltimore to Pittsburgh",
-            "embedding_vector": [
+            "embedding": [
                 -0.020072117,
                 0.012890864,
                 -0.022565188,
@@ -18601,7 +18601,7 @@
             "start": 144.32,
             "end": 149.76,
             "text": " and you that know the distance between these cities. Now you want to find out the total distance.",
-            "embedding_vector": [
+            "embedding": [
                 -0.03419357,
                 0.026156437,
                 -0.034964997,
@@ -19634,7 +19634,7 @@
             "start": 149.76,
             "end": 156.72,
             "text": " So the way you do it is you first create a variable to store the distance between New York City",
-            "embedding_vector": [
+            "embedding": [
                 -0.003980731,
                 0.0016430554,
                 -0.041671485,
@@ -20667,7 +20667,7 @@
             "start": 156.72,
             "end": 166.07999999999998,
             "text": " to Baltimore. Let's say it is 188 miles. So I just created a variable called this and assign value 188 to it.",
-            "embedding_vector": [
+            "embedding": [
                 -0.01242266,
                 8.504655e-05,
                 -0.030812813,
@@ -21700,7 +21700,7 @@
             "start": 166.88,
             "end": 172.8,
             "text": " Then you create another variable to store the distance between Baltimore to Pittsburgh and let's say",
-            "embedding_vector": [
+            "embedding": [
                 -0.03410144,
                 -0.015620442,
                 -0.042830177,
@@ -22733,7 +22733,7 @@
             "start": 172.8,
             "end": 180.64,
             "text": " this is 247 miles. Okay so to find out the total distance you create another variable called total",
-            "embedding_vector": [
+            "embedding": [
                 -0.013664477,
                 0.019885335,
                 -0.013777178,
@@ -23766,7 +23766,7 @@
             "start": 180.64,
             "end": 192.55999999999997,
             "text": " distance and you just assign those first two variables to it. So when I do like this and if I print",
-            "embedding_vector": [
+            "embedding": [
                 -0.05662297,
                 0.030701324,
                 -0.042035934,
@@ -24799,7 +24799,7 @@
             "start": 192.55999999999997,
             "end": 200.72,
             "text": " the total distance it will tell me the total distance that I will be traveling during my journey.",
-            "embedding_vector": [
+            "embedding": [
                 -0.035931356,
                 0.020986648,
                 -0.07333356,
@@ -25832,7 +25832,7 @@
             "start": 201.35999999999999,
             "end": 208.64,
             "text": " Okay another interesting problem could be let's say if you're driving at 65 miles per hour",
-            "embedding_vector": [
+            "embedding": [
                 0.02792085,
                 0.0053196317,
                 -0.007744615,
@@ -26865,7 +26865,7 @@
             "start": 209.35999999999999,
             "end": 216.55999999999997,
             "text": " and you want to find the total time that you will spend in your journey and we're just assuming you're",
-            "embedding_vector": [
+            "embedding": [
                 -0.009285336,
                 0.0076074735,
                 -0.055596046,
@@ -27898,7 +27898,7 @@
             "start": 216.55999999999997,
             "end": 221.92,
             "text": " not taking any breaks you are like a super human being you don't need any breaks you can just",
-            "embedding_vector": [
+            "embedding": [
                 -0.032647997,
                 0.017751459,
                 -0.037829634,
@@ -28931,7 +28931,7 @@
             "start": 221.92,
             "end": 230.0,
             "text": " constantly drive. Okay so in that case again create another variable for your miles per hour speed.",
-            "embedding_vector": [
+            "embedding": [
                 -0.05928926,
                 0.0066705076,
                 -0.03434678,
@@ -29964,7 +29964,7 @@
             "start": 230.0,
             "end": 237.67999999999998,
             "text": " So MPH is equal to 65 this is your miles per hour and to find out the time you create another variable",
-            "embedding_vector": [
+            "embedding": [
                 0.0042217313,
                 -0.004951,
                 -0.013760333,
@@ -30997,7 +30997,7 @@
             "start": 237.68,
             "end": 246.16,
             "text": " called time and say time equal to total distance. If you have total distance and if you have miles per",
-            "embedding_vector": [
+            "embedding": [
                 0.013144497,
                 0.013659511,
                 -0.029977197,
@@ -32030,7 +32030,7 @@
             "start": 246.16,
             "end": 252.24,
             "text": " hour how do you find out the time right it's a simple math it is distance divided by the speed",
-            "embedding_vector": [
+            "embedding": [
                 0.013084588,
                 0.026422119,
                 -0.035171032,
@@ -33063,7 +33063,7 @@
             "start": 252.96,
             "end": 260.88,
             "text": " so distance divided by miles per hour is your time it's just a simple high school math or school",
-            "embedding_vector": [
+            "embedding": [
                 -0.0003133863,
                 -0.00076764135,
                 -0.020963969,
@@ -34096,7 +34096,7 @@
             "start": 261.36,
             "end": 270.96,
             "text": " so when you say time it prints this number so you see it's 6.69 hours now it is printing it with a lot",
-            "embedding_vector": [
+            "embedding": [
                 -0.0050278762,
                 0.037619445,
                 -0.005587969,
@@ -35129,7 +35129,7 @@
             "start": 270.96,
             "end": 276.56,
             "text": " higher decimal precision you see like after dot you see so many decimal points if you want to see",
-            "embedding_vector": [
+            "embedding": [
                 -0.0032208452,
                 -0.034982264,
                 -0.034531455,
@@ -36162,7 +36162,7 @@
             "start": 276.56,
             "end": 282.96,
             "text": " like just for simplicity if you want to see like two decimal points you can use this round function.",
-            "embedding_vector": [
+            "embedding": [
                 -0.044792827,
                 0.026588462,
                 -0.021255402,
@@ -37195,7 +37195,7 @@
             "start": 282.96,
             "end": 289.36,
             "text": " So in Python there is this function called round where the first argument is as you see it in the",
-            "embedding_vector": [
+            "embedding": [
                 -0.03222014,
                 0.03218181,
                 -0.004287317,
@@ -38228,7 +38228,7 @@
             "start": 289.36,
             "end": 296.56,
             "text": " tooltip it's a number so your number is time and how many decimal points you want to see so you can",
-            "embedding_vector": [
+            "embedding": [
                 -0.0050250213,
                 0.01623103,
                 -0.032257598,
@@ -39261,7 +39261,7 @@
             "start": 296.56,
             "end": 303.84000000000003,
             "text": " say two so it is showing it as you see like after dot you know see only two decimal points one two",
-            "embedding_vector": [
+            "embedding": [
                 -0.0072031035,
                 -0.007631323,
                 -0.045934957,
@@ -40294,7 +40294,7 @@
             "start": 304.40000000000003,
             "end": 310.48,
             "text": " if you want to see like three decimal points precision you can do this and it will show you three",
-            "embedding_vector": [
+            "embedding": [
                 -0.02295625,
                 -0.012113895,
                 -0.04125223,
@@ -41327,7 +41327,7 @@
             "start": 310.48,
             "end": 318.48,
             "text": " decimal points okay so just to summarize you can do all the basic mathematical operations in Python",
-            "embedding_vector": [
+            "embedding": [
                 0.030510187,
                 0.022462595,
                 -0.031545747,
@@ -42360,7 +42360,7 @@
             "start": 318.48,
             "end": 325.20000000000005,
             "text": " using these operator signs also there are two kind of numbers in Python one is integer which is",
-            "embedding_vector": [
+            "embedding": [
                 -0.024132138,
                 0.0030289823,
                 -0.049835794,
@@ -43393,7 +43393,7 @@
             "start": 325.20000000000005,
             "end": 332.48,
             "text": " like a whole number so for example 4.30 by 16 to 4 all these are integer numbers because they don't",
-            "embedding_vector": [
+            "embedding": [
                 0.010671292,
                 -0.003210257,
                 -0.04021505,
@@ -44426,7 +44426,7 @@
             "start": 332.48,
             "end": 339.36,
             "text": " have a fractional part to it whereas this number is called a float number because it has a",
-            "embedding_vector": [
+            "embedding": [
                 -0.01994857,
                 0.017165883,
                 -0.021652732,
@@ -45459,7 +45459,7 @@
             "start": 339.36,
             "end": 345.68,
             "text": " fractional part it's not a whole number basically it has a fraction to it so just remember this thing",
-            "embedding_vector": [
+            "embedding": [
                 0.0109692365,
                 0.047602557,
                 -0.016456624,
@@ -46492,7 +46492,7 @@
             "start": 345.76,
             "end": 355.76,
             "text": " that two types of numbers integers and floats all right now let me show you something interesting so",
-            "embedding_vector": [
+            "embedding": [
                 0.0013720242,
                 0.0031459355,
                 -0.0578876,
@@ -47525,7 +47525,7 @@
             "start": 356.48,
             "end": 366.32,
             "text": " if I do let's say if I want to add and if I do this kind of operation just take a pose and",
-            "embedding_vector": [
+            "embedding": [
                 -0.012514567,
                 0.017969215,
                 -0.047623422,
@@ -48558,7 +48558,7 @@
             "start": 367.44,
             "end": 373.2,
             "text": " think about what will be the answer what what will be the expected output okay",
-            "embedding_vector": [
+            "embedding": [
                 -0.02273675,
                 0.015392258,
                 -0.07957986,
@@ -49591,7 +49591,7 @@
             "start": 373.84,
             "end": 381.36,
             "text": " all right so I'm just about to hit enter and you will see in a moment what it prints now what",
-            "embedding_vector": [
+            "embedding": [
                 -0.0175221,
                 0.025771618,
                 -0.042965364,
@@ -50624,7 +50624,7 @@
             "start": 381.36,
             "end": 390.64,
             "text": " were you expecting some of you might be expecting that it will do 10 plus 2 which is 12 and then it will",
-            "embedding_vector": [
+            "embedding": [
                 -0.0047078095,
                 0.02770632,
                 -0.0651524,
@@ -51657,7 +51657,7 @@
             "start": 390.64,
             "end": 401.2,
             "text": " multiply it by 3 so 12 into 3 will be 36 but that's not what it printed why well the reason is the",
-            "embedding_vector": [
+            "embedding": [
                 -0.017609945,
                 -0.0056103636,
                 -0.04355227,
@@ -52690,7 +52690,7 @@
             "start": 401.2,
             "end": 408.24,
             "text": " way Python works is it has a priority on certain mathematical operations so for example in this case",
-            "embedding_vector": [
+            "embedding": [
                 0.0077904044,
                 0.008388054,
                 -0.008267551,
@@ -53723,7 +53723,7 @@
             "start": 408.24,
             "end": 416.24,
             "text": " it will do 2 multiplied by 3 first so 2 multiplied by 3 is 6 and then it will add it to 10 so 10 plus",
-            "embedding_vector": [
+            "embedding": [
                 0.007826325,
                 0.0513029,
                 -0.010031588,
@@ -54756,7 +54756,7 @@
             "start": 416.24,
             "end": 423.52,
             "text": " 6 is 16 if you want to do what you expect there which is 10 plus 2 and then multiply by 3 you need to",
-            "embedding_vector": [
+            "embedding": [
                 0.017026342,
                 0.026205273,
                 -0.019557698,
@@ -55789,7 +55789,7 @@
             "start": 423.52,
             "end": 433.59999999999997,
             "text": " use brackets so opening bracket 10 plus 2 closing bracket cross 3 so by providing these brackets you",
-            "embedding_vector": [
+            "embedding": [
                 0.017465455,
                 0.011592774,
                 -0.04643156,
@@ -56822,7 +56822,7 @@
             "start": 433.59999999999997,
             "end": 439.2,
             "text": " are telling your programming platform that I want the mathematical operation to happen in this",
-            "embedding_vector": [
+            "embedding": [
                 0.019606648,
                 0.02448361,
                 -0.067851745,
@@ -57855,7 +57855,7 @@
             "start": 439.2,
             "end": 449.52,
             "text": " order 10 plus 2 and then 3 now you get 36 okay cool now let me show you one more interesting thing",
-            "embedding_vector": [
+            "embedding": [
                 0.0077436888,
                 -0.0045963177,
                 -0.050269995,
@@ -58888,7 +58888,7 @@
             "start": 449.52,
             "end": 458.08,
             "text": " so 6 minus 5.7 again take a pause and think what will be the answer it's really easy to guess",
-            "embedding_vector": [
+            "embedding": [
                 0.0067150015,
                 0.05973478,
                 -0.025821561,
@@ -59921,7 +59921,7 @@
             "start": 458.08,
             "end": 467.2,
             "text": " that right it should be 0.3 but let's see what happens who who why the hell I got this answer why",
-            "embedding_vector": [
+            "embedding": [
                 -0.051842447,
                 0.013215902,
                 -0.06673392,
@@ -60954,7 +60954,7 @@
             "start": 467.2,
             "end": 474.88,
             "text": " is it not 0.3 well there is an answer so in any programming language when you try to store floating",
-            "embedding_vector": [
+            "embedding": [
                 -0.05015829,
                 -0.009292267,
                 -0.029421221,
@@ -61987,7 +61987,7 @@
             "start": 474.88,
             "end": 482.24,
             "text": " number it ultimately numbers are stored in binary format which is a sequence of 0 and 1 and the way",
-            "embedding_vector": [
+            "embedding": [
                 0.009834625,
                 -8.2225895e-05,
                 -0.042170525,
@@ -63020,7 +63020,7 @@
             "start": 482.24,
             "end": 488.71999999999997,
             "text": " floating numbers are stored they always lose the accuracy so there is no precise way to store",
-            "embedding_vector": [
+            "embedding": [
                 -0.021494526,
                 0.0017351725,
                 -0.06555844,
@@ -64053,7 +64053,7 @@
             "start": 488.71999999999997,
             "end": 494.48,
             "text": " floating numbers hence you will get this kind of behavior and this is not just with Python this is",
-            "embedding_vector": [
+            "embedding": [
                 -0.051402323,
                 -0.0015104642,
                 -0.040138572,
@@ -65086,7 +65086,7 @@
             "start": 494.48,
             "end": 500.71999999999997,
             "text": " with any programming languages and it's expected so it's not a bug or anything it is an expected",
-            "embedding_vector": [
+            "embedding": [
                 -0.013998299,
                 -0.010101822,
                 -0.037248418,
@@ -66119,7 +66119,7 @@
             "start": 500.72,
             "end": 509.76000000000005,
             "text": " output so if you want to again see 0.3 then use rounding number rounding rounding function so just say",
-            "embedding_vector": [
+            "embedding": [
                 -0.058224358,
                 0.020389244,
                 -0.044373278,
@@ -67152,7 +67152,7 @@
             "start": 510.72,
             "end": 523.36,
             "text": " around this particular number by two decimal points and you get 0.3 okay so that was all about numbers",
-            "embedding_vector": [
+            "embedding": [
                 -0.009454548,
                 0.018689545,
                 -0.0583798,
@@ -68185,7 +68185,7 @@
             "start": 523.36,
             "end": 525.36,
             "text": " thanks for watching",
-            "embedding_vector": [
+            "embedding": [
                 -0.015454682,
                 -0.009053506,
                 -0.042382937,

@@ -1,13 +1,13 @@
 {
     "text": " I'm happy to announce new series on machine learning with Python. In this tutorial, we are going to look into what is machine learning. There are certain tasks where computers are really better than humans. For example, if I ask you to multiply these two big numbers, you will take a lot of time. Whereas computers can do it in less than a second. Similarly, if I ask you to search through millions of records, then that search operation is extremely difficult for humans, whereas machines can do it in a matter of nanosecond. On the other hand, there are some tasks where humans outperform machines such as driving the car. You don't see many robots driving the car on the road today. In Bay area, a Google and Uber and Tesla, these companies are trying to travel as cars, but it is still in initial phase as of 2018. Most of the cars driven on the road are still by humans. Natural language conversation is also an area where humans outperform machines. So machine learning tries to make computers better at the things where traditionally, humans were outperforming machines. And the way we do that is we make machines learn things like humans do. So the question is why humans are better in driving the cars and having a conversation. For that, we need to understand how human brain works. Human brain consists of tiny neurons. There are billions of neurons in our brain. And whenever we think or make a decision, a signal, a chemical signal is generated and these tiny neurons light up. Here is a simple model of these neurons where these neurons are the neurons and the arrows are the synapses that connect these neurons. So what happens is let's say when you have a baby and baby sees a cow for the first time, you will tell baby that this is a cow. So internally in her brain, specific set of neurons will light up and these two output neurons each corresponds to a specific entity such as cow and a cow. When you say that this is a cow, these set of neurons are lighting up and the edges, they become stronger. These edges are shown in yellow, in a blue, a dark color here and it leads to a certain output. This is like you are in a jungle and you are looking for a direction. Now you found a direction to reach to a specific destination. Next day when baby sees a second cow, you will tell the baby that okay, this is also a cow. So again, same set of neurons and some additional neurons light up and these pathways become more stronger. Similarly when a baby is seeing a car, you will tell her that this is a car and some other set of neurons will light up, the edges will become stronger and so forth. This way you are training a baby okay. So as a human, we all know in our childhood, the way we learn things are we make mistakes, someone correct the mistakes and then we learn. During the learning procedure, what happens in our brain is constantly these edges and neurons are being adjusted and these new pathways are being created that leads to a certain output or a decision. Computers can also be trained in similar way where neural network models are created and they are trained with a lot of training data and the corresponding output and these neurons and these edges are adjusted and the neural network becomes trained so that later on when you give a new input to machine, it can tell you the correct output. This is called deep learning and deep learning is one of the areas in machine learning. machine learning is quite a broader term. It is a complete science of field and computer science where we use various techniques and deep learning is one of them. There are other techniques where we use the knowledge present in available data. We extract it and use that knowledge to make future decisions. So overall, as I said before, machine learning is a bigger area, deep learning is one part of it and there are like mathematical and statistical models that we use to make predictions. So that's another area. Machine learning has a big implication on our real life. One of the important features in any email account is spam filter. If you are using Google or Yahoo or any other email account, you will see that they filter the spam emails automatically. The way they do it is they have seen a lot of spam emails in the past and they train machines to learn from the content of those emails and they filter it out for future. Personal assistant type of devices such as Amazon Alexa and Google Home is another example. They are getting increasingly better at human conversation. When you talk to them, they learn your SN, they learn your terminology and then in the future, they give you an accurate reply for the question that you ask them. YouTube's recommended video is another example of machine learning where they look at your past pattern on what kind of content you are watching and based on that, they will generate the suggestions. Last but not least is travel escars. I won't be surprised if in next 10 years you will see many travel escars on the roads because companies like Tesla, Google, Uber, they are investing heavily in travel escars and all of them are using machine learning and artificial intelligence techniques to make cars smarter. So that's all I had for this introduction tutorial. In the next tutorial, we are going to write some Python code to make some predictions using linear regression. Thanks for watching. Bye.",
-    "segments": [
+    "segements": [
         {
             "lecture_id": 0,
             "lecture_title": "Machine Learning Tutorial Python -1",
             "start": 0.0,
             "end": 4.92,
             "text": " I'm happy to announce new series on machine learning with Python.",
-            "embedding_vector": [
+            "embedding": [
                 -0.057874538,
                 -0.039807234,
                 -0.03547865,
@@ -1040,7 +1040,7 @@
             "start": 4.92,
             "end": 8.48,
             "text": " In this tutorial, we are going to look into what is machine learning.",
-            "embedding_vector": [
+            "embedding": [
                 -0.026654951,
                 0.0043188194,
                 -0.019650258,
@@ -2073,7 +2073,7 @@
             "start": 8.48,
             "end": 11.56,
             "text": " There are certain tasks where computers are really better than humans.",
-            "embedding_vector": [
+            "embedding": [
                 -0.015802223,
                 0.0031503725,
                 -0.060742904,
@@ -3106,7 +3106,7 @@
             "start": 11.56,
             "end": 16.44,
             "text": " For example, if I ask you to multiply these two big numbers, you will take a lot of time.",
-            "embedding_vector": [
+            "embedding": [
                 -0.022965744,
                 0.045748964,
                 -0.055046402,
@@ -4139,7 +4139,7 @@
             "start": 16.44,
             "end": 20.52,
             "text": " Whereas computers can do it in less than a second.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0023559409,
                 0.05082792,
                 -0.037335865,
@@ -5172,7 +5172,7 @@
             "start": 20.52,
             "end": 26.16,
             "text": " Similarly, if I ask you to search through millions of records, then that search operation is",
-            "embedding_vector": [
+            "embedding": [
                 -0.051414642,
                 0.01347258,
                 -0.044725455,
@@ -6205,7 +6205,7 @@
             "start": 26.16,
             "end": 34.6,
             "text": " extremely difficult for humans, whereas machines can do it in a matter of nanosecond.",
-            "embedding_vector": [
+            "embedding": [
                 0.014994442,
                 0.032670457,
                 -0.024147859,
@@ -7238,7 +7238,7 @@
             "start": 34.6,
             "end": 39.92,
             "text": " On the other hand, there are some tasks where humans outperform machines such as driving",
-            "embedding_vector": [
+            "embedding": [
                 -0.030836603,
                 -0.01012611,
                 -0.041656993,
@@ -8271,7 +8271,7 @@
             "start": 39.92,
             "end": 40.92,
             "text": " the car.",
-            "embedding_vector": [
+            "embedding": [
                 -0.032594442,
                 -0.0016623643,
                 -0.0454544,
@@ -9304,7 +9304,7 @@
             "start": 40.92,
             "end": 46.0,
             "text": " You don't see many robots driving the car on the road today.",
-            "embedding_vector": [
+            "embedding": [
                 -0.074056335,
                 -0.006252806,
                 -0.01855536,
@@ -10337,7 +10337,7 @@
             "start": 46.0,
             "end": 52.0,
             "text": " In Bay area, a Google and Uber and Tesla, these companies are trying to travel as cars,",
-            "embedding_vector": [
+            "embedding": [
                 -0.01858316,
                 -0.012807091,
                 -0.0018300375,
@@ -11370,7 +11370,7 @@
             "start": 52.0,
             "end": 55.96,
             "text": " but it is still in initial phase as of 2018.",
-            "embedding_vector": [
+            "embedding": [
                 -0.00831675,
                 0.026642773,
                 -0.019592144,
@@ -12403,7 +12403,7 @@
             "start": 55.96,
             "end": 59.96,
             "text": " Most of the cars driven on the road are still by humans.",
-            "embedding_vector": [
+            "embedding": [
                 -0.029402979,
                 -0.0020066446,
                 -0.034518957,
@@ -13436,7 +13436,7 @@
             "start": 59.96,
             "end": 66.6,
             "text": " Natural language conversation is also an area where humans outperform machines.",
-            "embedding_vector": [
+            "embedding": [
                 -0.00847413,
                 0.00086746254,
                 -0.032096285,
@@ -14469,7 +14469,7 @@
             "start": 66.6,
             "end": 73.72,
             "text": " So machine learning tries to make computers better at the things where traditionally,",
-            "embedding_vector": [
+            "embedding": [
                 -0.03700257,
                 -0.011844981,
                 -0.038552407,
@@ -15502,7 +15502,7 @@
             "start": 73.72,
             "end": 77.0,
             "text": " humans were outperforming machines.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0022917876,
                 -0.011268251,
                 -0.06804517,
@@ -16535,7 +16535,7 @@
             "start": 77.0,
             "end": 84.24000000000001,
             "text": " And the way we do that is we make machines learn things like humans do.",
-            "embedding_vector": [
+            "embedding": [
                 -0.015784297,
                 0.016275313,
                 -0.032388385,
@@ -17568,7 +17568,7 @@
             "start": 84.24,
             "end": 91.11999999999999,
             "text": " So the question is why humans are better in driving the cars and having a conversation.",
-            "embedding_vector": [
+            "embedding": [
                 -0.019748617,
                 -0.029014004,
                 -0.018329488,
@@ -18601,7 +18601,7 @@
             "start": 91.11999999999999,
             "end": 95.16,
             "text": " For that, we need to understand how human brain works.",
-            "embedding_vector": [
+            "embedding": [
                 0.0011648787,
                 0.028018175,
                 -0.026088368,
@@ -19634,7 +19634,7 @@
             "start": 95.16,
             "end": 97.64,
             "text": " Human brain consists of tiny neurons.",
-            "embedding_vector": [
+            "embedding": [
                 0.009831667,
                 0.017550657,
                 -0.005708854,
@@ -20667,7 +20667,7 @@
             "start": 97.64,
             "end": 100.63999999999999,
             "text": " There are billions of neurons in our brain.",
-            "embedding_vector": [
+            "embedding": [
                 0.009688733,
                 -0.0005651536,
                 -0.008361772,
@@ -21700,7 +21700,7 @@
             "start": 100.63999999999999,
             "end": 108.32,
             "text": " And whenever we think or make a decision, a signal, a chemical signal is generated and",
-            "embedding_vector": [
+            "embedding": [
                 -0.008024821,
                 0.0013025041,
                 -0.016091924,
@@ -22733,7 +22733,7 @@
             "start": 108.32,
             "end": 111.24,
             "text": " these tiny neurons light up.",
-            "embedding_vector": [
+            "embedding": [
                 -0.00018435829,
                 0.008198329,
                 -0.015333655,
@@ -23766,7 +23766,7 @@
             "start": 111.24,
             "end": 116.52,
             "text": " Here is a simple model of these neurons where these neurons are the neurons and the arrows",
-            "embedding_vector": [
+            "embedding": [
                 -0.002130864,
                 -0.016211698,
                 -0.050989203,
@@ -24799,7 +24799,7 @@
             "start": 116.52,
             "end": 120.75999999999999,
             "text": " are the synapses that connect these neurons.",
-            "embedding_vector": [
+            "embedding": [
                 0.010745275,
                 -0.010593845,
                 -0.022194857,
@@ -25832,7 +25832,7 @@
             "start": 120.75999999999999,
             "end": 130.2,
             "text": " So what happens is let's say when you have a baby and baby sees a cow for the first time,",
-            "embedding_vector": [
+            "embedding": [
                 0.013039601,
                 0.02574161,
                 -0.02969476,
@@ -26865,7 +26865,7 @@
             "start": 130.2,
             "end": 133.32,
             "text": " you will tell baby that this is a cow.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0037189827,
                 0.0114859445,
                 -0.035091083,
@@ -27898,7 +27898,7 @@
             "start": 133.32,
             "end": 141.66,
             "text": " So internally in her brain, specific set of neurons will light up and these two output",
-            "embedding_vector": [
+            "embedding": [
                 -0.008490997,
                 -0.013629897,
                 -0.050389793,
@@ -28931,7 +28931,7 @@
             "start": 141.66,
             "end": 149.2,
             "text": " neurons each corresponds to a specific entity such as cow and a cow.",
-            "embedding_vector": [
+            "embedding": [
                 0.0024325622,
                 -0.03685401,
                 -0.016116025,
@@ -29964,7 +29964,7 @@
             "start": 149.2,
             "end": 156.68,
             "text": " When you say that this is a cow, these set of neurons are lighting up and the edges, they",
-            "embedding_vector": [
+            "embedding": [
                 0.004601493,
                 -0.022067953,
                 -0.01166218,
@@ -30997,7 +30997,7 @@
             "start": 156.68,
             "end": 159.16,
             "text": " become stronger.",
-            "embedding_vector": [
+            "embedding": [
                 0.013532142,
                 0.048954997,
                 -0.04110722,
@@ -32030,7 +32030,7 @@
             "start": 159.16,
             "end": 165.28,
             "text": " These edges are shown in yellow, in a blue, a dark color here and it leads to a certain",
-            "embedding_vector": [
+            "embedding": [
                 -0.021960054,
                 0.012995254,
                 -0.06667701,
@@ -33063,7 +33063,7 @@
             "start": 165.28,
             "end": 166.68,
             "text": " output.",
-            "embedding_vector": [
+            "embedding": [
                 -0.020732483,
                 0.01770305,
                 -0.054483585,
@@ -34096,7 +34096,7 @@
             "start": 166.68,
             "end": 170.56,
             "text": " This is like you are in a jungle and you are looking for a direction.",
-            "embedding_vector": [
+            "embedding": [
                 -0.06679477,
                 0.004012331,
                 -0.054715633,
@@ -35129,7 +35129,7 @@
             "start": 170.56,
             "end": 175.8,
             "text": " Now you found a direction to reach to a specific destination.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0050755627,
                 0.009162585,
                 -0.059581034,
@@ -36162,7 +36162,7 @@
             "start": 175.8,
             "end": 182.51999999999998,
             "text": " Next day when baby sees a second cow, you will tell the baby that okay, this is also a",
-            "embedding_vector": [
+            "embedding": [
                 5.3174892e-05,
                 0.015255433,
                 -0.01100437,
@@ -37195,7 +37195,7 @@
             "start": 182.51999999999998,
             "end": 183.51999999999998,
             "text": " cow.",
-            "embedding_vector": [
+            "embedding": [
                 -0.016506305,
                 0.020607809,
                 -0.02002318,
@@ -38228,7 +38228,7 @@
             "start": 183.51999999999998,
             "end": 188.2,
             "text": " So again, same set of neurons and some additional neurons light up and these pathways become",
-            "embedding_vector": [
+            "embedding": [
                 0.009543277,
                 -0.016617643,
                 -0.02978271,
@@ -39261,7 +39261,7 @@
             "start": 188.2,
             "end": 190.79999999999998,
             "text": " more stronger.",
-            "embedding_vector": [
+            "embedding": [
                 0.021790026,
                 0.029098386,
                 -0.055283673,
@@ -40294,7 +40294,7 @@
             "start": 190.79999999999998,
             "end": 199.04,
             "text": " Similarly when a baby is seeing a car, you will tell her that this is a car and some other",
-            "embedding_vector": [
+            "embedding": [
                 -0.008189437,
                 0.005603812,
                 -0.038190696,
@@ -41327,7 +41327,7 @@
             "start": 199.04,
             "end": 205.56,
             "text": " set of neurons will light up, the edges will become stronger and so forth.",
-            "embedding_vector": [
+            "embedding": [
                 0.008752106,
                 -0.009623852,
                 -0.02782582,
@@ -42360,7 +42360,7 @@
             "start": 205.56,
             "end": 208.83999999999997,
             "text": " This way you are training a baby okay.",
-            "embedding_vector": [
+            "embedding": [
                 -0.004632515,
                 0.011168399,
                 -0.081641294,
@@ -43393,7 +43393,7 @@
             "start": 208.83999999999997,
             "end": 215.56,
             "text": " So as a human, we all know in our childhood, the way we learn things are we make mistakes,",
-            "embedding_vector": [
+            "embedding": [
                 0.028043851,
                 0.018549304,
                 -0.057094242,
@@ -44426,7 +44426,7 @@
             "start": 215.56,
             "end": 219.8,
             "text": " someone correct the mistakes and then we learn.",
-            "embedding_vector": [
+            "embedding": [
                 0.00013651063,
                 0.007902515,
                 -0.042043265,
@@ -45459,7 +45459,7 @@
             "start": 219.8,
             "end": 225.8,
             "text": " During the learning procedure, what happens in our brain is constantly these edges and",
-            "embedding_vector": [
+            "embedding": [
                 -0.019565538,
                 0.009219253,
                 -0.020244578,
@@ -46492,7 +46492,7 @@
             "start": 225.8,
             "end": 233.52,
             "text": " neurons are being adjusted and these new pathways are being created that leads to a certain",
-            "embedding_vector": [
+            "embedding": [
                 0.025938757,
                 -0.016573224,
                 -0.040191684,
@@ -47525,7 +47525,7 @@
             "start": 233.52,
             "end": 236.76,
             "text": " output or a decision.",
-            "embedding_vector": [
+            "embedding": [
                 -0.00744281,
                 -0.017206494,
                 -0.0572582,
@@ -48558,7 +48558,7 @@
             "start": 236.76,
             "end": 242.48000000000002,
             "text": " Computers can also be trained in similar way where neural network models are created and",
-            "embedding_vector": [
+            "embedding": [
                 0.0017191324,
                 -0.0020526263,
                 -0.04868385,
@@ -49591,7 +49591,7 @@
             "start": 242.56,
             "end": 250.0,
             "text": " they are trained with a lot of training data and the corresponding output and these neurons",
-            "embedding_vector": [
+            "embedding": [
                 -0.009948217,
                 -0.0291822,
                 -0.06114228,
@@ -50624,7 +50624,7 @@
             "start": 250.0,
             "end": 257.2,
             "text": " and these edges are adjusted and the neural network becomes trained so that later on when",
-            "embedding_vector": [
+            "embedding": [
                 -0.011566743,
                 -0.01430736,
                 -0.024995297,
@@ -51657,7 +51657,7 @@
             "start": 257.2,
             "end": 263.2,
             "text": " you give a new input to machine, it can tell you the correct output.",
-            "embedding_vector": [
+            "embedding": [
                 -0.024159791,
                 -0.010965506,
                 -0.07937185,
@@ -52690,7 +52690,7 @@
             "start": 263.2,
             "end": 268.71999999999997,
             "text": " This is called deep learning and deep learning is one of the areas in machine learning.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0136486925,
                 -0.013602942,
                 -0.050274737,
@@ -53723,7 +53723,7 @@
             "start": 268.8,
             "end": 271.6,
             "text": " machine learning is quite a broader term.",
-            "embedding_vector": [
+            "embedding": [
                 -0.02749192,
                 -0.0019862037,
                 -0.048155073,
@@ -54756,7 +54756,7 @@
             "start": 271.6,
             "end": 277.36,
             "text": " It is a complete science of field and computer science where we use various techniques and",
-            "embedding_vector": [
+            "embedding": [
                 -0.030618424,
                 0.013215309,
                 -0.04874942,
@@ -55789,7 +55789,7 @@
             "start": 277.36,
             "end": 279.88000000000005,
             "text": " deep learning is one of them.",
-            "embedding_vector": [
+            "embedding": [
                 -0.032025155,
                 -0.015489864,
                 -0.048213065,
@@ -56822,7 +56822,7 @@
             "start": 279.88000000000005,
             "end": 287.08000000000004,
             "text": " There are other techniques where we use the knowledge present in available data.",
-            "embedding_vector": [
+            "embedding": [
                 -0.036270395,
                 0.019252313,
                 -0.03549258,
@@ -57855,7 +57855,7 @@
             "start": 287.08000000000004,
             "end": 292.76000000000005,
             "text": " We extract it and use that knowledge to make future decisions.",
-            "embedding_vector": [
+            "embedding": [
                 -0.018020691,
                 0.021770861,
                 -0.032456886,
@@ -58888,7 +58888,7 @@
             "start": 292.76000000000005,
             "end": 297.72,
             "text": " So overall, as I said before, machine learning is a bigger area, deep learning is one part",
-            "embedding_vector": [
+            "embedding": [
                 -0.015592583,
                 -0.004467996,
                 -0.05274083,
@@ -59921,7 +59921,7 @@
             "start": 297.72,
             "end": 304.56,
             "text": " of it and there are like mathematical and statistical models that we use to make predictions.",
-            "embedding_vector": [
+            "embedding": [
                 0.010429039,
                 0.019804217,
                 -0.055945266,
@@ -60954,7 +60954,7 @@
             "start": 304.56,
             "end": 307.24,
             "text": " So that's another area.",
-            "embedding_vector": [
+            "embedding": [
                 -0.010540286,
                 0.033291437,
                 -0.05554581,
@@ -61987,7 +61987,7 @@
             "start": 307.24,
             "end": 310.92,
             "text": " Machine learning has a big implication on our real life.",
-            "embedding_vector": [
+            "embedding": [
                 -0.025332496,
                 0.005754786,
                 -0.024756629,
@@ -63020,7 +63020,7 @@
             "start": 310.92,
             "end": 316.08000000000004,
             "text": " One of the important features in any email account is spam filter.",
-            "embedding_vector": [
+            "embedding": [
                 -0.034497753,
                 -0.0032154042,
                 -0.028168565,
@@ -64053,7 +64053,7 @@
             "start": 316.08000000000004,
             "end": 322.04,
             "text": " If you are using Google or Yahoo or any other email account, you will see that they filter",
-            "embedding_vector": [
+            "embedding": [
                 -0.041989576,
                 -0.023094274,
                 -0.026617475,
@@ -65086,7 +65086,7 @@
             "start": 322.04,
             "end": 325.40000000000003,
             "text": " the spam emails automatically.",
-            "embedding_vector": [
+            "embedding": [
                 -0.06088743,
                 0.0113391755,
                 -0.029223705,
@@ -66119,7 +66119,7 @@
             "start": 325.4,
             "end": 331.71999999999997,
             "text": " The way they do it is they have seen a lot of spam emails in the past and they train",
-            "embedding_vector": [
+            "embedding": [
                 -0.04150472,
                 -0.011818776,
                 -0.035655703,
@@ -67152,7 +67152,7 @@
             "start": 331.71999999999997,
             "end": 337.59999999999997,
             "text": " machines to learn from the content of those emails and they filter it out for future.",
-            "embedding_vector": [
+            "embedding": [
                 -0.037020326,
                 0.00053108606,
                 0.008409963,
@@ -68185,7 +68185,7 @@
             "start": 337.59999999999997,
             "end": 344.2,
             "text": " Personal assistant type of devices such as Amazon Alexa and Google Home is another example.",
-            "embedding_vector": [
+            "embedding": [
                 -0.011828618,
                 0.02732721,
                 -0.060622796,
@@ -69218,7 +69218,7 @@
             "start": 344.2,
             "end": 348.47999999999996,
             "text": " They are getting increasingly better at human conversation.",
-            "embedding_vector": [
+            "embedding": [
                 -0.016423995,
                 -0.0016010228,
                 -0.036286056,
@@ -70251,7 +70251,7 @@
             "start": 348.47999999999996,
             "end": 354.64,
             "text": " When you talk to them, they learn your SN, they learn your terminology and then in the",
-            "embedding_vector": [
+            "embedding": [
                 -0.037986584,
                 0.014481731,
                 -0.018416459,
@@ -71284,7 +71284,7 @@
             "start": 354.64,
             "end": 361.03999999999996,
             "text": " future, they give you an accurate reply for the question that you ask them.",
-            "embedding_vector": [
+            "embedding": [
                 -0.036068395,
                 -0.009414564,
                 -0.0496035,
@@ -72317,7 +72317,7 @@
             "start": 361.03999999999996,
             "end": 366.4,
             "text": " YouTube's recommended video is another example of machine learning where they look at your",
-            "embedding_vector": [
+            "embedding": [
                 -0.01808139,
                 -0.031470813,
                 -0.057116,
@@ -73350,7 +73350,7 @@
             "start": 366.4,
             "end": 371.44,
             "text": " past pattern on what kind of content you are watching and based on that, they will generate",
-            "embedding_vector": [
+            "embedding": [
                 -0.013169229,
                 -0.026320167,
                 -0.042120237,
@@ -74383,7 +74383,7 @@
             "start": 371.44,
             "end": 372.76,
             "text": " the suggestions.",
-            "embedding_vector": [
+            "embedding": [
                 -0.026970906,
                 0.03103881,
                 -0.06298283,
@@ -75416,7 +75416,7 @@
             "start": 372.76,
             "end": 376.24,
             "text": " Last but not least is travel escars.",
-            "embedding_vector": [
+            "embedding": [
                 0.0023823883,
                 0.0093604075,
                 -0.047820378,
@@ -76449,7 +76449,7 @@
             "start": 376.24,
             "end": 382.12,
             "text": " I won't be surprised if in next 10 years you will see many travel escars on the roads",
-            "embedding_vector": [
+            "embedding": [
                 -0.021218628,
                 0.00030772,
                 -0.061369274,
@@ -77482,7 +77482,7 @@
             "start": 382.12,
             "end": 388.52,
             "text": " because companies like Tesla, Google, Uber, they are investing heavily in travel escars",
-            "embedding_vector": [
+            "embedding": [
                 -0.05127811,
                 0.00088875653,
                 -0.010889173,
@@ -78515,7 +78515,7 @@
             "start": 388.52,
             "end": 394.96,
             "text": " and all of them are using machine learning and artificial intelligence techniques to make",
-            "embedding_vector": [
+            "embedding": [
                 -0.0018471904,
                 0.0012940516,
                 -0.030159276,
@@ -79548,7 +79548,7 @@
             "start": 394.96,
             "end": 397.32,
             "text": " cars smarter.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0264925,
                 -0.047909595,
                 -0.012036625,
@@ -80581,7 +80581,7 @@
             "start": 397.32,
             "end": 401.08,
             "text": " So that's all I had for this introduction tutorial.",
-            "embedding_vector": [
+            "embedding": [
                 -0.038431287,
                 0.013622133,
                 -0.042870864,
@@ -81614,7 +81614,7 @@
             "start": 401.08,
             "end": 407.12,
             "text": " In the next tutorial, we are going to write some Python code to make some predictions using",
-            "embedding_vector": [
+            "embedding": [
                 -0.037403073,
                 0.027620459,
                 -0.023233686,
@@ -82647,7 +82647,7 @@
             "start": 407.12,
             "end": 408.92,
             "text": " linear regression.",
-            "embedding_vector": [
+            "embedding": [
                 -0.075478226,
                 0.038956515,
                 -0.062547594,
@@ -83680,7 +83680,7 @@
             "start": 408.92,
             "end": 409.92,
             "text": " Thanks for watching.",
-            "embedding_vector": [
+            "embedding": [
                 -0.027294563,
                 0.005445887,
                 -0.045798473,
@@ -84713,7 +84713,7 @@
             "start": 409.92,
             "end": 410.12,
             "text": " Bye.",
-            "embedding_vector": [
+            "embedding": [
                 -0.0117819775,
                 0.044661906,
                 -0.036448892,

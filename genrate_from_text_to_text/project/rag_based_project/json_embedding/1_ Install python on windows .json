@@ -1,13 +1,13 @@
 {
     "text": " Today we will learn how to install Python 3.5 on Windows for this go to Python.org website on that Click on downloads button Now we are going to install Python 3.5 if you are interested in installing previous versions So just 2.7.11 or any of the previous version which are listed here You can click on the corresponding download button, but we'll install Python 3.5 Click here it will download the set of file if you're using Firefox or Internet Explorer It will show it in a different location, but you will figure it out So click on set of file on this Click add Python 3.5 to path this checkbox. It's very important. I will tell you why Customize installation. I'm going to install it for all users which will install it to this location Install it will take a few minutes Python got installed successfully You can verify it by running idle and windows command prompt So if you are I have Windows 10 if you are Windows 807 user Click on start button and there will be edit box here. It says search Programming files, but I have the same thing here So type in idl e Click on this This shows you the python shell which allows you to write Python programs Now if your fonts are very small here you can increase the font size by going to options configure idle and increase the font size whatever is your preference to select the size and say okay now let's start writing our first python program So we can use python as a simple calculator as you see it here or you can just print any statement so I'll just say Yeah, I install Python today And it will print that so for beginners it's idl is pretty useful It allows you to write simple python programs We will learn how to use another sophisticated editor for writing big python programs But idle is good for now You can also verify python installation by going to windows command prompt. So type in cmd and Here Type python. So this is showing you the same shell as idle So for example, you can do the same thing that you are able to do it in idle But idle is much better because it does the syntax highlighting you see like print is highlighted in a different color Because print is a spatial keyword in python. It also has some other cool features. So always use idle Now on windows sometimes if you are typing python and if it doesn't recognize the command that it means it is not present in your System path. So for example when I type in path here, you see like python installation directory is present here If it is not present in your case then go to environment variables And choose edit the system environment variables and here Click on environment variables and after that locate path click edit and here you can manually at the beginning Let's say if I didn't have this directory then I would just add it at the beginning followed by a semicolon and hit okay after that This should be able to recognize the python command Okay, thank you",
-    "segments": [
+    "segements": [
         {
             "lecture_id": 0,
             "lecture_title": " Install python on windows ",
             "start": 0.0,
             "end": 8.06,
             "text": " Today we will learn how to install Python 3.5 on Windows for this go to Python.org website",
-            "embedding_vector": [
+            "embedding": [
                 -0.033022422,
                 -0.02622648,
                 -0.0033964368,
@@ -1040,7 +1040,7 @@
             "start": 9.26,
             "end": 10.94,
             "text": " on that",
-            "embedding_vector": [
+            "embedding": [
                 0.0029914435,
                 0.06660971,
                 -0.020478155,
@@ -2073,7 +2073,7 @@
             "start": 10.94,
             "end": 12.94,
             "text": " Click on downloads button",
-            "embedding_vector": [
+            "embedding": [
                 -0.018859843,
                 -0.006888599,
                 -0.0908393,
@@ -3106,7 +3106,7 @@
             "start": 13.74,
             "end": 19.94,
             "text": " Now we are going to install Python 3.5 if you are interested in installing previous versions",
-            "embedding_vector": [
+            "embedding": [
                 -0.027602108,
                 -0.009771067,
                 -0.016831823,
@@ -4139,7 +4139,7 @@
             "start": 19.94,
             "end": 25.1,
             "text": " So just 2.7.11 or any of the previous version which are listed here",
-            "embedding_vector": [
+            "embedding": [
                 -0.035551958,
                 0.035627916,
                 -0.025259744,
@@ -5172,7 +5172,7 @@
             "start": 25.46,
             "end": 30.1,
             "text": " You can click on the corresponding download button, but we'll install Python 3.5",
-            "embedding_vector": [
+            "embedding": [
                 -0.031214407,
                 0.0033570982,
                 -0.035495423,
@@ -6205,7 +6205,7 @@
             "start": 30.62,
             "end": 36.38,
             "text": " Click here it will download the set of file if you're using Firefox or Internet Explorer",
-            "embedding_vector": [
+            "embedding": [
                 -0.0434367,
                 -0.013830768,
                 -0.05885239,
@@ -7238,7 +7238,7 @@
             "start": 36.38,
             "end": 40.300000000000004,
             "text": " It will show it in a different location, but you will figure it out",
-            "embedding_vector": [
+            "embedding": [
                 -0.003307554,
                 -0.0047806683,
                 -0.060081128,
@@ -8271,7 +8271,7 @@
             "start": 41.06,
             "end": 43.7,
             "text": " So click on set of file on this",
-            "embedding_vector": [
+            "embedding": [
                 -0.025151728,
                 -0.003167675,
                 -0.066921495,
@@ -9304,7 +9304,7 @@
             "start": 44.38,
             "end": 50.22,
             "text": " Click add Python 3.5 to path this checkbox. It's very important. I will tell you why",
-            "embedding_vector": [
+            "embedding": [
                 -0.029340638,
                 -0.0097649,
                 -0.018026404,
@@ -10337,7 +10337,7 @@
             "start": 50.699999999999996,
             "end": 56.18,
             "text": " Customize installation. I'm going to install it for all users which will install it to this location",
-            "embedding_vector": [
+            "embedding": [
                 -0.0063204304,
                 0.008116026,
                 -0.058213964,
@@ -11370,7 +11370,7 @@
             "start": 57.14,
             "end": 62.019999999999996,
             "text": " Install it will take a few minutes Python got installed successfully",
-            "embedding_vector": [
+            "embedding": [
                 0.004687136,
                 0.022343244,
                 -0.03147035,
@@ -12403,7 +12403,7 @@
             "start": 62.18,
             "end": 66.06,
             "text": " You can verify it by running idle and windows command prompt",
-            "embedding_vector": [
+            "embedding": [
                 -0.042869247,
                 0.0058658156,
                 -0.01010556,
@@ -13436,7 +13436,7 @@
             "start": 66.06,
             "end": 70.42,
             "text": " So if you are I have Windows 10 if you are Windows 807 user",
-            "embedding_vector": [
+            "embedding": [
                 -0.07547337,
                 0.015499378,
                 -0.05447225,
@@ -14469,7 +14469,7 @@
             "start": 70.66,
             "end": 74.72,
             "text": " Click on start button and there will be edit box here. It says search",
-            "embedding_vector": [
+            "embedding": [
                 -0.0062430375,
                 -0.01307667,
                 -0.037991587,
@@ -15502,7 +15502,7 @@
             "start": 75.5,
             "end": 78.78,
             "text": " Programming files, but I have the same thing here",
-            "embedding_vector": [
+            "embedding": [
                 -0.049937423,
                 -0.0033872558,
                 -0.06862841,
@@ -16535,7 +16535,7 @@
             "start": 79.3,
             "end": 82.74,
             "text": " So type in idl e",
-            "embedding_vector": [
+            "embedding": [
                 -0.045877133,
                 -0.030370906,
                 -0.01914135,
@@ -17568,7 +17568,7 @@
             "start": 84.26,
             "end": 86.26,
             "text": " Click on this",
-            "embedding_vector": [
+            "embedding": [
                 -0.026602011,
                 0.040810905,
                 -0.038274534,
@@ -18601,7 +18601,7 @@
             "start": 86.34,
             "end": 92.38,
             "text": " This shows you the python shell which allows you to write Python programs",
-            "embedding_vector": [
+            "embedding": [
                 -0.046495806,
                 -0.0020923293,
                 -0.030286511,
@@ -19634,7 +19634,7 @@
             "start": 92.38,
             "end": 99.62,
             "text": " Now if your fonts are very small here you can increase the font size by going to options configure idle and",
-            "embedding_vector": [
+            "embedding": [
                 -0.037398435,
                 0.03020109,
                 0.015928961,
@@ -20667,7 +20667,7 @@
             "start": 100.14,
             "end": 102.14,
             "text": " increase the font size",
-            "embedding_vector": [
+            "embedding": [
                 -0.029273111,
                 0.023798032,
                 -0.039961636,
@@ -21700,7 +21700,7 @@
             "start": 102.14,
             "end": 104.78,
             "text": " whatever is your preference to select the size and",
-            "embedding_vector": [
+            "embedding": [
                 0.0068303063,
                 -0.010374032,
                 -0.076118074,
@@ -22733,7 +22733,7 @@
             "start": 105.18,
             "end": 111.42,
             "text": " say okay now let's start writing our first python program",
-            "embedding_vector": [
+            "embedding": [
                 -0.011706972,
                 0.021436986,
                 -0.020334756,
@@ -23766,7 +23766,7 @@
             "start": 111.42,
             "end": 119.02,
             "text": " So we can use python as a simple calculator as you see it here or you can just print any",
-            "embedding_vector": [
+            "embedding": [
                 -0.028171219,
                 0.051897068,
                 -0.01385779,
@@ -24799,7 +24799,7 @@
             "start": 119.78,
             "end": 121.78,
             "text": " statement so I'll just say",
-            "embedding_vector": [
+            "embedding": [
                 -0.022897072,
                 0.044518013,
                 -0.06090963,
@@ -25832,7 +25832,7 @@
             "start": 121.98,
             "end": 123.98,
             "text": " Yeah, I install",
-            "embedding_vector": [
+            "embedding": [
                 -0.02248275,
                 0.006326101,
                 -0.03615111,
@@ -26865,7 +26865,7 @@
             "start": 124.78,
             "end": 126.78,
             "text": " Python today",
-            "embedding_vector": [
+            "embedding": [
                 -0.056980297,
                 0.02383805,
                 0.0001610078,
@@ -27898,7 +27898,7 @@
             "start": 127.5,
             "end": 132.26,
             "text": " And it will print that so for beginners it's idl is pretty useful",
-            "embedding_vector": [
+            "embedding": [
                 -0.047385544,
                 0.020570949,
                 -0.05323477,
@@ -28931,7 +28931,7 @@
             "start": 132.57999999999998,
             "end": 135.66,
             "text": " It allows you to write simple python programs",
-            "embedding_vector": [
+            "embedding": [
                 -0.04325405,
                 0.0137616545,
                 -0.033486303,
@@ -29964,7 +29964,7 @@
             "start": 135.66,
             "end": 141.98,
             "text": " We will learn how to use another sophisticated editor for writing big python programs",
-            "embedding_vector": [
+            "embedding": [
                 -0.02667288,
                 0.01816838,
                 -0.0041224817,
@@ -30997,7 +30997,7 @@
             "start": 141.98,
             "end": 143.66,
             "text": " But idle is good for now",
-            "embedding_vector": [
+            "embedding": [
                 -0.019660808,
                 0.02824782,
                 -0.045006223,
@@ -32030,7 +32030,7 @@
             "start": 143.66,
             "end": 149.38,
             "text": " You can also verify python installation by going to windows command prompt. So type in cmd",
-            "embedding_vector": [
+            "embedding": [
                 -0.040640347,
                 -0.009267452,
                 -0.0025600542,
@@ -33063,7 +33063,7 @@
             "start": 150.45999999999998,
             "end": 151.45999999999998,
             "text": " and",
-            "embedding_vector": [
+            "embedding": [
                 0.0059986734,
                 0.058939397,
                 -0.023827538,
@@ -34096,7 +34096,7 @@
             "start": 151.45999999999998,
             "end": 152.73999999999998,
             "text": " Here",
-            "embedding_vector": [
+            "embedding": [
                 -0.022305172,
                 0.03592461,
                 -0.027682273,
@@ -35129,7 +35129,7 @@
             "start": 152.73999999999998,
             "end": 157.66,
             "text": " Type python. So this is showing you the same shell as idle",
-            "embedding_vector": [
+            "embedding": [
                 -0.06858289,
                 0.024861252,
                 -0.019816391,
@@ -36162,7 +36162,7 @@
             "start": 157.94,
             "end": 161.94,
             "text": " So for example, you can do the same thing that you are able to do it in idle",
-            "embedding_vector": [
+            "embedding": [
                 -0.030696375,
                 0.047173727,
                 -0.0185781,
@@ -37195,7 +37195,7 @@
             "start": 162.02,
             "end": 167.94,
             "text": " But idle is much better because it does the syntax highlighting you see like print is highlighted in a different color",
-            "embedding_vector": [
+            "embedding": [
                 -0.05549173,
                 -0.0032473705,
                 -0.015166911,
@@ -38228,7 +38228,7 @@
             "start": 168.1,
             "end": 175.78,
             "text": " Because print is a spatial keyword in python. It also has some other cool features. So always use idle",
-            "embedding_vector": [
+            "embedding": [
                 -0.06597601,
                 0.018574638,
                 0.0064027123,
@@ -39261,7 +39261,7 @@
             "start": 177.18,
             "end": 185.42,
             "text": " Now on windows sometimes if you are typing python and if it doesn't recognize the command that it means it is not present in your",
-            "embedding_vector": [
+            "embedding": [
                 -0.06313495,
                 -0.0004661948,
                 0.00043989756,
@@ -40294,7 +40294,7 @@
             "start": 186.05999999999997,
             "end": 192.85999999999999,
             "text": " System path. So for example when I type in path here, you see like python installation directory is present here",
-            "embedding_vector": [
+            "embedding": [
                 -0.043680094,
                 -0.019433038,
                 -0.030221872,
@@ -41327,7 +41327,7 @@
             "start": 192.85999999999999,
             "end": 198.29999999999998,
             "text": " If it is not present in your case then go to environment variables",
-            "embedding_vector": [
+            "embedding": [
                 -0.0645978,
                 0.0003031559,
                 -0.04433923,
@@ -42360,7 +42360,7 @@
             "start": 199.82,
             "end": 204.5,
             "text": " And choose edit the system environment variables and here",
-            "embedding_vector": [
+            "embedding": [
                 -0.017177543,
                 0.008901626,
                 -0.03792705,
@@ -43393,7 +43393,7 @@
             "start": 205.77999999999997,
             "end": 209.66,
             "text": " Click on environment variables and after that locate path",
-            "embedding_vector": [
+            "embedding": [
                 -0.04324878,
                 -0.011006039,
                 -0.04519925,
@@ -44426,7 +44426,7 @@
             "start": 210.26,
             "end": 214.54,
             "text": " click edit and here you can manually at the beginning",
-            "embedding_vector": [
+            "embedding": [
                 -0.016922135,
                 0.024736844,
                 -0.019025646,
@@ -45459,7 +45459,7 @@
             "start": 214.54,
             "end": 222.85999999999999,
             "text": " Let's say if I didn't have this directory then I would just add it at the beginning followed by a semicolon and hit okay",
-            "embedding_vector": [
+            "embedding": [
                 -0.015229353,
                 0.0028834506,
                 -0.0018368718,
@@ -46492,7 +46492,7 @@
             "start": 223.5,
             "end": 225.5,
             "text": " after that",
-            "embedding_vector": [
+            "embedding": [
                 -0.0010895117,
                 0.02231267,
                 -0.029166063,
@@ -47525,7 +47525,7 @@
             "start": 225.5,
             "end": 229.18,
             "text": " This should be able to recognize the python command",
-            "embedding_vector": [
+            "embedding": [
                 -0.01972676,
                 0.02044462,
                 -0.021307532,
@@ -48558,7 +48558,7 @@
             "start": 230.29999999999998,
             "end": 232.29999999999998,
             "text": " Okay, thank you",
-            "embedding_vector": [
+            "embedding": [
                 -0.022680072,
                 0.012944473,
                 -0.04573316,
