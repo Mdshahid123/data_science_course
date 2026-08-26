@@ -51,6 +51,7 @@ for json_file in give_all_files("json"):
   #step2= parse the current json file
   parsed_content=json.loads(content)
   
+  
   all_text=[]
   #collecting all text
   for chunk in parsed_content["segements"]:

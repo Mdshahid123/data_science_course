@@ -3,6 +3,7 @@ import requests
 import os
 import json
 from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np 
 
 def create_embedding(text):
  api_endpoint="http://localhost:11434/api/embed"
@@ -31,47 +32,51 @@ def read_file_content(file_path):
  read_file.close()
  return content
 
+
+
 # step-01 query to vectors
-
-
 input_query=input("enter your query:")
 
 query_vector=create_embedding(input_query)[0]
 
-
-
-
 # convert given query_vectors into the two dimnetinal 
-
 query_vector_2d=[query_vector]
 
 
 # collect the chunk_enbedding in 2 d 
-
+chunks=[]
 chunk_embeddings_2d=[]
 for file in give_all_files("json_embedding")[:1]:
  content=read_file_content(f"json_embedding/{file}")
 
  original_content=json.loads(content)
  for chunk in original_content["segements"][:3]:
+  chunks.append(chunk)
   chunk_embeddings_2d.append(chunk["embedding"])
 
 
-
-
-
-
-
-
 # step-02 find the consine similarity 
+similairty=cosine_similarity(query_vector_2d,chunk_embeddings_2d).flatten()
 
+# finding a coresspopnding simlarity index in decsreasing order 
+similairty_index = np.argsort(similairty)[::-1]
 
-similairty=cosine_similarity(query_vector_2d,chunk_embeddings_2d)
-print(similairty)
-
-
+print("Similarity scores:",similairty)
+print("top_matching_chunks",similairty_index)
 
 # step-03 pulling the top macthing chunk
+top=2
+
+top_matching_chunk_index=similairty_index[0:top:1]
+print(top_matching_chunk_index)
+ 
+
+
+for  index  in top_matching_chunk_index:
+ print(chunks[index])
+ 
+ 
+
 
 
 
