@@ -1,3 +1,6 @@
+# Ignore large files, .env, __pycache__
+
 /audio/
 
 /videos/
+

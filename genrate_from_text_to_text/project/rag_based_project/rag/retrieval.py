@@ -46,11 +46,11 @@ query_vector_2d=[query_vector]
 # collect the chunk_enbedding in 2 d 
 chunks=[]
 chunk_embeddings_2d=[]
-for file in give_all_files("json_embedding")[:1]:
- content=read_file_content(f"json_embedding/{file}")
+for file in give_all_files("rawData/json_embedding")[:1]:
+ content=read_file_content(f"rawData/json_embedding/{file}")
 
  original_content=json.loads(content)
- for chunk in original_content["segements"][:3]:
+ for chunk in original_content["segements"][:5]:
   chunks.append(chunk)
   chunk_embeddings_2d.append(chunk["embedding"])
 
@@ -59,28 +59,29 @@ for file in give_all_files("json_embedding")[:1]:
 similairty=cosine_similarity(query_vector_2d,chunk_embeddings_2d).flatten()
 
 # finding a coresspopnding simlarity index in decsreasing order 
-similairty_index = np.argsort(similairty)[::-1]
+similairty_score_index = np.argsort(similairty)[::-1]
 
 print("Similarity scores:",similairty)
-print("top_matching_chunks",similairty_index)
+print("similairty_score_index",similairty_score_index)
 
 # step-03 pulling the top macthing chunk
-top=2
+top=5
 
-top_matching_chunk_index=similairty_index[0:top:1]
+top_matching_chunk_index=similairty_score_index[0:top:1]
 print(top_matching_chunk_index)
- 
 
+top_matching_chunks = []
 
-for  index  in top_matching_chunk_index:
- print(chunks[index])
- 
- 
+for index in top_matching_chunk_index:
 
+    chunk = chunks[index]
 
+    top_matching_chunks.append({
+        "lecture_id": chunk["lecture_id"],
+        "lecture_title": chunk["lecture_title"],
+        "start": chunk["start"],
+        "end": chunk["end"],
+        "text": chunk["text"]
+    })
 
-
-
-
-
-
+print(top_matching_chunks)

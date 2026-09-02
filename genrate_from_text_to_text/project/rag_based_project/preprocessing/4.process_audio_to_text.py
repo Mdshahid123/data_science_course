@@ -49,7 +49,7 @@ for file in files:
 
   # now bcz we have a json data now we can save it in a file 
   file_name=f"{lecture_num}_{lecture_title}"
-  file=open(f"json/{file_name}.json","w") #open the file in write mode 
+  file=open(f"rawData/json/{file_name}.json","w") #open the file in write mode 
   file.write(json_format) # we have wrote here 
   file.close()  # closed the file
 

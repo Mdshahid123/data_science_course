@@ -8,7 +8,7 @@ import os
 
 # input video file ino the audio output file
 
-files=os.listdir("videos")  # it will return the list of files 
+files=os.listdir("rawData/videos")  # it will return the list of files 
 
 
 for file in files:
@@ -17,8 +17,8 @@ for file in files:
   lecture_title=file.split("_")[1].split("[")[0]
 
 
-  input_video_path=f"videos/{file}"
+  input_video_path=f"rawData/videos/{file}"
 
-  output_audio_path=f"audio/{lecture_num}_{lecture_title}.mp3"
+  output_audio_path=f"raw/audio/{lecture_num}_{lecture_title}.mp3"
 
   subprocess.run(["ffmpeg","-i",input_video_path,output_audio_path])

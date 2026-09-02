@@ -15,7 +15,7 @@ model=whisper.load_model("base")
 
 # Step 02: Transcribe the audio file
 text_result=model.transcribe(
-  "audio/1_ Install python on windows [Python 3 Programming Tutorials] (1).mp3",
+  "rawData/audio/1_ Install python on windows [Python 3 Programming Tutorials] (1).mp3",
   task="translate",
   language="hi"
 )

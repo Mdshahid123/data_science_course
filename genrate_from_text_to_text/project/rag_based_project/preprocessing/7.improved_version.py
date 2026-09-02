@@ -46,7 +46,7 @@ for json_file in give_all_files("json"):
   
    
 # step 1=reading a content of current file
-  content=read_file_content(f"json/{json_file}")
+  content=read_file_content(f"rawData/json/{json_file}")
 
   #step2= parse the current json file
   parsed_content=json.loads(content)
@@ -71,7 +71,7 @@ for json_file in give_all_files("json"):
    
 
 
-  store_as_json({"text":parsed_content["text"],"segements":segments},f"json_embedding/{json_file}")
+  store_as_json({"text":parsed_content["text"],"segements":segments},f"rawData/embeddings/{json_file}")
   
 
   
