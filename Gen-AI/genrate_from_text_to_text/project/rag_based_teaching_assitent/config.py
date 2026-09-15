@@ -1,0 +1,13 @@
+EMBEDDING_MODEL = "bge-m3"
+LLM_MODEL = "llama3.2"
+
+OLLAMA_BASE_URL = "http://localhost:11434"
+
+EMBEDDING_URL = f"{OLLAMA_BASE_URL}/api/embed"
+GENERATE_URL = f"{OLLAMA_BASE_URL}/api/generate"
+
+EMBEDDING_DIRECTORY = "json_embedding"
+
+TOP_K = 3
+SIMILARITY_THRESHOLD = 0.30
+
