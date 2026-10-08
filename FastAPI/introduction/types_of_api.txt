@@ -1,0 +1,15 @@
+1)rest api
+
+rest api principle 
+
+1)json format:rest api uses specific data format or universal data format  or language-independent data format called json  that can travel over network in http connection.
+
+why json: bcz it is a special light weight data format jise koi bhi language main bane application samajh sakta hain that apne language main ise parse kr ke samjh skat hain  process kr sakta hai.
+
+
+it looks like java script objetc or python dictinary but actually it is a stirng 
+
+
+A Python dict is a Python-specific object. JavaScript doesn't know what a Python dict object is.
+
+JSON acts as the common language between them

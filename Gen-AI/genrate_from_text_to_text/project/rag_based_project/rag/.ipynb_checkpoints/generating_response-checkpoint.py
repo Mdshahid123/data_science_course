@@ -2,7 +2,6 @@
 
 import requests
 from augmentaion import prompt
-
 api_endpoint = "http://localhost:11434/api/generate"
 
 payload = {
@@ -10,7 +9,6 @@ payload = {
     "prompt": prompt,
     "stream": False
 }
-
 
 response = requests.post(api_endpoint,json=payload)
 print(response)

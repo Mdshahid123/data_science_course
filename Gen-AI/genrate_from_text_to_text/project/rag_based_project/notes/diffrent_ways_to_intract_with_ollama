@@ -1,0 +1,13 @@
+we can intract with ollama using 
+
+
+1)CLI
+2)by writing a program using ollama library 
+3)by writng a program using langchain-ollama library
+4)by writing a program by using pure http request or response 
+5)by ollma app
+
+
+to see all the model ollama is support you go to their documnetaion
+
+

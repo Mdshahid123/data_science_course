@@ -1,0 +1,21 @@
+uv venv is a command used to create isolated Python virtual environment
+
+in python we have centralized environment called base environment unlike in js we have seprate isolated environment for each project and depedencies installed in node_moudles 
+
+
+so if we also do isloated enviroment in python then run the command :uv venv
+
+<!-- steps to use use  -->
+
+
+install uv :pip install uv 
+
+create virtual environment :uv venv or python -m uv venv
+
+Activate the Environment:To tell your terminal to use this specific project environment instead of your global Python
+
+install dependecies: uv pip install depdencies or python -m uv pip install depdencies
+
+
+.\.venv\Scripts\Activate.ps1:Go to virtaul env
+

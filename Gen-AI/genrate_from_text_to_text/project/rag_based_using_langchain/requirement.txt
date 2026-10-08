@@ -1,0 +1,16 @@
+langchain
+
+langchain-openai
+
+langchain-mistralai
+
+langchain-deepseek
+
+
+langchain-ollama
+
+
+python-dotenv
+
+
+

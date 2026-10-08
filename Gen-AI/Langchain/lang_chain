@@ -1,0 +1,38 @@
+# As we know that to build  GEN AI application we need to integrte a llm in our application 
+
+
+# for that we have to use sdk by using that we make a api call 
+
+
+# but problem is that every provider has diffrent sdk (diffrent  sytax,different response format)
+
+
+# so lang chain is a solution 
+
+
+def:
+langChain is an open-source framework designed to act as a universal abstraction layer for building Generative AI applications. Just like you stated, instead of rewriting your code every time you switch from OpenAI to Anthropic or Google, LangChain provides a standardised syntax and interface to interact with any LLM provider
+
+
+
+<!-- key component  -->
+
+
+models 
+
+prompts
+
+chains 
+
+memory 
+
+indexes 
+
+Agents 
+
+
+
+
+
+
+

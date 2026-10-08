@@ -2,7 +2,7 @@
 
 import requests
 import json
-from augmentaion import prompt
+# from augmentaion import prompt
 
 
 def generate_response(prompt):
@@ -22,7 +22,7 @@ def generate_response(prompt):
         if line:
             data = json.loads(line)
             yield data["response"]
-            print(data["response"], end="", flush=True)
+            # print(data["response"], end="", flush=True)
 
 
 

@@ -1,0 +1,3 @@
+fast api is a modern high perfomrance web framework for building  api with python 
+
+it is mode on top of the starlette and  pydantic library
